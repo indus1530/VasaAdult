@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abdulsajid.vasaadult">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".A4251_A4284"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".A4051_A4066"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4067_A4080"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4081_A4094"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4095_A4108"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4109_A4125"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4126_A4140"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4144_A4156"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4157_A4205"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4206_A4207"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <!--<activity
+            android:name=".A4251_A4284"
+            android:theme="@style/AppTheme.NoActionBar"/>-->
+
+        <activity
+            android:name=".A4301_A4315"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4351_A4364"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".A4401_A4473"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".VasaChild"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".VasaAdult"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>
