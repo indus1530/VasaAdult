@@ -7,9 +7,6 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by V A S A on 29/Aug/2018.
- */
 
 
 public class LocalDataManager
@@ -70,8 +67,6 @@ public class LocalDataManager
         return list;
     }
 }
-
-
 
 
 

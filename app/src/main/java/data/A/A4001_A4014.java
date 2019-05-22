@@ -1,8 +1,6 @@
 package data.A;
 
-/**
- * Created by SAJID on 16/Aug/2018.
- */
+
 public class A4001_A4014 {
     public static String TABLE_NAME = "A4001_A4014";
 

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".A4251_A4284"
+            android:name=".A4001_A4014"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,9 +55,9 @@
             android:name=".A4206_A4207"
             android:theme="@style/AppTheme.NoActionBar"/>
 
-        <!--<activity
+        <activity
             android:name=".A4251_A4284"
-            android:theme="@style/AppTheme.NoActionBar"/>-->
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name=".A4301_A4315"

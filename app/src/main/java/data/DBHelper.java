@@ -22,10 +22,6 @@ import data.A.A4301_A4315;
 import data.A.A4351_A4364;
 import data.A.A4401_A4473;
 
-/**
- * Created by SAJID on 16/Aug/2018.
- */
-
 public class DBHelper extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "tran_DB.db";

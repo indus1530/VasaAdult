@@ -15,12 +15,12 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.List;
 
 import Global.A.A4001_A4014;
 import Global.A.A4051_A4066;
-import Global.A.A4051_A4207;
 import Global.A.A4067_A4080;
 import Global.A.A4081_A4094;
 import Global.A.A4095_A4108;
@@ -37,9 +37,7 @@ import utils.MyPreferences;
 import utils.PostRequestData;
 import utils.QuestionModel;
 
-/**
- * Created by V A S A on 29/Aug/2018.
- */
+
 public class UploadHouseInfoAsync extends AsyncTask
 {
 
@@ -105,20 +103,20 @@ public class UploadHouseInfoAsync extends AsyncTask
 
         LocalDataManager Lm=  new  LocalDataManager(mContext);
 
-        Cursor c1 = Lm.database.rawQuery(query1, null);
-        Cursor c2 = Lm.database.rawQuery(query2, null);
-        Cursor c3 = Lm.database.rawQuery(query3, null);
-        Cursor c4 = Lm.database.rawQuery(query4, null);
-        Cursor c5 = Lm.database.rawQuery(query5, null);
-        Cursor c6 = Lm.database.rawQuery(query6, null);
-        Cursor c7 = Lm.database.rawQuery(query7, null);
-        Cursor c8 = Lm.database.rawQuery(query8, null);
-        Cursor c9 = Lm.database.rawQuery(query9, null);
-        Cursor c10 = Lm.database.rawQuery(query10, null);
-        Cursor c11 = Lm.database.rawQuery(query11, null);
-        Cursor c12 = Lm.database.rawQuery(query12, null);
-        Cursor c13 = Lm.database.rawQuery(query13, null);
-        Cursor c14 = Lm.database.rawQuery(query14, null);
+        Cursor c1 = LocalDataManager.database.rawQuery(query1, null);
+        Cursor c2 = LocalDataManager.database.rawQuery(query2, null);
+        Cursor c3 = LocalDataManager.database.rawQuery(query3, null);
+        Cursor c4 = LocalDataManager.database.rawQuery(query4, null);
+        Cursor c5 = LocalDataManager.database.rawQuery(query5, null);
+        Cursor c6 = LocalDataManager.database.rawQuery(query6, null);
+        Cursor c7 = LocalDataManager.database.rawQuery(query7, null);
+        Cursor c8 = LocalDataManager.database.rawQuery(query8, null);
+        Cursor c9 = LocalDataManager.database.rawQuery(query9, null);
+        Cursor c10 = LocalDataManager.database.rawQuery(query10, null);
+        Cursor c11 = LocalDataManager.database.rawQuery(query11, null);
+        Cursor c12 = LocalDataManager.database.rawQuery(query12, null);
+        Cursor c13 = LocalDataManager.database.rawQuery(query13, null);
+        Cursor c14 = LocalDataManager.database.rawQuery(query14, null);
 
           if (c1 != null)
           {
@@ -720,7 +718,7 @@ public class UploadHouseInfoAsync extends AsyncTask
             connection.setConnectTimeout(1000);
 
            OutputStream os = connection.getOutputStream();
-            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os,"UTF-8"));
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os, StandardCharsets.UTF_8));
 
             bw.write(PostRequestData.getData(param));
             bw.flush();
@@ -773,7 +771,7 @@ public class UploadHouseInfoAsync extends AsyncTask
 
             String result=(((String) o).replace("\"",""));
 
-            Toast.makeText(mContext,"Interivew Has ben Uploaded", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, "Interview Has been Uploaded", Toast.LENGTH_SHORT).show();
               // new LocalDataManager(mContext).uploadInterview();
 
           //  LogtableUpdates.UpdateLogStatusUpload(mContext,Validation.hfauploadid);

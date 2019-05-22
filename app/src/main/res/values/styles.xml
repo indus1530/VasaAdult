@@ -97,7 +97,9 @@
         <!--<item name="android:digits">0123456789</item>-->
         <item name="android:inputType">number</item>
         <item name="android:maxLength">2</item>
-
+        <item name="android:max">29</item>
+        <item name="android:min">0</item>
+        <item name="android:defaultValue">99</item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
 
