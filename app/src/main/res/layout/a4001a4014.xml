@@ -210,12 +210,12 @@
                             android:text="@string/A4004c" />
 
                         <RadioButton
-                            android:id="@+id/A400498"
+                            android:id="@+id/A40049"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/A400499"
+                            android:id="@+id/A40048"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
@@ -272,12 +272,12 @@
                             android:text="@string/no" />
 
                         <RadioButton
-                            android:id="@+id/A400698"
+                            android:id="@+id/A40069"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/A400699"
+                            android:id="@+id/A40068"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
@@ -332,12 +332,12 @@
                             android:text="Other" />
 
                         <RadioButton
-                            android:id="@+id/A400798"
+                            android:id="@+id/A40079"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/A400799"
+                            android:id="@+id/A40078"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
@@ -393,12 +393,12 @@
                             android:text="@string/no" />
 
                         <RadioButton
-                            android:id="@+id/A400898"
+                            android:id="@+id/A40089"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/A400899"
+                            android:id="@+id/A40088"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
@@ -433,12 +433,12 @@
                             android:text="@string/no" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4009a98"
+                            android:id="@+id/rb_A4009a9"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4009a99"
+                            android:id="@+id/rb_A4009a8"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
@@ -482,12 +482,12 @@
                             android:text="other" />
 
                         <RadioButton
-                            android:id="@+id/A401098"
+                            android:id="@+id/A40109"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/A401099"
+                            android:id="@+id/A40108"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
@@ -522,7 +522,6 @@
             <!-- EditText A4012 Starts -->
             <android.support.v7.widget.CardView style="@style/Q_CardView">
 
-
                 <LinearLayout
                     android:id="@+id/ll_A4012"
                     style="@style/Q_Linerlayout_v">
@@ -546,11 +545,9 @@
             <android.support.v7.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_A4013u"
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4013u"
                         style="@style/TextView"
                         android:text="@string/A4013u" />
 

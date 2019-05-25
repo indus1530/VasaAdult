@@ -300,16 +300,15 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
 
         json.put("A4001", bind.A4001.getText().toString().trim().length() > 0 ? bind.A4001.getText().toString() : "0");
 
-        json.put("A4002", bind.A4002DK.isChecked() ? "1"
-                : bind.A40022.isChecked() ? "2"
-                : bind.A4002_3.isChecked() ? "3"
-                : bind.A4002_4.isChecked() ? "4"
-                : bind.A4002_5.isChecked() ? "5"
-                : bind.A4002_6.isChecked() ? "6"
-                : bind.A4002_98.isChecked() ? "98"
-                : bind.A4002_RA.isChecked() ? "99"
+        json.put("A4002", bind.A4002a.isChecked() ? "1"
+                : bind.A4002b.isChecked() ? "2"
+                : bind.A4002c.isChecked() ? "3"
+                : bind.A4002d.isChecked() ? "4"
+                : bind.A4002e.isChecked() ? "5"
+                : bind.A4002f.isChecked() ? "6"
+                : bind.A40029.isChecked() ? "99"
+                : bind.A40028.isChecked() ? "88"
                 : "0");
-
 
         fc.setSqoc6(String.valueOf(json));
 
