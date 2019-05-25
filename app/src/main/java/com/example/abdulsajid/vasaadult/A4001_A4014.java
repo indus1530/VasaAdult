@@ -17,6 +17,7 @@ import android.widget.Toast;
 import com.example.abdulsajid.vasaadult.databinding.A4001A4014Binding;
 
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
@@ -747,6 +748,27 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
         LocalDataManager.database.execSQL(query);
 
         Toast.makeText(this, "1st TABLE SAVED Successfully", Toast.LENGTH_SHORT).show();
+    }
+
+    private void SaveDraft() throws JSONException {
+
+        JSONObject json = new JSONObject();
+
+        json.put("A4001", bind.A4001.getText().toString().trim().length() > 0 ? bind.A4001.getText().toString() : "0");
+
+        json.put("A4002", bind.A4002_1.isChecked() ? "1"
+                : bind.A4002_2.isChecked() ? "2"
+                : bind.A4002_3.isChecked() ? "3"
+                : bind.A4002_4.isChecked() ? "4"
+                : bind.A4002_5.isChecked() ? "5"
+                : bind.A4002_6.isChecked() ? "6"
+                : bind.A4002_98.isChecked() ? "98"
+                : bind.A4002_RA.isChecked() ? "99"
+                : "0");
+
+
+        fc.setSqoc6(String.valueOf(json));
+
     }
 
     boolean validateField() {

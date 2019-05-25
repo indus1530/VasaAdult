@@ -66,7 +66,7 @@
     <string name="A4005">A4005: What is the highest GRADE/YEAR s/he completed (at that level)?</string>
     <string name="A4006">A4006: Was s/he able to read and write?</string>
     <string name="A4007">A4007: What was her/his economic activity status in the year prior to death?</string>
-    <string name="A4007_1">A4007_1: What was her/his occupation, that is, what kind of work did s/he mainly do?</string>
+    <string name="A4007_11">A4007_1: What was her/his occupation, that is, what kind of work did s/he mainly do?</string>
     <string name="A4008">A4008: Did (NAME) drink alcohol?</string>
     <string name="A4009a">A4009a: Did s/he use tobacco?</string>
     <string name="A4010">A4010: What kind of tobacco did s/he use?</string>
@@ -335,30 +335,30 @@
     <string name="A4472">A4472: Are any of the following words of interest mentioned in the above narrative?</string>
 
 
-    <string name="rb_A4002_1">Single</string>
-    <string name="rb_A4002_2">Married</string>
-    <string name="rb_A4002_3">Life-partner</string>
-    <string name="rb_A4002_4">Divorced</string>
-    <string name="rb_A4002_5"> Widowed</string>
-    <string name="rb_A4002_6">Too young to be married</string>
+    <string name="A4002_1">Single</string>
+    <string name="A4002_2">Married</string>
+    <string name="A4002_3">Life-partner</string>
+    <string name="A4002_4">Divorced</string>
+    <string name="A4002_5"> Widowed</string>
+    <string name="A4002_6">Too young to be married</string>
 
-    <string name="rb_A4004_1">Primary</string>
-    <string name="rb_A4004_2">Secondary</string>
-    <string name="rb_A4004_3">Higher</string>
+    <string name="A4004_1">Primary</string>
+    <string name="A4004_2">Secondary</string>
+    <string name="A4004_3">Higher</string>
 
-    <string name="rb_A4007_1">Unemployed</string>
-    <string name="rb_A4007_2">Employed</string>
-    <string name="rb_A4007_3">Homemaker</string>
-    <string name="rb_A4007_4">Pensioner</string>
-    <string name="rb_A4007_5">Student</string>
+    <string name="A4007_1">Unemployed</string>
+    <string name="A4007_2">Employed</string>
+    <string name="A4007_3">Homemaker</string>
+    <string name="A4007_4">Pensioner</string>
+    <string name="A4007_5">Student</string>
 
-    <string name="rb_A4010_1">Cigarettes</string>
-    <string name="rb_A4010_2">Pipe</string>
-    <string name="rb_A4010_3">Chewing tobacco</string>
+    <string name="A4010_1">Cigarettes</string>
+    <string name="A4010_2">Pipe</string>
+    <string name="A4010_3">Chewing tobacco</string>
 
-    <string name="rb_A4054_1">Mild</string>
-    <string name="rb_A4054_2">Moderate</string>
-    <string name="rb_A4054_3">Severe</string>
+    <string name="A4054_1">Mild</string>
+    <string name="A4054_2">Moderate</string>
+    <string name="A4054_3">Severe</string>
 
     <string name="rb_A4055_1">Continuous</string>
     <string name="rb_A4055_2">On and off</string>

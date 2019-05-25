@@ -64,13 +64,12 @@
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4001"
                         style="@style/TextView"
                         android:text="@string/A4001" />
 
 
                     <EditText
-                        android:id="@+id/ed_A4001"
+                        android:id="@+id/A4001"
                         style="@style/EditText_Name"
                         android:hint="@string/ecn" />
 
@@ -88,49 +87,48 @@
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4002"
                         style="@style/TextView"
                         android:text="@string/A4002" />
 
                     <RadioGroup style="@style/RadioGroup">
 
                         <RadioButton
-                            android:id="@+id/rb_A4002_1"
+                            android:id="@+id/A4002_1"
                             style="@style/RadioButton"
-                            android:text="@string/rb_A4002_1" />
+                            android:text="@string/A4002_1" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4002_2"
+                            android:id="@+id/A4002_2"
                             style="@style/RadioButton"
-                            android:text="@string/rb_A4002_2" />
+                            android:text="@string/A4002_2" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4002_3"
+                            android:id="@+id/A4002_3"
                             style="@style/RadioButton"
-                            android:text="@string/rb_A4002_3" />
+                            android:text="@string/A4002_3" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4002_4"
+                            android:id="@+id/A4002_4"
                             style="@style/RadioButton"
-                            android:text="@string/rb_A4002_4" />
+                            android:text="@string/A4002_4" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4002_5"
+                            android:id="@+id/A4002_5"
                             style="@style/RadioButton"
-                            android:text="@string/rb_A4002_5" />
+                            android:text="@string/A4002_5" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4002_6"
+                            android:id="@+id/A4002_6"
                             style="@style/RadioButton"
-                            android:text="@string/rb_A4002_6" />
+                            android:text="@string/A4002_6" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4002_DK"
+                            android:id="@+id/A4002_DK"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4002_RA"
+                            android:id="@+id/A4002_RA"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
