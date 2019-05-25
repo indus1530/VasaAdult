@@ -310,6 +310,81 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
                 : bind.A40028.isChecked() ? "88"
                 : "0");
 
+        json.put("A4003", bind.A4003a.isChecked() ? "1"
+                : bind.A4003b.isChecked() ? "2"
+                : bind.A40039.isChecked() ? "99"
+                : bind.A40038.isChecked() ? "88"
+                : "0");
+
+        json.put("A4004", bind.A4004a.isChecked() ? "1"
+                : bind.A4004b.isChecked() ? "2"
+                : bind.A4004c.isChecked() ? "3"
+                : bind.A40049.isChecked() ? "99"
+                : bind.A40048.isChecked() ? "88"
+                : "0");
+
+        json.put("A4005", bind.A4005.getText().toString().trim().length() > 0 ? bind.A4005.getText().toString() : "0");
+
+        json.put("A4006", bind.A4006a.isChecked() ? "1"
+                : bind.A4006b.isChecked() ? "2"
+                : bind.A40069.isChecked() ? "99"
+                : bind.A40068.isChecked() ? "88"
+                : "0");
+
+        json.put("A4007", bind.A4007a.isChecked() ? "1"
+                : bind.A4007b.isChecked() ? "2"
+                : bind.A4007c.isChecked() ? "3"
+                : bind.A4007d.isChecked() ? "4"
+                : bind.A4007e.isChecked() ? "5"
+                : bind.A4007f.isChecked() ? "6"
+                : bind.A40079.isChecked() ? "99"
+                : bind.A40078.isChecked() ? "88"
+                : "0");
+
+        json.put("A40071", bind.A40071.getText().toString().trim().length() > 0 ? bind.A40071.getText().toString() : "0");
+
+        json.put("A4008", bind.A4008a.isChecked() ? "1"
+                : bind.A4008b.isChecked() ? "2"
+                : bind.A40089.isChecked() ? "99"
+                : bind.A40088.isChecked() ? "88"
+                : "0");
+
+        json.put("A4009a", bind.A4009aa.isChecked() ? "1"
+                : bind.A4009ab.isChecked() ? "2"
+                : bind.A4009a9.isChecked() ? "99"
+                : bind.A4009a8.isChecked() ? "88"
+                : "0");
+
+        json.put("A4010", bind.A4010a.isChecked() ? "1"
+                : bind.A4010b.isChecked() ? "2"
+                : bind.A4010c.isChecked() ? "3"
+                : bind.A4010d.isChecked() ? "4"
+                : bind.A40109.isChecked() ? "99"
+                : bind.A40108.isChecked() ? "88"
+                : "0");
+
+        json.put("A4011", bind.A4011.getText().toString().trim().length() > 0 ? bind.A4011.getText().toString() : "0");
+
+        json.put("A4012", bind.A4012.getText().toString().trim().length() > 0 ? bind.A4012.getText().toString() : "0");
+
+        json.put("A4013u", bind.A4013ua.isChecked() ? "1"
+                : bind.A4013ub.isChecked() ? "2"
+                : bind.A4013uc.isChecked() ? "3"
+                : bind.A4013u9.isChecked() ? "99"
+                : bind.A4013u8.isChecked() ? "88"
+                : "0");
+
+        json.put("A4013d", bind.A4013d.getText().toString().trim().length() > 0 ? bind.A4013d.getText().toString() : "0");
+
+        json.put("A4013m", bind.A4013m.getText().toString().trim().length() > 0 ? bind.A4013m.getText().toString() : "0");
+
+        json.put("A4013y", bind.A4013y.getText().toString().trim().length() > 0 ? bind.A4013y.getText().toString() : "0");
+
+        json.put("A4014", bind.A4014a.isChecked() ? "1"
+                : bind.A4014b.isChecked() ? "2"
+                : bind.A40149.isChecked() ? "99"
+                : "0");
+
         fc.setSqoc6(String.valueOf(json));
 
     }
