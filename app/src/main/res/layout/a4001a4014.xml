@@ -93,42 +93,42 @@
                     <RadioGroup style="@style/RadioGroup">
 
                         <RadioButton
-                            android:id="@+id/A4002_1"
+                            android:id="@+id/A4002a"
                             style="@style/RadioButton"
-                            android:text="@string/A4002_1" />
+                            android:text="@string/A4002a" />
 
                         <RadioButton
-                            android:id="@+id/A4002_2"
+                            android:id="@+id/A4002b"
                             style="@style/RadioButton"
-                            android:text="@string/A4002_2" />
+                            android:text="@string/A4002b" />
 
                         <RadioButton
-                            android:id="@+id/A4002_3"
+                            android:id="@+id/A4002c"
                             style="@style/RadioButton"
-                            android:text="@string/A4002_3" />
+                            android:text="@string/A4002c" />
 
                         <RadioButton
-                            android:id="@+id/A4002_4"
+                            android:id="@+id/A4002d"
                             style="@style/RadioButton"
-                            android:text="@string/A4002_4" />
+                            android:text="@string/A4002d" />
 
                         <RadioButton
-                            android:id="@+id/A4002_5"
+                            android:id="@+id/A4002e"
                             style="@style/RadioButton"
-                            android:text="@string/A4002_5" />
+                            android:text="@string/A4002e" />
 
                         <RadioButton
-                            android:id="@+id/A4002_6"
+                            android:id="@+id/A4002f"
                             style="@style/RadioButton"
-                            android:text="@string/A4002_6" />
+                            android:text="@string/A4002f" />
 
                         <RadioButton
-                            android:id="@+id/A4002_DK"
+                            android:id="@+id/A400298"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/A4002_RA"
+                            android:id="@+id/A400299"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
