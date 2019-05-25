@@ -821,6 +821,10 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
         return Gothrough.IamHiden(ll_A4014) != false;
     }
 
+    @Override
+    public void onClick(View view) {
+
+    }
 }
 
 
