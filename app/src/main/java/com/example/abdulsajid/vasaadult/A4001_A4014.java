@@ -95,114 +95,114 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
     }
 
     public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-        if (compoundButton.getId() == R.id.rb_A4003_1
-                || compoundButton.getId() == R.id.rb_A4003_2
-                || compoundButton.getId() == R.id.rb_A4003_DK
-                || compoundButton.getId() == R.id.rb_A4003_RA) {
-            if (rb_A4003_2.isChecked() || rb_A4003_DK.isChecked() || rb_A4003_RA.isChecked()) {
-                ll_A4004.setVisibility(View.GONE);
-                ll_A4005.setVisibility(View.GONE);
+        if (compoundButton.getId() == R.id.A4003a
+                || compoundButton.getId() == R.id.A4003b
+                || compoundButton.getId() == R.id.A40039
+                || compoundButton.getId() == R.id.A40038) {
+            if (bi.A4003b.isChecked() || bi.A40039.isChecked() || bi.A40038.isChecked()) {
+                bi.llA4004.setVisibility(View.GONE);
+                bi.llA4005.setVisibility(View.GONE);
 
-                ClearAllcontrol.ClearAll(ll_A4004);
-                ClearAllcontrol.ClearAll(ll_A4005);
+                ClearAllcontrol.ClearAll(bi.llA4004);
+                ClearAllcontrol.ClearAll(bi.llA4005);
             } else {
-                ll_A4004.setVisibility(View.VISIBLE);
-                ll_A4005.setVisibility(View.VISIBLE);
+                bi.llA4004.setVisibility(View.VISIBLE);
+                bi.llA4005.setVisibility(View.VISIBLE);
             }
         }
 
-        if (compoundButton.getId() == R.id.rb_A4004_1
-                || compoundButton.getId() == R.id.rb_A4004_2
-                || compoundButton.getId() == R.id.rb_A4004_3
-                || compoundButton.getId() == R.id.rb_A4004_DK
-                || compoundButton.getId() == R.id.rb_A4004_RA) {
-            if (rb_A4004_DK.isChecked() || rb_A4004_RA.isChecked()) {
-                ll_A4005.setVisibility(View.GONE);
+        if (compoundButton.getId() == R.id.A4004a
+                || compoundButton.getId() == R.id.A4004b
+                || compoundButton.getId() == R.id.A4004c
+                || compoundButton.getId() == R.id.A40049
+                || compoundButton.getId() == R.id.A40048) {
+            if (bi.A40049.isChecked() || bi.A40048.isChecked()) {
+                bi.llA4005.setVisibility(View.GONE);
 
-                ClearAllcontrol.ClearAll(ll_A4005);
+                ClearAllcontrol.ClearAll(bi.llA4005);
             } else {
-                ll_A4005.setVisibility(View.VISIBLE);
+                bi.llA4005.setVisibility(View.VISIBLE);
             }
         }
 
-        if (compoundButton.getId() == R.id.rb_A4007_1
-                || compoundButton.getId() == R.id.rb_A4007_2
-                || compoundButton.getId() == R.id.rb_A4007_3
-                || compoundButton.getId() == R.id.rb_A4007_4
-                || compoundButton.getId() == R.id.rb_A4007_5
-                || compoundButton.getId() == R.id.rb_A4007_6
-                || compoundButton.getId() == R.id.rb_A4007_DK
-                || compoundButton.getId() == R.id.rb_A4007_RA) {
-            if (rb_A4007_2.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4007_1);
-                ll_A4007_1.setVisibility(View.GONE);
+        if (compoundButton.getId() == R.id.A4007a
+                || compoundButton.getId() == R.id.A4007b
+                || compoundButton.getId() == R.id.A4007c
+                || compoundButton.getId() == R.id.A4007d
+                || compoundButton.getId() == R.id.A4007e
+                || compoundButton.getId() == R.id.A4007f
+                || compoundButton.getId() == R.id.A40079
+                || compoundButton.getId() == R.id.A40078) {
+            if (bi.A4007b.isChecked()) {
+                ClearAllcontrol.ClearAll(bi.llA40071);
+                bi.llA40071.setVisibility(View.GONE);
             } else {
-                ll_A4007_1.setVisibility(View.VISIBLE);
+                bi.llA40071.setVisibility(View.VISIBLE);
             }
         }
 
-        if (compoundButton.getId() == R.id.rb_A4009a_1
-                || compoundButton.getId() == R.id.rb_A4009a_2
-                || compoundButton.getId() == R.id.rb_A4009a_DK
-                || compoundButton.getId() == R.id.rb_A4009a_RA) {
-            if (rb_A4009a_2.isChecked() || rb_A4009a_DK.isChecked() || rb_A4009a_RA.isChecked()) {
-                ll_A4010.setVisibility(View.GONE);
-                ll_A4011.setVisibility(View.GONE);
-                ll_A4012.setVisibility(View.GONE);
+        if (compoundButton.getId() == R.id.A4009aa
+                || compoundButton.getId() == R.id.A4009ab
+                || compoundButton.getId() == R.id.A4009a9
+                || compoundButton.getId() == R.id.A4009a8) {
+            if (bi.A4009ab.isChecked() || bi.A4009a9.isChecked() || bi.A4009a8.isChecked()) {
+                bi.llA4010.setVisibility(View.GONE);
+                bi.llA4011.setVisibility(View.GONE);
+                bi.llA4012.setVisibility(View.GONE);
 
-                ClearAllcontrol.ClearAll(ll_A4010);
-                ClearAllcontrol.ClearAll(ll_A4011);
-                ClearAllcontrol.ClearAll(ll_A4012);
+                ClearAllcontrol.ClearAll(bi.llA4010);
+                ClearAllcontrol.ClearAll(bi.llA4011);
+                ClearAllcontrol.ClearAll(bi.llA4012);
             } else {
-                ll_A4010.setVisibility(View.VISIBLE);
-                ll_A4011.setVisibility(View.VISIBLE);
-                ll_A4012.setVisibility(View.VISIBLE);
+                bi.llA4010.setVisibility(View.VISIBLE);
+                bi.llA4011.setVisibility(View.VISIBLE);
+                bi.llA4012.setVisibility(View.VISIBLE);
             }
         }
 
-        if (compoundButton.getId() == R.id.rb_A4010_1
-                || compoundButton.getId() == R.id.rb_A4010_2
-                || compoundButton.getId() == R.id.rb_A4010_3
-                || compoundButton.getId() == R.id.rb_A4010_4
-                || compoundButton.getId() == R.id.rb_A4010_DK
-                || compoundButton.getId() == R.id.rb_A4010_RA) {
-            if (rb_A4010_2.isChecked() || rb_A4010_3.isChecked() || rb_A4010_4.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4011);
+        if (compoundButton.getId() == R.id.A4010a
+                || compoundButton.getId() == R.id.A4010b
+                || compoundButton.getId() == R.id.A4010c
+                || compoundButton.getId() == R.id.A4010d
+                || compoundButton.getId() == R.id.A40109
+                || compoundButton.getId() == R.id.A40108) {
 
-                ll_A4011.setVisibility(View.GONE);
-            } else if (rb_A4010_DK.isChecked() || rb_A4010_RA.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4011);
-                ClearAllcontrol.ClearAll(ll_A4012);
+            if (bi.A4010b.isChecked() || bi.A4010c.isChecked() || bi.A4010d.isChecked()) {
+                ClearAllcontrol.ClearAll(bi.llA4011);
+                bi.llA4011.setVisibility(View.GONE);
 
-                ll_A4011.setVisibility(View.GONE);
-                ll_A4012.setVisibility(View.GONE);
+            } else if (bi.A40109.isChecked() || bi.A40108.isChecked()) {
+                ClearAllcontrol.ClearAll(bi.llA4011);
+                ClearAllcontrol.ClearAll(bi.llA4012);
+                bi.llA4011.setVisibility(View.GONE);
+                bi.llA4012.setVisibility(View.GONE);
             } else {
-                ll_A4011.setVisibility(View.VISIBLE);
-                ll_A4012.setVisibility(View.VISIBLE);
+                bi.llA4011.setVisibility(View.VISIBLE);
+                bi.llA4012.setVisibility(View.VISIBLE);
             }
         }
 
-        if (compoundButton.getId() == R.id.rb_A4013u_1
-                || compoundButton.getId() == R.id.rb_A4013u_2
-                || compoundButton.getId() == R.id.rb_A4013u_3
-                || compoundButton.getId() == R.id.rb_A4013u_DK
-                || compoundButton.getId() == R.id.rb_A4013u_RA)
+        if (compoundButton.getId() == R.id.A4013ua
+                || compoundButton.getId() == R.id.A4013ub
+                || compoundButton.getId() == R.id.A4013uc
+                || compoundButton.getId() == R.id.A4013u9
+                || compoundButton.getId() == R.id.A4013u8)
 
 
-            ClearAllcontrol.ClearAll(ll_A4013d);
-        ClearAllcontrol.ClearAll(ll_A4013m);
-        ClearAllcontrol.ClearAll(ll_A4013y);
+            ClearAllcontrol.ClearAll(bi.llA4013d);
+        ClearAllcontrol.ClearAll(bi.llA4013m);
+        ClearAllcontrol.ClearAll(bi.llA4013y);
 
-        ll_A4013d.setVisibility(View.GONE);
-        ll_A4013m.setVisibility(View.GONE);
-        ll_A4013y.setVisibility(View.GONE);
+        bi.llA4013d.setVisibility(View.GONE);
+        bi.llA4013m.setVisibility(View.GONE);
+        bi.llA4013y.setVisibility(View.GONE);
         {
-            if (rb_A4013u_1.isChecked()) {
-                ll_A4013d.setVisibility(View.VISIBLE);
-            } else if (rb_A4013u_2.isChecked()) {
-                ll_A4013m.setVisibility(View.VISIBLE);
-            } else if (rb_A4013u_3.isChecked()) {
-                ll_A4013y.setVisibility(View.VISIBLE);
+            if (bi.A4013ua.isChecked()) {
+                bi.llA4013d.setVisibility(View.VISIBLE);
+            } else if (bi.A4013ub.isChecked()) {
+                bi.llA4013m.setVisibility(View.VISIBLE);
+            } else if (bi.A4013uc.isChecked()) {
+                bi.llA4013y.setVisibility(View.VISIBLE);
             }
         }
     }
