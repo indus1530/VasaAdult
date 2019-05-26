@@ -20,93 +20,7 @@ import utils.ClearAllcontrol;
 
 public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
-    A4001a4014Binding bind;
-
-    void Initialization() {
-
-        btn_next1 = findViewById(R.id.btnNext);
-
-        ll_A4001 = findViewById(R.id.ll_A4001);
-        ll_A4002 = findViewById(R.id.ll_A4002);
-        ll_A4003 = findViewById(R.id.ll_A4003);
-        ll_A4004 = findViewById(R.id.ll_A4004);
-        ll_A4005 = findViewById(R.id.ll_A4005);
-        ll_A4006 = findViewById(R.id.ll_A4006);
-        ll_A4007 = findViewById(R.id.ll_A4007);
-        ll_A4007_1 = findViewById(R.id.ll_A4007_1);
-        ll_A4008 = findViewById(R.id.ll_A4008);
-        ll_A4009a = findViewById(R.id.ll_A4009a);
-        ll_A4010 = findViewById(R.id.ll_A4010);
-        ll_A4011 = findViewById(R.id.ll_A4011);
-        ll_A4012 = findViewById(R.id.ll_A4012);
-        ll_A4013u = findViewById(R.id.ll_A4013u);
-        ll_A4013d = findViewById(R.id.ll_A4013d);
-        ll_A4013m = findViewById(R.id.ll_A4013m);
-        ll_A4013y = findViewById(R.id.ll_A4013y);
-        ll_A4014 = findViewById(R.id.ll_A4014);
-
-        rb_A4002_1 = findViewById(R.id.rb_A4002_1);
-        rb_A4002_2 = findViewById(R.id.rb_A4002_2);
-        rb_A4002_3 = findViewById(R.id.rb_A4002_3);
-        rb_A4002_4 = findViewById(R.id.rb_A4002_4);
-        rb_A4002_5 = findViewById(R.id.rb_A4002_5);
-        rb_A4002_6 = findViewById(R.id.rb_A4002_6);
-        rb_A4002_DK = findViewById(R.id.rb_A4002_DK);
-        rb_A4002_RA = findViewById(R.id.rb_A4002_RA);
-        rb_A4003_1 = findViewById(R.id.rb_A4003_1);
-        rb_A4003_2 = findViewById(R.id.rb_A4003_2);
-        rb_A4003_DK = findViewById(R.id.rb_A4003_DK);
-        rb_A4003_RA = findViewById(R.id.rb_A4003_RA);
-        rb_A4004_1 = findViewById(R.id.rb_A4004_1);
-        rb_A4004_2 = findViewById(R.id.rb_A4004_2);
-        rb_A4004_3 = findViewById(R.id.rb_A4004_3);
-        rb_A4004_DK = findViewById(R.id.rb_A4004_DK);
-        rb_A4004_RA = findViewById(R.id.rb_A4004_RA);
-        rb_A4006_1 = findViewById(R.id.rb_A4006_1);
-        rb_A4006_2 = findViewById(R.id.rb_A4006_2);
-        rb_A4006_DK = findViewById(R.id.rb_A4006_DK);
-        rb_A4006_RA = findViewById(R.id.rb_A4006_RA);
-        rb_A4007_1 = findViewById(R.id.rb_A4007_1);
-        rb_A4007_2 = findViewById(R.id.rb_A4007_2);
-        rb_A4007_3 = findViewById(R.id.rb_A4007_3);
-        rb_A4007_4 = findViewById(R.id.rb_A4007_4);
-        rb_A4007_5 = findViewById(R.id.rb_A4007_5);
-        rb_A4007_6 = findViewById(R.id.rb_A4007_6);
-        rb_A4007_DK = findViewById(R.id.rb_A4007_DK);
-        rb_A4007_RA = findViewById(R.id.rb_A4007_RA);
-        rb_A4008_1 = findViewById(R.id.rb_A4008_1);
-        rb_A4008_2 = findViewById(R.id.rb_A4008_2);
-        rb_A4008_DK = findViewById(R.id.rb_A4008_DK);
-        rb_A4008_RA = findViewById(R.id.rb_A4008_RA);
-        rb_A4009a_1 = findViewById(R.id.rb_A4009a_1);
-        rb_A4009a_2 = findViewById(R.id.rb_A4009a_2);
-        rb_A4009a_DK = findViewById(R.id.rb_A4009a_DK);
-        rb_A4009a_RA = findViewById(R.id.rb_A4009a_RA);
-        rb_A4010_1 = findViewById(R.id.rb_A4010_1);
-        rb_A4010_2 = findViewById(R.id.rb_A4010_2);
-        rb_A4010_3 = findViewById(R.id.rb_A4010_3);
-        rb_A4010_4 = findViewById(R.id.rb_A4010_4);
-        rb_A4010_DK = findViewById(R.id.rb_A4010_DK);
-        rb_A4010_RA = findViewById(R.id.rb_A4010_RA);
-        rb_A4013u_1 = findViewById(R.id.rb_A4013u_1);
-        rb_A4013u_2 = findViewById(R.id.rb_A4013u_2);
-        rb_A4013u_3 = findViewById(R.id.rb_A4013u_3);
-        rb_A4013u_DK = findViewById(R.id.rb_A4013u_DK);
-        rb_A4013u_RA = findViewById(R.id.rb_A4013u_RA);
-        rb_A4014_1 = findViewById(R.id.rb_A4014_1);
-        rb_A4014_2 = findViewById(R.id.rb_A4014_2);
-        rb_A4014_DK = findViewById(R.id.rb_A4014_DK);
-
-        ed_A4001 = findViewById(R.id.ed_A4001);
-        ed_A4005 = findViewById(R.id.ed_A4005);
-        ed_A4007_1 = findViewById(R.id.ed_A4007_1);
-        ed_A4011 = findViewById(R.id.ed_A4011);
-        ed_A4012 = findViewById(R.id.ed_A4012);
-        ed_A4013d = findViewById(R.id.ed_A4013d);
-        ed_A4013m = findViewById(R.id.ed_A4013m);
-        ed_A4013y = findViewById(R.id.ed_A4013y);
-
-    }
+    A4001a4014Binding bi;
 
     private TextWatcher generalTextWatcher = new TextWatcher() {
 
@@ -120,8 +34,8 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
 
         @Override
         public void afterTextChanged(Editable s) {
-            if (ed_A4005.getText().hashCode() == s.hashCode()) {
-                if (ed_A4005.getText().toString().trim().length() > 0 && Integer.parseInt(ed_A4005.getText().toString().trim()) > 7) {
+            if (bi.A4005.getText().hashCode() == s.hashCode()) {
+                if (bi.A4005.getText().toString().trim().length() > 0 && Integer.parseInt(bi.A4005.getText().toString().trim()) > 7) {
                     ll_A4006.setVisibility(View.GONE);
                     ClearAllcontrol.ClearAll(ll_A4006);
                 } else {
@@ -129,8 +43,8 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
                 }
             }
 
-            if (ed_A4011.getText().hashCode() == s.hashCode()) {
-                if (ed_A4011.getText().toString().trim().length() > 0 && Integer.parseInt(ed_A4011.getText().toString().trim()) >= 1) {
+            if (bi.A4011.getText().hashCode() == s.hashCode()) {
+                if (bi.A4011.getText().toString().trim().length() > 0 && Integer.parseInt(bi.A4011.getText().toString().trim()) >= 1) {
                     ll_A4012.setVisibility(View.GONE);
                     ClearAllcontrol.ClearAll(ll_A4012);
                 } else {
@@ -145,11 +59,10 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        bind = DataBindingUtil.setContentView(this, R.layout.a4001a4014);
-        bind.setCallback(this);
+        bi = DataBindingUtil.setContentView(this, R.layout.a4001a4014);
+        bi.setCallback(this);
         //this.setTitle("Quality of Care 06");
-        events_call();
-        Initialization();
+
 
     }
 
@@ -298,91 +211,91 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
 
         JSONObject json = new JSONObject();
 
-        json.put("A4001", bind.A4001.getText().toString().trim().length() > 0 ? bind.A4001.getText().toString() : "0");
+        json.put("A4001", bi.A4001.getText().toString().trim().length() > 0 ? bi.A4001.getText().toString() : "0");
 
-        json.put("A4002", bind.A4002a.isChecked() ? "1"
-                : bind.A4002b.isChecked() ? "2"
-                : bind.A4002c.isChecked() ? "3"
-                : bind.A4002d.isChecked() ? "4"
-                : bind.A4002e.isChecked() ? "5"
-                : bind.A4002f.isChecked() ? "6"
-                : bind.A40029.isChecked() ? "99"
-                : bind.A40028.isChecked() ? "88"
+        json.put("A4002", bi.A4002a.isChecked() ? "1"
+                : bi.A4002b.isChecked() ? "2"
+                : bi.A4002c.isChecked() ? "3"
+                : bi.A4002d.isChecked() ? "4"
+                : bi.A4002e.isChecked() ? "5"
+                : bi.A4002f.isChecked() ? "6"
+                : bi.A40029.isChecked() ? "99"
+                : bi.A40028.isChecked() ? "88"
                 : "0");
 
-        json.put("A4003", bind.A4003a.isChecked() ? "1"
-                : bind.A4003b.isChecked() ? "2"
-                : bind.A40039.isChecked() ? "99"
-                : bind.A40038.isChecked() ? "88"
+        json.put("A4003", bi.A4003a.isChecked() ? "1"
+                : bi.A4003b.isChecked() ? "2"
+                : bi.A40039.isChecked() ? "99"
+                : bi.A40038.isChecked() ? "88"
                 : "0");
 
-        json.put("A4004", bind.A4004a.isChecked() ? "1"
-                : bind.A4004b.isChecked() ? "2"
-                : bind.A4004c.isChecked() ? "3"
-                : bind.A40049.isChecked() ? "99"
-                : bind.A40048.isChecked() ? "88"
+        json.put("A4004", bi.A4004a.isChecked() ? "1"
+                : bi.A4004b.isChecked() ? "2"
+                : bi.A4004c.isChecked() ? "3"
+                : bi.A40049.isChecked() ? "99"
+                : bi.A40048.isChecked() ? "88"
                 : "0");
 
-        json.put("A4005", bind.A4005.getText().toString().trim().length() > 0 ? bind.A4005.getText().toString() : "0");
+        json.put("A4005", bi.A4005.getText().toString().trim().length() > 0 ? bi.A4005.getText().toString() : "0");
 
-        json.put("A4006", bind.A4006a.isChecked() ? "1"
-                : bind.A4006b.isChecked() ? "2"
-                : bind.A40069.isChecked() ? "99"
-                : bind.A40068.isChecked() ? "88"
+        json.put("A4006", bi.A4006a.isChecked() ? "1"
+                : bi.A4006b.isChecked() ? "2"
+                : bi.A40069.isChecked() ? "99"
+                : bi.A40068.isChecked() ? "88"
                 : "0");
 
-        json.put("A4007", bind.A4007a.isChecked() ? "1"
-                : bind.A4007b.isChecked() ? "2"
-                : bind.A4007c.isChecked() ? "3"
-                : bind.A4007d.isChecked() ? "4"
-                : bind.A4007e.isChecked() ? "5"
-                : bind.A4007f.isChecked() ? "6"
-                : bind.A40079.isChecked() ? "99"
-                : bind.A40078.isChecked() ? "88"
+        json.put("A4007", bi.A4007a.isChecked() ? "1"
+                : bi.A4007b.isChecked() ? "2"
+                : bi.A4007c.isChecked() ? "3"
+                : bi.A4007d.isChecked() ? "4"
+                : bi.A4007e.isChecked() ? "5"
+                : bi.A4007f.isChecked() ? "6"
+                : bi.A40079.isChecked() ? "99"
+                : bi.A40078.isChecked() ? "88"
                 : "0");
 
-        json.put("A40071", bind.A40071.getText().toString().trim().length() > 0 ? bind.A40071.getText().toString() : "0");
+        json.put("A40071", bi.A40071.getText().toString().trim().length() > 0 ? bi.A40071.getText().toString() : "0");
 
-        json.put("A4008", bind.A4008a.isChecked() ? "1"
-                : bind.A4008b.isChecked() ? "2"
-                : bind.A40089.isChecked() ? "99"
-                : bind.A40088.isChecked() ? "88"
+        json.put("A4008", bi.A4008a.isChecked() ? "1"
+                : bi.A4008b.isChecked() ? "2"
+                : bi.A40089.isChecked() ? "99"
+                : bi.A40088.isChecked() ? "88"
                 : "0");
 
-        json.put("A4009a", bind.A4009aa.isChecked() ? "1"
-                : bind.A4009ab.isChecked() ? "2"
-                : bind.A4009a9.isChecked() ? "99"
-                : bind.A4009a8.isChecked() ? "88"
+        json.put("A4009a", bi.A4009aa.isChecked() ? "1"
+                : bi.A4009ab.isChecked() ? "2"
+                : bi.A4009a9.isChecked() ? "99"
+                : bi.A4009a8.isChecked() ? "88"
                 : "0");
 
-        json.put("A4010", bind.A4010a.isChecked() ? "1"
-                : bind.A4010b.isChecked() ? "2"
-                : bind.A4010c.isChecked() ? "3"
-                : bind.A4010d.isChecked() ? "4"
-                : bind.A40109.isChecked() ? "99"
-                : bind.A40108.isChecked() ? "88"
+        json.put("A4010", bi.A4010a.isChecked() ? "1"
+                : bi.A4010b.isChecked() ? "2"
+                : bi.A4010c.isChecked() ? "3"
+                : bi.A4010d.isChecked() ? "4"
+                : bi.A40109.isChecked() ? "99"
+                : bi.A40108.isChecked() ? "88"
                 : "0");
 
-        json.put("A4011", bind.A4011.getText().toString().trim().length() > 0 ? bind.A4011.getText().toString() : "0");
+        json.put("A4011", bi.A4011.getText().toString().trim().length() > 0 ? bi.A4011.getText().toString() : "0");
 
-        json.put("A4012", bind.A4012.getText().toString().trim().length() > 0 ? bind.A4012.getText().toString() : "0");
+        json.put("A4012", bi.A4012.getText().toString().trim().length() > 0 ? bi.A4012.getText().toString() : "0");
 
-        json.put("A4013u", bind.A4013ua.isChecked() ? "1"
-                : bind.A4013ub.isChecked() ? "2"
-                : bind.A4013uc.isChecked() ? "3"
-                : bind.A4013u9.isChecked() ? "99"
-                : bind.A4013u8.isChecked() ? "88"
+        json.put("A4013u", bi.A4013ua.isChecked() ? "1"
+                : bi.A4013ub.isChecked() ? "2"
+                : bi.A4013uc.isChecked() ? "3"
+                : bi.A4013u9.isChecked() ? "99"
+                : bi.A4013u8.isChecked() ? "88"
                 : "0");
 
-        json.put("A4013d", bind.A4013d.getText().toString().trim().length() > 0 ? bind.A4013d.getText().toString() : "0");
+        json.put("A4013d", bi.A4013d.getText().toString().trim().length() > 0 ? bi.A4013d.getText().toString() : "0");
 
-        json.put("A4013m", bind.A4013m.getText().toString().trim().length() > 0 ? bind.A4013m.getText().toString() : "0");
+        json.put("A4013m", bi.A4013m.getText().toString().trim().length() > 0 ? bi.A4013m.getText().toString() : "0");
 
-        json.put("A4013y", bind.A4013y.getText().toString().trim().length() > 0 ? bind.A4013y.getText().toString() : "0");
+        json.put("A4013y", bi.A4013y.getText().toString().trim().length() > 0 ? bi.A4013y.getText().toString() : "0");
 
-        json.put("A4014", bind.A4014a.isChecked() ? "1"
-                : bind.A4014b.isChecked() ? "2"
-                : bind.A40149.isChecked() ? "99"
+        json.put("A4014", bi.A4014a.isChecked() ? "1"
+                : bi.A4014b.isChecked() ? "2"
+                : bi.A40149.isChecked() ? "99"
                 : "0");
 
         fc.setSqoc6(String.valueOf(json));
