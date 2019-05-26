@@ -139,18 +139,20 @@
             <!-- Radio Buttons A4002 Ends -->
 
             <!-- Radio Buttons A4003 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <android.support.v7.widget.CardView
+                android:id="@+id/A4003cv"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_A4003"
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4003"
                         style="@style/TextView"
                         android:text="@string/A4003" />
 
-                    <RadioGroup style="@style/RadioGroup">
+                    <RadioGroup
+                        android:id="@+id/A4003"
+                        style="@style/RadioGroup">
 
                         <RadioButton
                             android:id="@+id/A4003a"
@@ -180,19 +182,21 @@
             <!-- Radio Buttons A4003 Ends -->
 
             <!-- Radio Buttons A4004 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
-
+            <android.support.v7.widget.CardView
+                android:id="@+id/A4004cv"
+                style="@style/Q_CardView"
+                android:visibility='@{A4003a.checked ? View.VISIBLE : View.GONE }'>
 
                 <LinearLayout
-                    android:id="@+id/llA4004"
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4004"
                         style="@style/TextView"
                         android:text="@string/A4004" />
 
-                    <RadioGroup style="@style/RadioGroup">
+                    <RadioGroup
+                        android:id="@+id/A4004"
+                        style="@style/RadioGroup">
 
                         <RadioButton
                             android:id="@+id/A4004a"
@@ -227,7 +231,10 @@
             <!-- Radio Buttons A4004 Ends -->
 
             <!-- EditText A4005 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <android.support.v7.widget.CardView
+                android:id="@+id/A4005cv"
+                style="@style/Q_CardView"
+                android:visibility='@{A4003a.checked ? View.VISIBLE : View.GONE }'>
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
 
@@ -239,7 +246,8 @@
                     <EditText
                         android:id="@+id/A4005"
                         style="@style/EditText_number"
-                        android:hint="@string/grade_year" />
+                        android:hint="@string/grade_year"
+                        android:text='@{A4003a.checked ? A4005.getText.toString : "" }' />
 
                 </LinearLayout>
 

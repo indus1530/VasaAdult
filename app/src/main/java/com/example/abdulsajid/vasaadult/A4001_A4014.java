@@ -8,7 +8,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.CompoundButton;
-import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.example.abdulsajid.vasaadult.databinding.A4001a4014Binding;
@@ -18,7 +18,7 @@ import org.json.JSONObject;
 
 import utils.ClearAllcontrol;
 
-public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class A4001_A4014 extends AppCompatActivity {
 
     A4001a4014Binding bi;
 
@@ -63,6 +63,28 @@ public class A4001_A4014 extends AppCompatActivity implements RadioButton.OnChec
         bi.setCallback(this);
         //this.setTitle("Quality of Care 06");
 
+
+    }
+
+
+    private void setupViews() {
+
+        bi.A4003.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+                if (checkedId != bi.A4003a.getId()) {
+                    //ClearAllcontrol.ClearAll(bi.A4004cv);
+                    bi.A4004cv.setVisibility(View.GONE);
+                    bi.A4005cv.setVisibility(View.GONE);
+                } else {
+                    bi.A4004cv.setVisibility(View.VISIBLE);
+                    bi.A4005cv.setVisibility(View.VISIBLE);
+                }
+
+            }
+
+        });
 
     }
 
