@@ -535,7 +535,8 @@
                     <EditText
                         android:id="@+id/A4011"
                         style="@style/EditText_number"
-                        android:hint="For don't know enter 99, For refused enter 88" />
+                        android:hint="For don't know enter 99, For refused enter 88"
+                        android:text='@{A4009aa.isChecked ? A4011.getText.toString : ""}' />
 
                 </LinearLayout>
 
@@ -557,7 +558,8 @@
                     <EditText
                         android:id="@+id/A4012"
                         style="@style/EditText_number"
-                        android:hint="For don't know enter 99, For refused enter 88" />
+                        android:hint="For don't know enter 99, For refused enter 88"
+                        android:text='@{A4009aa.isChecked ? A4012.getText.toString : ""}' />
 
                 </LinearLayout>
 
