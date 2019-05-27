@@ -36,19 +36,18 @@ public class A4001_A4014 extends AppCompatActivity {
         public void afterTextChanged(Editable s) {
             if (bi.A4005.getText().hashCode() == s.hashCode()) {
                 if (bi.A4005.getText().toString().trim().length() > 0 && Integer.parseInt(bi.A4005.getText().toString().trim()) > 7) {
-                    ll_A4006.setVisibility(View.GONE);
-                    ClearAllcontrol.ClearAll(ll_A4006);
+                    bi.A4006.clearCheck();
+                    bi.A4006cv.setVisibility(View.GONE);
                 } else {
-                    ll_A4006.setVisibility(View.VISIBLE);
+                    bi.A4006cv.setVisibility(View.VISIBLE);
                 }
             }
 
             if (bi.A4011.getText().hashCode() == s.hashCode()) {
                 if (bi.A4011.getText().toString().trim().length() > 0 && Integer.parseInt(bi.A4011.getText().toString().trim()) >= 1) {
-                    ll_A4012.setVisibility(View.GONE);
-                    ClearAllcontrol.ClearAll(ll_A4012);
+                    bi.A4012cv.setVisibility(View.GONE);
                 } else {
-                    ll_A4012.setVisibility(View.VISIBLE);
+                    bi.A4012cv.setVisibility(View.VISIBLE);
                 }
             }
 
@@ -73,13 +72,14 @@ public class A4001_A4014 extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
 
-                if (checkedId != bi.A4003a.getId()) {
+                if (checkedId == bi.A4003a.getId()) {
                     //ClearAllcontrol.ClearAll(bi.A4004cv);
-                    bi.A4004cv.setVisibility(View.GONE);
-                    bi.A4005cv.setVisibility(View.GONE);
-                } else {
                     bi.A4004cv.setVisibility(View.VISIBLE);
                     bi.A4005cv.setVisibility(View.VISIBLE);
+                } else {
+                    bi.A4004.clearCheck();
+                    bi.A4004cv.setVisibility(View.GONE);
+                    bi.A4005cv.setVisibility(View.GONE);
                 }
 
             }
