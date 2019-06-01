@@ -4,155 +4,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.CompoundButton;
-import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
 
-public class A4051_A4066 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class A4051 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
-    //Declaration
-    Button
-            btn_next2;
 
-    LinearLayout
-            ll_A4051,
-            ll_A4052_u,
-            ll_A4052_b,
-            ll_A4052_c,
-            ll_A4053,
-            ll_A4054,
-            ll_A4055,
-            ll_A4056,
-            ll_A4057,
-            ll_A4058,
-            ll_A4059_u,
-            ll_A4059_a,
-            ll_A4059_b,
-            ll_A4060,
-            ll_A4061,
-            ll_A4062,
-            ll_A4063,
-            ll_A4064_u,
-            ll_A4064_a,
-            ll_A4064_b,
-            ll_A4064_1,
-            ll_A4065,
-            ll_A4066;
-
-    RadioButton
-            rb_A4051_1,
-            rb_A4051_2,
-            rb_A4051_DK,
-    /*    rb_A4051_RA,
-        rb_A4052_u_1,
-        rb_A4052_u_2,
-        rb_A4052_u_DK,
-        rb_A4052_u_RA,
-        rb_A4053_1,
-        rb_A4053_2,
-        rb_A4053_DK,
-        rb_A4053_RA,
-        rb_A4054_1,
-        rb_A4054_2,
-        rb_A4054_3,
-        rb_A4054_DK,*/
-            rb_A4054_RA,
-            rb_A4055_1,
-            rb_A4055_2,
-            rb_A4055_3,
-            rb_A4055_DK,
-            rb_A4055_RA,
-            rb_A4056_1,
-            rb_A4056_2,
-            rb_A4056_DK,
-            rb_A4056_RA,
-            rb_A4057_1,
-            rb_A4057_2,
-            rb_A4057_DK,
-            rb_A4057_RA,
-    /*  rb_A4058_1,
-      rb_A4058_2,
-      rb_A4058_DK,
-      rb_A4058_RA,
-      rb_A4059_u_1,
-      rb_A4059_u_2,
-      rb_A4059_u_DK,
-      rb_A4059_u_RA,
-      rb_A4060_1,
-      rb_A4060_2,
-      rb_A4060_DK,
-      rb_A4060_RA,
-      rb_A4061_1,
-      rb_A4061_2,
-      rb_A4061_DK,
-      rb_A4061_RA,
-      rb_A4062_1,
-      rb_A4062_2,*/
-            rb_A4062_DK,
-            rb_A4062_RA,
-            rb_A4063_1,
-            rb_A4063_2,
-            rb_A4063_DK,
-            rb_A4063_RA,
-            rb_A4064_u_1,
-            rb_A4064_u_2,
-            rb_A4064_u_DK,
-            rb_A4064_u_RA,
-            rb_A4064_1_1,
-            rb_A4064_1_2,
-            rb_A4064_1_DK,
-            rb_A4064_1_RA,
-            rb_A4065_1,
-            rb_A4065_2,
-            rb_A4065_DK,
-            rb_A4065_RA,
-            rb_A4066_1,
-            rb_A4066_2,
-            rb_A4066_DK,
-            rb_A4066_RA;
-
-    EditText
-            ed_A4052_b,
-            ed_A4052_c,
-            ed_A4059_a,
-            ed_A4059_b,
-            ed_A4064_a,
-            ed_A4064_b;
-
-    String
-            study_id,
-            A4051,
-            A4052_u,
-            A4052_b,
-            A4052_c,
-            A4053,
-            A4054,
-            A4055,
-            A4056,
-            A4057,
-            A4058,
-            A4059_u,
-            A4059_a,
-            A4059_b,
-            A4060,
-            A4061,
-            A4062,
-            A4063,
-            A4064_u,
-            A4064_a,
-            A4064_b,
-            A4064_1,
-            A4065,
-            A4066,
-            STATUS;
-
-    //End DECLARATION
 
     void Initialization() {
 
@@ -286,7 +147,7 @@ public class A4051_A4066 extends AppCompatActivity implements RadioButton.OnChec
         value_assignment();
         insert_data();
 
-        Intent c2 = new Intent(A4051_A4066.this, A4067_A4080.class);
+        Intent c2 = new Intent(A4051.this, A4067_A4080.class);
         startActivity(c2);
     }
 

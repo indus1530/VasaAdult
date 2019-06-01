@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/cyan"
     android:orientation="vertical"
-    tools:context=".A4001_A4014">
+    tools:context=".A4001">
 
     <data>
 
@@ -13,7 +13,7 @@
 
         <variable
             name="callback"
-            type="com.example.abdulsajid.vasaadult.A4001_A4014" />
+            type="com.example.abdulsajid.vasaadult.A4001" />
 
     </data>
 

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".A4001_A4014"
+            android:name=".A4001"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,7 @@
         </activity>
 
         <activity
-            android:name=".A4051_A4066"
+            android:name=".A4051"
             android:theme="@style/AppTheme.NoActionBar"/>
 
         <activity

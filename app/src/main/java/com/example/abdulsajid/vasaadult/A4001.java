@@ -17,7 +17,7 @@ import org.json.JSONObject;
 
 import utils.ClearAllcontrol;
 
-public class A4001_A4014 extends AppCompatActivity {
+public class A4001 extends AppCompatActivity {
 
     A4001a4014Binding bi;
 
@@ -192,9 +192,9 @@ public class A4001_A4014 extends AppCompatActivity {
             }
             if (UpdateDB()) {
                 Toast.makeText(this, "Starting 7th Section", Toast.LENGTH_SHORT).show();
-                //MainApp.endActivity(this, this, A4001_A4014.class, true, HomeActivity.fc);
+                //MainApp.endActivity(this, this, A4001.class, true, HomeActivity.fc);
 
-                Intent c2 = new Intent(A4001_A4014.this, com.example.abdulsajid.vasaadult.A4051_A4066.class);
+                Intent c2 = new Intent(A4001.this, A4051.class);
                 startActivity(c2);
 
             } else {

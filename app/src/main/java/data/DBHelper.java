@@ -39,8 +39,8 @@ public class DBHelper extends SQLiteOpenHelper {
 
         db.beginTransaction();
 
-        db.execSQL(A4001_A4014.getCreateQuery()); // A4001_A4014 created here
-        db.execSQL(A4051_A4066.getCreateQuery()); // A4051_A4066 created here
+        db.execSQL(A4001_A4014.getCreateQuery()); // A4001 created here
+        db.execSQL(A4051_A4066.getCreateQuery()); // A4051 created here
         db.execSQL(A4067_A4080.getCreateQuery()); // A4067_A4080 created here
         db.execSQL(A4081_A4094.getCreateQuery()); // A4081_A4094 created here
         db.execSQL(A4095_A4108.getCreateQuery()); // A4095_A4108 created here
