@@ -227,7 +227,7 @@ public class A4095 extends AppCompatActivity implements RadioButton.OnCheckedCha
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a4095__a4108);
+        setContentView(R.layout.a4095);
 
         Initialization();
         events_calls();

@@ -58,16 +58,16 @@ public class A4051 extends AppCompatActivity implements RadioButton.OnCheckedCha
         rb_A4053_2 = findViewById(R.id.rb_A4053_2);
         rb_A4053_DK = findViewById(R.id.rb_A4053_DK);
         rb_A4053_RA = findViewById(R.id.rb_A4053_RA);
-        rb_A4054_1 = findViewById(R.id.rb_A4054_1);
-        rb_A4054_2 = findViewById(R.id.rb_A4054_2);
-        rb_A4054_3 = findViewById(R.id.rb_A4054_3);
-        rb_A4054_DK = findViewById(R.id.rb_A4054_DK);
-        rb_A4054_RA = findViewById(R.id.rb_A4054_RA);
-        rb_A4055_1 = findViewById(R.id.rb_A4055_1);
-        rb_A4055_2 = findViewById(R.id.rb_A4055_2);
-        rb_A4055_3 = findViewById(R.id.rb_A4055_3);
-        rb_A4055_DK = findViewById(R.id.rb_A4055_DK);
-        rb_A4055_RA = findViewById(R.id.rb_A4055_RA);
+        rb_A4054_1 = findViewById(R.id.A4054a);
+        rb_A4054_2 = findViewById(R.id.A4054b);
+        rb_A4054_3 = findViewById(R.id.A4054c);
+        rb_A4054_DK = findViewById(R.id.A40549);
+        rb_A4054_RA = findViewById(R.id.A40548);
+        rb_A4055_1 = findViewById(R.id.A4055a);
+        rb_A4055_2 = findViewById(R.id.A4055b);
+        rb_A4055_3 = findViewById(R.id.A4055c);
+        rb_A4055_DK = findViewById(R.id.A405598);
+        rb_A4055_RA = findViewById(R.id.A405599);
         rb_A4056_1 = findViewById(R.id.rb_A4056_1);
         rb_A4056_2 = findViewById(R.id.rb_A4056_2);
         rb_A4056_DK = findViewById(R.id.rb_A4056_DK);
@@ -131,7 +131,7 @@ public class A4051 extends AppCompatActivity implements RadioButton.OnCheckedCha
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a4051__a4066);
+        setContentView(R.layout.a4051);
 
         Initialization();
         events_calls();

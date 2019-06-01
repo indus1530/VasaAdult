@@ -1,8 +1,8 @@
 package com.example.abdulsajid.vasaadult;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
@@ -13,7 +13,7 @@ public class VasaAdult extends AppCompatActivity implements View.OnClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vasa_adult);
+        setContentView(R.layout.activityadult);
 
         fun_initalization();
 
@@ -21,7 +21,7 @@ public class VasaAdult extends AppCompatActivity implements View.OnClickListener
     }
 
     void fun_initalization() {
-        btn_next = (Button) findViewById(R.id.btn_next);
+        btn_next = findViewById(R.id.btn_next);
     }
 
     public void onClick(View view) {
