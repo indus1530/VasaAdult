@@ -3,8 +3,6 @@ package com.example.abdulsajid.vasaadult;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -17,7 +15,7 @@ import android.widget.Toast;
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
 
-public class A4206_A4207 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class A4206 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
     //Declaration
     Button
@@ -196,33 +194,33 @@ public class A4206_A4207 extends AppCompatActivity implements RadioButton.OnChec
     void Initialization() {
 
         //Button
-        btn_next10 = (Button) findViewById(R.id.btn_next10);
+        btn_next10 = findViewById(R.id.btn_next10);
 
         //Linear Layout
-        ll_A4206 = (LinearLayout) findViewById(R.id.ll_A4206);
-        ll_A4206_1 = (LinearLayout) findViewById(R.id.ll_A4206_1);
-        ll_A4206_2 = (LinearLayout) findViewById(R.id.ll_A4206_2);
-        ll_A4206_3 = (LinearLayout) findViewById(R.id.ll_A4206_3);
-        ll_A4206_4 = (LinearLayout) findViewById(R.id.ll_A4206_4);
-        ll_A4206_5 = (LinearLayout) findViewById(R.id.ll_A4206_5);
-        ll_A4206_6 = (LinearLayout) findViewById(R.id.ll_A4206_6);
-        ll_A4206_7 = (LinearLayout) findViewById(R.id.ll_A4206_7);
-        ll_A4206_8 = (LinearLayout) findViewById(R.id.ll_A4206_8);
-        ll_A4206_9 = (LinearLayout) findViewById(R.id.ll_A4206_9);
-        ll_A4206_10 = (LinearLayout) findViewById(R.id.ll_A4206_10);
-        ll_A4206_11 = (LinearLayout) findViewById(R.id.ll_A4206_11);
-        ll_A4206_12 = (LinearLayout) findViewById(R.id.ll_A4206_12);
-        ll_A4206_13 = (LinearLayout) findViewById(R.id.ll_A4206_13);
-        ll_A4206_14 = (LinearLayout) findViewById(R.id.ll_A4206_14);
-        ll_A4206_15 = (LinearLayout) findViewById(R.id.ll_A4206_15);
-        ll_A4206_16 = (LinearLayout) findViewById(R.id.ll_A4206_16);
-        ll_A4206_17 = (LinearLayout) findViewById(R.id.ll_A4206_17);
-        ll_A4206_18 = (LinearLayout) findViewById(R.id.ll_A4206_18);
-        ll_A4206_19 = (LinearLayout) findViewById(R.id.ll_A4206_19);
-        ll_A4206_20 = (LinearLayout) findViewById(R.id.ll_A4206_20);
-        ll_A4206_21 = (LinearLayout) findViewById(R.id.ll_A4206_21);
-        ll_A4206_22 = (LinearLayout) findViewById(R.id.ll_A4206_22);
-        ll_A4207 = (LinearLayout) findViewById(R.id.ll_A4207);
+        ll_A4206 = findViewById(R.id.ll_A4206);
+        ll_A4206_1 = findViewById(R.id.ll_A4206_1);
+        ll_A4206_2 = findViewById(R.id.ll_A4206_2);
+        ll_A4206_3 = findViewById(R.id.ll_A4206_3);
+        ll_A4206_4 = findViewById(R.id.ll_A4206_4);
+        ll_A4206_5 = findViewById(R.id.ll_A4206_5);
+        ll_A4206_6 = findViewById(R.id.ll_A4206_6);
+        ll_A4206_7 = findViewById(R.id.ll_A4206_7);
+        ll_A4206_8 = findViewById(R.id.ll_A4206_8);
+        ll_A4206_9 = findViewById(R.id.ll_A4206_9);
+        ll_A4206_10 = findViewById(R.id.ll_A4206_10);
+        ll_A4206_11 = findViewById(R.id.ll_A4206_11);
+        ll_A4206_12 = findViewById(R.id.ll_A4206_12);
+        ll_A4206_13 = findViewById(R.id.ll_A4206_13);
+        ll_A4206_14 = findViewById(R.id.ll_A4206_14);
+        ll_A4206_15 = findViewById(R.id.ll_A4206_15);
+        ll_A4206_16 = findViewById(R.id.ll_A4206_16);
+        ll_A4206_17 = findViewById(R.id.ll_A4206_17);
+        ll_A4206_18 = findViewById(R.id.ll_A4206_18);
+        ll_A4206_19 = findViewById(R.id.ll_A4206_19);
+        ll_A4206_20 = findViewById(R.id.ll_A4206_20);
+        ll_A4206_21 = findViewById(R.id.ll_A4206_21);
+        ll_A4206_22 = findViewById(R.id.ll_A4206_22);
+        ll_A4207 = findViewById(R.id.ll_A4207);
 
         //Radio Button
         rb_A4206_1 = findViewById(R.id.rb_A4206_1);
@@ -330,11 +328,11 @@ public class A4206_A4207 extends AppCompatActivity implements RadioButton.OnChec
         rb_A4206_22_RA = findViewById(R.id.rb_A4206_22_RA);
 
         // Edit Text
-        ed_A4207_day = (EditText) findViewById(R.id.ed_A4207_day);
-        ed_A4207_hour = (EditText) findViewById(R.id.ed_A4207_hour);
+        ed_A4207_day = findViewById(R.id.ed_A4207_day);
+        ed_A4207_hour = findViewById(R.id.ed_A4207_hour);
 
         // Check Box
-        cb_4207_DK = (CheckBox) findViewById(R.id.cb_A4207_DK);
+        cb_4207_DK = findViewById(R.id.cb_A4207_DK);
 
     }
 
@@ -358,7 +356,7 @@ public class A4206_A4207 extends AppCompatActivity implements RadioButton.OnChec
         value_assignment();
         insert_data();
 
-        Intent c2 = new Intent(A4206_A4207.this, A4251_A4284.class);
+        Intent c2 = new Intent(com.example.abdulsajid.vasaadult.A4206.this, A4251.class);
         startActivity(c2);
     }
 
@@ -1039,7 +1037,7 @@ public class A4206_A4207 extends AppCompatActivity implements RadioButton.OnChec
 
         LocalDataManager Lm = new LocalDataManager(this);
 
-        Lm.database.execSQL(query);
+        LocalDataManager.database.execSQL(query);
 
         Toast.makeText(this, "10th TABLE SAVED Successfully", Toast.LENGTH_SHORT).show();
     }
@@ -1137,11 +1135,6 @@ public class A4206_A4207 extends AppCompatActivity implements RadioButton.OnChec
             return false;
         }
 
-        if (Gothrough.IamHiden(ll_A4207) == false) {
-            return false;
-        }
-
-
-        return true;
+        return Gothrough.IamHiden(ll_A4207) != false;
     }
 }

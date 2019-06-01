@@ -147,7 +147,7 @@ public class A4051 extends AppCompatActivity implements RadioButton.OnCheckedCha
         value_assignment();
         insert_data();
 
-        Intent c2 = new Intent(A4051.this, A4067_A4080.class);
+        Intent c2 = new Intent(A4051.this, A4067.class);
         startActivity(c2);
     }
 

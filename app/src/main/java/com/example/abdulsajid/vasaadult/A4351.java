@@ -1,8 +1,8 @@
 package com.example.abdulsajid.vasaadult;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
@@ -14,7 +14,7 @@ import android.widget.Toast;
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
 
-public class A4351_A4364 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class A4351 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
     //  Region_Declaration
     Button
@@ -76,38 +76,38 @@ public class A4351_A4364 extends AppCompatActivity implements RadioButton.OnChec
 
     void Initialization() {
 
-        btn_next13=(Button)findViewById(R.id.btn_next13);
+        btn_next13 = findViewById(R.id.btn_next13);
 
-        ll_A4351 = (LinearLayout) findViewById(R.id.ll_A4351);
-        ll_A4352 = (LinearLayout) findViewById(R.id.ll_A4352);
-        ll_A4353 = (LinearLayout) findViewById(R.id.ll_A4353);
-        ll_A4354 = (LinearLayout) findViewById(R.id.ll_A4354);
-        ll_A4355 = (LinearLayout) findViewById(R.id.ll_A4355);
-        ll_A4356 = (LinearLayout) findViewById(R.id.ll_A4356);
-        ll_A4357 = (LinearLayout) findViewById(R.id.ll_A4357);
-        ll_A4358 = (LinearLayout) findViewById(R.id.ll_A4358);
-        ll_A4363 = (LinearLayout) findViewById(R.id.ll_A4363);
-        ll_A4364 = (LinearLayout) findViewById(R.id.ll_A4364);
+        ll_A4351 = findViewById(R.id.ll_A4351);
+        ll_A4352 = findViewById(R.id.ll_A4352);
+        ll_A4353 = findViewById(R.id.ll_A4353);
+        ll_A4354 = findViewById(R.id.ll_A4354);
+        ll_A4355 = findViewById(R.id.ll_A4355);
+        ll_A4356 = findViewById(R.id.ll_A4356);
+        ll_A4357 = findViewById(R.id.ll_A4357);
+        ll_A4358 = findViewById(R.id.ll_A4358);
+        ll_A4363 = findViewById(R.id.ll_A4363);
+        ll_A4364 = findViewById(R.id.ll_A4364);
 
-        rb_A4351_1 = (RadioButton) findViewById(R.id.rb_A4351_1);
-        rb_A4351_2 = (RadioButton) findViewById(R.id.rb_A4351_2);
-        rb_A4351_DK = (RadioButton) findViewById(R.id.rb_A4351_DK);
-        rb_A4351_RA = (RadioButton) findViewById(R.id.rb_A4351_RA);
-        rb_A4352_1 = (RadioButton) findViewById(R.id.rb_A4352_1);
-        rb_A4352_2 = (RadioButton) findViewById(R.id.rb_A4352_2);
-        rb_A4363_1 = (RadioButton) findViewById(R.id.rb_A4363_1);
-        rb_A4363_2 = (RadioButton) findViewById(R.id.rb_A4363_2);
-        rb_A4363_3 = (RadioButton) findViewById(R.id.rb_A4363_3);
-        rb_A4363_DK = (RadioButton) findViewById(R.id.rb_A4363_DK);
-        rb_A4363_RA = (RadioButton) findViewById(R.id.rb_A4363_RA);
+        rb_A4351_1 = findViewById(R.id.rb_A4351_1);
+        rb_A4351_2 = findViewById(R.id.rb_A4351_2);
+        rb_A4351_DK = findViewById(R.id.rb_A4351_DK);
+        rb_A4351_RA = findViewById(R.id.rb_A4351_RA);
+        rb_A4352_1 = findViewById(R.id.rb_A4352_1);
+        rb_A4352_2 = findViewById(R.id.rb_A4352_2);
+        rb_A4363_1 = findViewById(R.id.rb_A4363_1);
+        rb_A4363_2 = findViewById(R.id.rb_A4363_2);
+        rb_A4363_3 = findViewById(R.id.rb_A4363_3);
+        rb_A4363_DK = findViewById(R.id.rb_A4363_DK);
+        rb_A4363_RA = findViewById(R.id.rb_A4363_RA);
 
-        ed_A4353 = (EditText) findViewById(R.id.ed_A4353);
-        ed_A4354 = (EditText) findViewById(R.id.ed_A4354);
-        ed_A4355 = (EditText) findViewById(R.id.ed_A4355);
-        ed_A4356 = (EditText) findViewById(R.id.ed_A4356);
-        ed_A4357 = (EditText) findViewById(R.id.ed_A4357);
-        ed_A4358 = (EditText) findViewById(R.id.ed_A4358);
-        ed_A4364 = (EditText) findViewById(R.id.ed_A4364);
+        ed_A4353 = findViewById(R.id.ed_A4353);
+        ed_A4354 = findViewById(R.id.ed_A4354);
+        ed_A4355 = findViewById(R.id.ed_A4355);
+        ed_A4356 = findViewById(R.id.ed_A4356);
+        ed_A4357 = findViewById(R.id.ed_A4357);
+        ed_A4358 = findViewById(R.id.ed_A4358);
+        ed_A4364 = findViewById(R.id.ed_A4364);
 
 
     }
@@ -131,7 +131,7 @@ public class A4351_A4364 extends AppCompatActivity implements RadioButton.OnChec
         value_assignment();
         insert_data();
 
-        Intent c2 = new Intent(A4351_A4364.this, A4401_A4473.class);
+        Intent c2 = new Intent(com.example.abdulsajid.vasaadult.A4351.this, A4401.class);
         startActivity(c2);
 
     }
@@ -374,7 +374,7 @@ public class A4351_A4364 extends AppCompatActivity implements RadioButton.OnChec
 
         LocalDataManager Lm = new LocalDataManager(this);
 
-        Lm.database.execSQL(query);
+        LocalDataManager.database.execSQL(query);
 
         Toast.makeText(this, "13th TABLE SAVED Successfully", Toast.LENGTH_SHORT).show();
     }
@@ -416,10 +416,6 @@ public class A4351_A4364 extends AppCompatActivity implements RadioButton.OnChec
             return false;
         }
 
-        if (Gothrough.IamHiden(ll_A4364) == false){
-            return false;
-        }
-
-        return true;
+        return Gothrough.IamHiden(ll_A4364) != false;
     }
 }

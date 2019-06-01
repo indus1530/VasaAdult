@@ -14,7 +14,7 @@ import android.widget.Toast;
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
 
-public class A4301_A4315 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class A4301 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
     //Declaration Region
     Button
@@ -433,7 +433,7 @@ public class A4301_A4315 extends AppCompatActivity implements RadioButton.OnChec
         value_assignment();
         insert_data();
 
-        Intent c2 = new Intent (A4301_A4315.this, A4351_A4364.class);
+        Intent c2 = new Intent(com.example.abdulsajid.vasaadult.A4301.this, A4351.class);
         startActivity(c2);
 
     }

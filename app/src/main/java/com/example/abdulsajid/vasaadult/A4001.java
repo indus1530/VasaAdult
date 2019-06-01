@@ -57,7 +57,7 @@ public class A4001 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        bi = DataBindingUtil.setContentView(this, R.layout.a4001a4014);
+        bi = DataBindingUtil.setContentView(this, R.layout.a4001);
         bi.setCallback(this);
         //this.setTitle("Quality of Care 06");
         setupViews();

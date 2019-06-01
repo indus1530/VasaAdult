@@ -3,11 +3,8 @@ package com.example.abdulsajid.vasaadult;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -17,7 +14,7 @@ import android.widget.Toast;
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
 
-public class A4095_A4108 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class A4095 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
     //Declaration
     Button
@@ -137,29 +134,29 @@ public class A4095_A4108 extends AppCompatActivity implements RadioButton.OnChec
     void Initialization() {
 
         //Button
-        btn_next5 = (Button) findViewById(R.id.btn_next5);
+        btn_next5 = findViewById(R.id.btn_next5);
 
         //Linear Layout
-        ll_A4095 = (LinearLayout) findViewById(R.id.ll_A4095);
-        ll_A4096 = (LinearLayout) findViewById(R.id.ll_A4096);
-        ll_A4097_u = (LinearLayout) findViewById(R.id.ll_A4097_u);
-        ll_A4097_a = (LinearLayout) findViewById(R.id.ll_A4097_a);
-        ll_A4097_b = (LinearLayout) findViewById(R.id.ll_A4097_b);
-        ll_A4098 = (LinearLayout) findViewById(R.id.ll_A4098);
-        ll_A4099_u = (LinearLayout) findViewById(R.id.ll_A4099_u);
-        ll_A4099_a = (LinearLayout) findViewById(R.id.ll_A4099_a);
-        ll_A4099_b = (LinearLayout) findViewById(R.id.ll_A4099_b);
-        ll_A4100 = (LinearLayout) findViewById(R.id.ll_A4100);
-        ll_A4101_u = (LinearLayout) findViewById(R.id.ll_A4101_u);
-        ll_A4101_a = (LinearLayout) findViewById(R.id.ll_A4101_a);
-        ll_A4101_b = (LinearLayout) findViewById(R.id.ll_A4101_b);
-        ll_A4102 = (LinearLayout) findViewById(R.id.ll_A4102);
-        ll_A4103 = (LinearLayout) findViewById(R.id.ll_A4103);
-        ll_A4104 = (LinearLayout) findViewById(R.id.ll_A4104);
-        ll_A4105 = (LinearLayout) findViewById(R.id.ll_A4105);
-        ll_A4106 = (LinearLayout) findViewById(R.id.ll_A4106);
-        ll_A4107 = (LinearLayout) findViewById(R.id.ll_A4107);
-        ll_A4108 = (LinearLayout) findViewById(R.id.ll_A4108);
+        ll_A4095 = findViewById(R.id.ll_A4095);
+        ll_A4096 = findViewById(R.id.ll_A4096);
+        ll_A4097_u = findViewById(R.id.ll_A4097_u);
+        ll_A4097_a = findViewById(R.id.ll_A4097_a);
+        ll_A4097_b = findViewById(R.id.ll_A4097_b);
+        ll_A4098 = findViewById(R.id.ll_A4098);
+        ll_A4099_u = findViewById(R.id.ll_A4099_u);
+        ll_A4099_a = findViewById(R.id.ll_A4099_a);
+        ll_A4099_b = findViewById(R.id.ll_A4099_b);
+        ll_A4100 = findViewById(R.id.ll_A4100);
+        ll_A4101_u = findViewById(R.id.ll_A4101_u);
+        ll_A4101_a = findViewById(R.id.ll_A4101_a);
+        ll_A4101_b = findViewById(R.id.ll_A4101_b);
+        ll_A4102 = findViewById(R.id.ll_A4102);
+        ll_A4103 = findViewById(R.id.ll_A4103);
+        ll_A4104 = findViewById(R.id.ll_A4104);
+        ll_A4105 = findViewById(R.id.ll_A4105);
+        ll_A4106 = findViewById(R.id.ll_A4106);
+        ll_A4107 = findViewById(R.id.ll_A4107);
+        ll_A4108 = findViewById(R.id.ll_A4108);
 
         //Radio Button
         rb_A4095_1 = findViewById(R.id.rb_A4095_1);
@@ -216,13 +213,13 @@ public class A4095_A4108 extends AppCompatActivity implements RadioButton.OnChec
         rb_A4108_RA = findViewById(R.id.rb_A4108_RA);
 
         // Edit Text
-        ed_A4097_a = (EditText) findViewById(R.id.ed_A4097_a);
-        ed_A4097_b = (EditText) findViewById(R.id.ed_A4097_b);
-        ed_A4099_a = (EditText) findViewById(R.id.ed_A4099_a);
-        ed_A4099_b = (EditText) findViewById(R.id.ed_A4099_b);
-        ed_A4101_a = (EditText) findViewById(R.id.ed_A4101_a);
-        ed_A4101_b = (EditText) findViewById(R.id.ed_A4101_b);
-        ed_A4107 = (EditText) findViewById(R.id.ed_A4107);
+        ed_A4097_a = findViewById(R.id.ed_A4097_a);
+        ed_A4097_b = findViewById(R.id.ed_A4097_b);
+        ed_A4099_a = findViewById(R.id.ed_A4099_a);
+        ed_A4099_b = findViewById(R.id.ed_A4099_b);
+        ed_A4101_a = findViewById(R.id.ed_A4101_a);
+        ed_A4101_b = findViewById(R.id.ed_A4101_b);
+        ed_A4107 = findViewById(R.id.ed_A4107);
 
     }
 
@@ -246,7 +243,7 @@ public class A4095_A4108 extends AppCompatActivity implements RadioButton.OnChec
         value_assignment();
         insert_data();
 
-        Intent c2 = new Intent(A4095_A4108.this, A4109_A4125.class);
+        Intent c2 = new Intent(com.example.abdulsajid.vasaadult.A4095.this, A4109.class);
         startActivity(c2);
     }
 
@@ -757,7 +754,7 @@ public class A4095_A4108 extends AppCompatActivity implements RadioButton.OnChec
 
         LocalDataManager Lm = new LocalDataManager(this);
 
-        Lm.database.execSQL(query);
+        LocalDataManager.database.execSQL(query);
 
         Toast.makeText(this, "5th TABLE SAVED Successfully", Toast.LENGTH_SHORT).show();
     }
@@ -839,10 +836,6 @@ public class A4095_A4108 extends AppCompatActivity implements RadioButton.OnChec
             return false;
         }
 
-        if (Gothrough.IamHiden(ll_A4108) == false) {
-            return false;
-        }
-
-        return true;
+        return Gothrough.IamHiden(ll_A4108) != false;
     }
 }

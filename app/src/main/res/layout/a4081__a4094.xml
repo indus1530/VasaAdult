@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/cyan"
-    tools:context=".A4081_A4094">
+    tools:context=".A4081">
 
     <RelativeLayout
         android:layout_width="match_parent"

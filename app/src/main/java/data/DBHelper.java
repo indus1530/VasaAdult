@@ -41,17 +41,17 @@ public class DBHelper extends SQLiteOpenHelper {
 
         db.execSQL(A4001_A4014.getCreateQuery()); // A4001 created here
         db.execSQL(A4051_A4066.getCreateQuery()); // A4051 created here
-        db.execSQL(A4067_A4080.getCreateQuery()); // A4067_A4080 created here
-        db.execSQL(A4081_A4094.getCreateQuery()); // A4081_A4094 created here
-        db.execSQL(A4095_A4108.getCreateQuery()); // A4095_A4108 created here
-        db.execSQL(A4109_A4125.getCreateQuery()); // A4109_A4125 created here
-        db.execSQL(A4126_A4140.getCreateQuery()); // A4126_A4140 created here
-        db.execSQL(A4144_A4156.getCreateQuery()); // A4144_A4156 created here
-        db.execSQL(A4157_A4205.getCreateQuery()); // A4157_A4205 created here
-        db.execSQL(A4206_A4207.getCreateQuery()); // A4206_A4207 created here
-        db.execSQL(A4251_A4284.getCreateQuery()); // A4251_A4284 created here
-        db.execSQL(A4301_A4315.getCreateQuery()); // A4301_A4315 created here
-        db.execSQL(A4351_A4364.getCreateQuery()); // A4351_A4364 created here
+        db.execSQL(A4067_A4080.getCreateQuery()); // A4067 created here
+        db.execSQL(A4081_A4094.getCreateQuery()); // A4081 created here
+        db.execSQL(A4095_A4108.getCreateQuery()); // A4095 created here
+        db.execSQL(A4109_A4125.getCreateQuery()); // A4109 created here
+        db.execSQL(A4126_A4140.getCreateQuery()); // A4126 created here
+        db.execSQL(A4144_A4156.getCreateQuery()); // A4144 created here
+        db.execSQL(A4157_A4205.getCreateQuery()); // A4157 created here
+        db.execSQL(A4206_A4207.getCreateQuery()); // A4206 created here
+        db.execSQL(A4251_A4284.getCreateQuery()); // A4251 created here
+        db.execSQL(A4301_A4315.getCreateQuery()); // A4301 created here
+        db.execSQL(A4351_A4364.getCreateQuery()); // A4351 created here
         db.execSQL(A4401_A4473.getCreateQuery()); // A4401_A4405 created here
 
         db.setTransactionSuccessful();

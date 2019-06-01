@@ -5,7 +5,7 @@ package data.A;
  */
 
 public class A4301_A4315 {
-    public static String TABLE_NAME = "A4301_A4315";
+    public static String TABLE_NAME = "A4301";
 
     public static String getCreateQuery() {
         String query;
