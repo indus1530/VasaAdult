@@ -60,12 +60,12 @@ public class A4001 extends AppCompatActivity {
         bind = DataBindingUtil.setContentView(this, R.layout.a4001);
         bind.setCallback(this);
         //this.setTitle("Quality of Care 06");
-        setupViews();
+        setupSkips();
 
     }
 
 
-    private void setupViews() {
+    private void setupSkips() {
 
         bind.A4003.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override

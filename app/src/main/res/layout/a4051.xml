@@ -117,12 +117,12 @@
                         <RadioButton
                             android:id="@+id/A4052ua"
                             style="@style/RadioButton"
-                            android:text="@string/yes" />
+                            android:text="@string/days" />
 
                         <RadioButton
                             android:id="@+id/A4052ub"
                             style="@style/RadioButton"
-                            android:text="@string/no" />
+                            android:text="@string/months" />
 
                         <RadioButton
                             android:id="@+id/A4052u98"
@@ -468,12 +468,12 @@
                         <RadioButton
                             android:id="@+id/A4059ua"
                             style="@style/RadioButton"
-                            android:text="@string/yes" />
+                            android:text="@string/days" />
 
                         <RadioButton
                             android:id="@+id/A4059ub"
                             style="@style/RadioButton"
-                            android:text="@string/no" />
+                            android:text="@string/months" />
 
                         <RadioButton
                             android:id="@+id/A4059u98"
@@ -720,12 +720,12 @@
                         <RadioButton
                             android:id="@+id/A4064ua"
                             style="@style/RadioButton"
-                            android:text="@string/yes" />
+                            android:text="@string/days" />
 
                         <RadioButton
                             android:id="@+id/A4064ub"
                             style="@style/RadioButton"
-                            android:text="@string/no" />
+                            android:text="@string/months" />
 
                         <RadioButton
                             android:id="@+id/A4064u98"
