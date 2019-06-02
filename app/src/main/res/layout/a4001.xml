@@ -54,7 +54,7 @@
 
 
         <LinearLayout
-            android:id="@+id/llA4001A4014"
+            android:id="@+id/llA4001"
             style="@style/Q_Linerlayout_v">
 
             <!-- EditText A4001 Starts -->
@@ -237,8 +237,7 @@
             <!-- EditText A4005 Starts -->
             <android.support.v7.widget.CardView
                 android:id="@+id/A4005cv"
-                style="@style/Q_CardView"
-                android:visibility='@{A4003a.checked ? View.VISIBLE : View.GONE }'>
+                style="@style/Q_CardView">
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
 
@@ -250,8 +249,7 @@
                     <EditText
                         android:id="@+id/A4005"
                         style="@style/EditText_number"
-                        android:hint="@string/grade_year"
-                        android:text='@{A4003a.checked ? A4005.getText.toString : "" }' />
+                        android:hint="@string/grade_year" />
 
                 </LinearLayout>
 
@@ -365,8 +363,7 @@
             <!-- EditText A40071 Starts -->
             <android.support.v7.widget.CardView
                 android:id="@+id/A40071cv"
-                style="@style/Q_CardView"
-                android:visibility='@{!A4071b.isChecked ? View.VISIBLE : View.GONE}'>
+                style="@style/Q_CardView">
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
 
@@ -378,8 +375,7 @@
                     <EditText
                         android:id="@+id/A40071"
                         style="@style/EditText_varchar"
-                        android:hint="Work / Occupation"
-                        android:text='@{!A4071b.isChecked ? A40071.getText.toString : ""}' />
+                        android:hint="Work / Occupation" />
 
                 </LinearLayout>
 
@@ -412,12 +408,12 @@
                             android:text="@string/no" />
 
                         <RadioButton
-                            android:id="@+id/A40089"
+                            android:id="@+id/A400898"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/A40088"
+                            android:id="@+id/A400899"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
@@ -536,8 +532,7 @@
                     <EditText
                         android:id="@+id/A4011"
                         style="@style/EditText_number"
-                        android:hint="For don't know enter 99, For refused enter 88"
-                        android:text='@{A4009aa.isChecked ? A4011.getText.toString : ""}' />
+                        android:hint="For don't know enter 99, For refused enter 88" />
 
                 </LinearLayout>
 
@@ -559,8 +554,7 @@
                     <EditText
                         android:id="@+id/A4012"
                         style="@style/EditText_number"
-                        android:hint="For don't know enter 99, For refused enter 88"
-                        android:text='@{A4009aa.isChecked ? A4012.getText.toString : ""}' />
+                        android:hint="For don't know enter 99, For refused enter 88" />
 
                 </LinearLayout>
 

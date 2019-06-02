@@ -1,7 +1,6 @@
 package com.example.abdulsajid.vasaadult;
 
 import android.content.Intent;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
@@ -239,16 +238,16 @@ public class A4001 extends AppCompatActivity {
         json.put("A4004", bind.A4004a.isChecked() ? "1"
                 : bind.A4004b.isChecked() ? "2"
                 : bind.A4004c.isChecked() ? "3"
-                : bind.A40049.isChecked() ? "99"
-                : bind.A40048.isChecked() ? "88"
+                : bind.A400498.isChecked() ? "98"
+                : bind.A400499.isChecked() ? "99"
                 : "0");
 
         json.put("A4005", bind.A4005.getText().toString().trim().length() > 0 ? bind.A4005.getText().toString() : "0");
 
         json.put("A4006", bind.A4006a.isChecked() ? "1"
                 : bind.A4006b.isChecked() ? "2"
-                : bind.A40069.isChecked() ? "99"
-                : bind.A40068.isChecked() ? "88"
+                : bind.A400698.isChecked() ? "98"
+                : bind.A400699.isChecked() ? "99"
                 : "0");
 
         json.put("A4007", bind.A4007a.isChecked() ? "1"
@@ -257,16 +256,16 @@ public class A4001 extends AppCompatActivity {
                 : bind.A4007d.isChecked() ? "4"
                 : bind.A4007e.isChecked() ? "5"
                 : bind.A4007f.isChecked() ? "6"
-                : bind.A40079.isChecked() ? "99"
-                : bind.A40078.isChecked() ? "88"
+                : bind.A400798.isChecked() ? "98"
+                : bind.A400799.isChecked() ? "99"
                 : "0");
 
         json.put("A40071", bind.A40071.getText().toString().trim().length() > 0 ? bind.A40071.getText().toString() : "0");
 
         json.put("A4008", bind.A4008a.isChecked() ? "1"
                 : bind.A4008b.isChecked() ? "2"
-                : bind.A40089.isChecked() ? "99"
-                : bind.A40088.isChecked() ? "88"
+                : bind.A400898.isChecked() ? "98"
+                : bind.A400899.isChecked() ? "99"
                 : "0");
 
         json.put("A4009a", bind.A4009aa.isChecked() ? "1"

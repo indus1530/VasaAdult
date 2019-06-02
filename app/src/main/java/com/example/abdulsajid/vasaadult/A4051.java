@@ -5,151 +5,164 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CompoundButton;
-import android.widget.RadioButton;
 import android.widget.Toast;
+
+import com.example.abdulsajid.vasaadult.databinding.A4051Binding;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
 
-public class A4051 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
+public class A4051 extends AppCompatActivity {
 
-
-
-    void Initialization() {
-
-        //Button
-        btn_next2 = findViewById(R.id.btn_next2);
-
-        //Linear Layout
-        ll_A4051 = findViewById(R.id.ll_A4051);
-        ll_A4052_u = findViewById(R.id.ll_A4052_u);
-        ll_A4052_b = findViewById(R.id.ll_A4052_b);
-        ll_A4052_c = findViewById(R.id.ll_A4052_c);
-        ll_A4053 = findViewById(R.id.ll_A4053);
-        ll_A4054 = findViewById(R.id.ll_A4054);
-        ll_A4055 = findViewById(R.id.ll_A4055);
-        ll_A4056 = findViewById(R.id.ll_A4056);
-        ll_A4057 = findViewById(R.id.ll_A4057);
-        ll_A4058 = findViewById(R.id.ll_A4058);
-        ll_A4059_u = findViewById(R.id.ll_A4059_u);
-        ll_A4059_a = findViewById(R.id.ll_A4059_a);
-        ll_A4059_b = findViewById(R.id.ll_A4059_b);
-        ll_A4060 = findViewById(R.id.ll_A4060);
-        ll_A4061 = findViewById(R.id.ll_A4061);
-        ll_A4062 = findViewById(R.id.ll_A4062);
-        ll_A4063 = findViewById(R.id.ll_A4063);
-        ll_A4064_u = findViewById(R.id.ll_A4064_u);
-        ll_A4064_a = findViewById(R.id.ll_A4064_a);
-        ll_A4064_b = findViewById(R.id.ll_A4064_b);
-        ll_A4064_1 = findViewById(R.id.ll_A4064_1);
-        ll_A4065 = findViewById(R.id.ll_A4065);
-        ll_A4066 = findViewById(R.id.ll_A4066);
-
-        //Radio Button
-        rb_A4051_1 = findViewById(R.id.rb_A4051_1);
-        rb_A4051_2 = findViewById(R.id.rb_A4051_2);
-        rb_A4051_DK = findViewById(R.id.rb_A4051_DK);
-        rb_A4051_RA = findViewById(R.id.rb_A4051_RA);
-        rb_A4052_u_1 = findViewById(R.id.rb_A4052_u_1);
-        rb_A4052_u_2 = findViewById(R.id.rb_A4052_u_2);
-        rb_A4052_u_DK = findViewById(R.id.rb_A4052_u_DK);
-        rb_A4052_u_RA = findViewById(R.id.rb_A4052_u_RA);
-        rb_A4053_1 = findViewById(R.id.rb_A4053_1);
-        rb_A4053_2 = findViewById(R.id.rb_A4053_2);
-        rb_A4053_DK = findViewById(R.id.rb_A4053_DK);
-        rb_A4053_RA = findViewById(R.id.rb_A4053_RA);
-        rb_A4054_1 = findViewById(R.id.A4054a);
-        rb_A4054_2 = findViewById(R.id.A4054b);
-        rb_A4054_3 = findViewById(R.id.A4054c);
-        rb_A4054_DK = findViewById(R.id.A40549);
-        rb_A4054_RA = findViewById(R.id.A40548);
-        rb_A4055_1 = findViewById(R.id.A4055a);
-        rb_A4055_2 = findViewById(R.id.A4055b);
-        rb_A4055_3 = findViewById(R.id.A4055c);
-        rb_A4055_DK = findViewById(R.id.A405598);
-        rb_A4055_RA = findViewById(R.id.A405599);
-        rb_A4056_1 = findViewById(R.id.rb_A4056_1);
-        rb_A4056_2 = findViewById(R.id.rb_A4056_2);
-        rb_A4056_DK = findViewById(R.id.rb_A4056_DK);
-        rb_A4056_RA = findViewById(R.id.rb_A4056_RA);
-        rb_A4057_1 = findViewById(R.id.rb_A4057_1);
-        rb_A4057_2 = findViewById(R.id.rb_A4057_2);
-        rb_A4057_DK = findViewById(R.id.rb_A4057_DK);
-        rb_A4057_RA = findViewById(R.id.rb_A4057_RA);
-        rb_A4058_1 = findViewById(R.id.rb_A4058_1);
-        rb_A4058_2 = findViewById(R.id.rb_A4058_2);
-        rb_A4058_DK = findViewById(R.id.rb_A4058_DK);
-        rb_A4058_RA = findViewById(R.id.rb_A4058_RA);
-        rb_A4059_u_1 = findViewById(R.id.rb_A4059_u_1);
-        rb_A4059_u_2 = findViewById(R.id.rb_A4059_u_2);
-        rb_A4059_u_DK = findViewById(R.id.rb_A4059_u_DK);
-        rb_A4059_u_RA = findViewById(R.id.rb_A4059_u_RA);
-        rb_A4060_1 = findViewById(R.id.rb_A4060_1);
-        rb_A4060_2 = findViewById(R.id.rb_A4060_2);
-        rb_A4060_DK = findViewById(R.id.rb_A4060_DK);
-        rb_A4060_RA = findViewById(R.id.rb_A4060_RA);
-        rb_A4061_1 = findViewById(R.id.rb_A4061_1);
-        rb_A4061_2 = findViewById(R.id.rb_A4061_2);
-        rb_A4061_DK = findViewById(R.id.rb_A4061_DK);
-        rb_A4061_RA = findViewById(R.id.rb_A4061_RA);
-        rb_A4062_1 = findViewById(R.id.rb_A4062_1);
-        rb_A4062_2 = findViewById(R.id.rb_A4062_2);
-        rb_A4062_DK = findViewById(R.id.rb_A4062_DK);
-        rb_A4062_RA = findViewById(R.id.rb_A4062_RA);
-        rb_A4063_1 = findViewById(R.id.rb_A4063_1);
-        rb_A4063_2 = findViewById(R.id.rb_A4063_2);
-        rb_A4063_DK = findViewById(R.id.rb_A4063_DK);
-        rb_A4063_RA = findViewById(R.id.rb_A4063_RA);
-        rb_A4064_u_1 = findViewById(R.id.rb_A4064_u_1);
-        rb_A4064_u_2 = findViewById(R.id.rb_A4064_u_2);
-        rb_A4064_u_DK = findViewById(R.id.rb_A4064_u_DK);
-        rb_A4064_u_RA = findViewById(R.id.rb_A4064_u_RA);
-        rb_A4064_1_1 = findViewById(R.id.rb_A4064_1_1);
-        rb_A4064_1_2 = findViewById(R.id.rb_A4064_1_2);
-        rb_A4064_1_DK = findViewById(R.id.rb_A4064_1_DK);
-        rb_A4064_1_RA = findViewById(R.id.rb_A4064_1_RA);
-        rb_A4065_1 = findViewById(R.id.rb_A4065_1);
-        rb_A4065_2 = findViewById(R.id.rb_A4065_2);
-        rb_A4065_DK = findViewById(R.id.rb_A4065_DK);
-        rb_A4065_RA = findViewById(R.id.rb_A4065_RA);
-        rb_A4066_1 = findViewById(R.id.rb_A4066_1);
-        rb_A4066_2 = findViewById(R.id.rb_A4066_2);
-        rb_A4066_DK = findViewById(R.id.rb_A4066_DK);
-        rb_A4066_RA = findViewById(R.id.rb_A4066_RA);
-
-        // Edit Text
-        ed_A4052_b = findViewById(R.id.ed_A4052_b);
-        ed_A4052_c = findViewById(R.id.ed_A4052_c);
-        ed_A4059_a = findViewById(R.id.ed_A4059_a);
-        ed_A4059_b = findViewById(R.id.ed_A4059_b);
-        ed_A4064_a = findViewById(R.id.ed_A4064_a);
-        ed_A4064_b = findViewById(R.id.ed_A4064_b);
-
-    }
-
-
+    A4051Binding bind;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a4051);
-
-        Initialization();
-        events_calls();
+        bind = DataBindingUtil.setContentView(this, R.layout.a4051);
+        bind.setCallback(this);
+        //this.setTitle("Quality of Care 06");
+        setupViews();
     }
 
-    @Override
-    public void onClick(View view) {
-        if (validateField() == false) {
+
+    public void BtnContinue() {
+        if (validateField()) {
+            try {
+                SaveDraft();
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            if (UpdateDB()) {
+                Toast.makeText(this, "Starting 7th Section", Toast.LENGTH_SHORT).show();
+                //MainApp.endActivity(this, this, A4001.class, true, HomeActivity.fc);
+
+                Intent c2 = new Intent(A4051.this, A4067.class);
+                startActivity(c2);
+
+            } else {
+                Toast.makeText(this, "Failed to Update Database!", Toast.LENGTH_SHORT).show();
+            }
+        } else {
             Toast.makeText(this, "Required fields are missing", Toast.LENGTH_LONG).show();
             return;
         }
-
-        value_assignment();
-        insert_data();
-
-        Intent c2 = new Intent(A4051.this, A4067.class);
-        startActivity(c2);
     }
+
+    public void BtnEnd() {
+        MainApp.endActivity(this, this, EndingActivity.class, false, RSDInfoActivity.fc);
+
+    }
+
+    private void SaveDraft() throws JSONException {
+
+        JSONObject json = new JSONObject();
+
+        json.put("A4051", bind.A4051a.isChecked() ? "1"
+                : bind.A4051b.isChecked() ? "2"
+                : bind.A405198.isChecked() ? "98"
+                : bind.A405199.isChecked() ? "99"
+                : "0");
+
+        json.put("A4052u", bind.A4052ua.isChecked() ? "1"
+                : bind.A4052ub.isChecked() ? "2"
+                : bind.A4052u98.isChecked() ? "98"
+                : bind.A4052u99.isChecked() ? "99"
+                : "0");
+
+        json.put("A4052D", bind.A4052D.getText().toString().trim().length() > 0 ? bind.A4052D.getText().toString() : "0");
+
+        json.put("A4052M", bind.A4052M.getText().toString().trim().length() > 0 ? bind.A4052M.getText().toString() : "0");
+
+        json.put("A4053", bind.A4053a.isChecked() ? "1"
+                : bind.A4053b.isChecked() ? "2"
+                : bind.A405398.isChecked() ? "98"
+                : bind.A405399.isChecked() ? "99"
+                : "0");
+
+        json.put("A4054", bind.A4054a.isChecked() ? "1"
+                : bind.A4054b.isChecked() ? "2"
+                : bind.A4054c.isChecked() ? "3"
+                : bind.A405498.isChecked() ? "98"
+                : bind.A405499.isChecked() ? "99"
+                : "0");
+
+
+        json.put("A4006", bind.A4006a.isChecked() ? "1"
+                : bind.A4006b.isChecked() ? "2"
+                : bind.A400698.isChecked() ? "98"
+                : bind.A400699.isChecked() ? "99"
+                : "0");
+
+        json.put("A4007", bind.A4007a.isChecked() ? "1"
+                : bind.A4007b.isChecked() ? "2"
+                : bind.A4007c.isChecked() ? "3"
+                : bind.A4007d.isChecked() ? "4"
+                : bind.A4007e.isChecked() ? "5"
+                : bind.A4007f.isChecked() ? "6"
+                : bind.A400798.isChecked() ? "98"
+                : bind.A400799.isChecked() ? "99"
+                : "0");
+
+        json.put("A40071", bind.A40071.getText().toString().trim().length() > 0 ? bind.A40071.getText().toString() : "0");
+
+        json.put("A4008", bind.A4008a.isChecked() ? "1"
+                : bind.A4008b.isChecked() ? "2"
+                : bind.A400898.isChecked() ? "98"
+                : bind.A400899.isChecked() ? "99"
+                : "0");
+
+        json.put("A4009a", bind.A4009aa.isChecked() ? "1"
+                : bind.A4009ab.isChecked() ? "2"
+                : bind.A4009a98.isChecked() ? "98"
+                : bind.A4009a99.isChecked() ? "99"
+                : "0");
+
+        json.put("A4010", bind.A4010a.isChecked() ? "1"
+                : bind.A4010b.isChecked() ? "2"
+                : bind.A4010c.isChecked() ? "3"
+                : bind.A4010d.isChecked() ? "4"
+                : bind.A401098.isChecked() ? "98"
+                : bind.A401099.isChecked() ? "99"
+                : "0");
+
+        json.put("A4011", bind.A4011.getText().toString().trim().length() > 0 ? bind.A4011.getText().toString() : "0");
+
+        json.put("A4012", bind.A4012.getText().toString().trim().length() > 0 ? bind.A4012.getText().toString() : "0");
+
+        json.put("A4013u", bind.A4013ua.isChecked() ? "1"
+                : bind.A4013ub.isChecked() ? "2"
+                : bind.A4013uc.isChecked() ? "3"
+                : bind.A4013u98.isChecked() ? "98"
+                : bind.A4013u99.isChecked() ? "99"
+                : "0");
+
+        json.put("A4013d", bind.A4013d.getText().toString().trim().length() > 0 ? bind.A4013d.getText().toString() : "0");
+
+        json.put("A4013m", bind.A4013m.getText().toString().trim().length() > 0 ? bind.A4013m.getText().toString() : "0");
+
+        json.put("A4013y", bind.A4013y.getText().toString().trim().length() > 0 ? bind.A4013y.getText().toString() : "0");
+
+        json.put("A4014", bind.A4014a.isChecked() ? "1"
+                : bind.A4014b.isChecked() ? "2"
+                : bind.A401498.isChecked() ? "98"
+                : "0");
+
+        fc.setSqoc6(String.valueOf(json));
+
+    }
+
+    boolean validateField() {
+        if (Gothrough.IamHiden(bind.llA4001A4014) == false) {
+            return false;
+        }
+
+        return Gothrough.IamHiden(bind.llA4001A4014) != false;
+    }
+    
 
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
