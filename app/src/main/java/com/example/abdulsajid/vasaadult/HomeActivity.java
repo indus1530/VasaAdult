@@ -1,4 +1,3 @@
-/*
 package com.example.abdulsajid.vasaadult;
 
 import android.content.Intent;
@@ -14,21 +13,6 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.abdulsajid.vasaadult.A4001;
-import com.example.abdulsajid.vasaadult.A4051;
-import com.example.abdulsajid.vasaadult.A4067;
-import com.example.abdulsajid.vasaadult.A4081;
-import com.example.abdulsajid.vasaadult.A4095;
-import com.example.abdulsajid.vasaadult.A4109;
-import com.example.abdulsajid.vasaadult.A4126;
-import com.example.abdulsajid.vasaadult.A4144;
-import com.example.abdulsajid.vasaadult.A4157;
-import com.example.abdulsajid.vasaadult.A4206;
-import com.example.abdulsajid.vasaadult.A4251;
-import com.example.abdulsajid.vasaadult.A4301;
-import com.example.abdulsajid.vasaadult.A4351;
-import com.example.abdulsajid.vasaadult.A4401;
-
 import utils.MyPreferences;
 
 public class HomeActivity extends AppCompatActivity
@@ -39,17 +23,17 @@ public class HomeActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(com.example.abdulsajid.vasaadult.R.layout.activity_home);
-        Toolbar toolbar = (Toolbar) findViewById(com.example.abdulsajid.vasaadult.R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         final MyPreferences preferences = new MyPreferences(this);
-        DrawerLayout drawer = (DrawerLayout) findViewById(com.example.abdulsajid.vasaadult.R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, com.example.abdulsajid.vasaadult.R.string.navigation_drawer_open, com.example.abdulsajid.vasaadult.R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(com.example.abdulsajid.vasaadult.R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
 
         navigationView.setNavigationItemSelectedListener(this);
 
@@ -58,7 +42,7 @@ public class HomeActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(com.example.abdulsajid.vasaadult.R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -133,9 +117,8 @@ intent.putExtra("put_extra",put_extr);
         if (intent != null)
             startActivity(intent);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(com.example.abdulsajid.vasaadult.R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 }
-*/

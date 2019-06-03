@@ -1,4 +1,3 @@
-/*
 package com.example.abdulsajid.vasaadult;
 
 import android.app.Activity;
@@ -6,8 +5,8 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -23,6 +22,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 
 import utils.MyPreferences;
@@ -35,10 +35,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnTouchList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        final EditText textUsername = (EditText) findViewById(R.id.login_username);
-        final EditText textPassword = (EditText) findViewById(R.id.login_password);
-       final TextView textlogout = (TextView) findViewById(R.id.txt_logut);
-        Button btnLogin = (Button) findViewById(R.id.login_btn);
+        final EditText textUsername = findViewById(R.id.login_username);
+        final EditText textPassword = findViewById(R.id.login_password);
+        final TextView textlogout = findViewById(R.id.txt_logut);
+        Button btnLogin = findViewById(R.id.login_btn);
         final MyPreferences preferences = new MyPreferences(this);
 
 
@@ -71,8 +71,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnTouchList
 
 
                             Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
-                            ((Activity) LoginActivity.this).startActivity(intent);
-                            ((Activity) LoginActivity.this).finish();
+                            LoginActivity.this.startActivity(intent);
+                            LoginActivity.this.finish();
 
                         }
                         else
@@ -139,7 +139,7 @@ class LoginAsync extends AsyncTask {
             connection.setRequestMethod("POST");
 
             OutputStream os = connection.getOutputStream();
-            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os, "UTF-8"));
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os, StandardCharsets.UTF_8));
 
             // set pa
             // rameter values for post-request
@@ -206,7 +206,7 @@ class LoginAsync extends AsyncTask {
 
                 // redirect to another activity from here..
                 Intent intent = new Intent(mContext, HomeActivity.class);
-                ((Activity) mContext).startActivity(intent);
+                mContext.startActivity(intent);
                 ((Activity) mContext).finish();
             }
 
@@ -231,4 +231,3 @@ class LoginAsync extends AsyncTask {
 }
 // end of Async - Login Class
 
-*/
