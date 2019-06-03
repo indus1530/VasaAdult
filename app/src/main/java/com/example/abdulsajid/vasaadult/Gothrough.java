@@ -43,7 +43,6 @@ public class Gothrough {
                        return true;
                    }
 
-
                 }
 
                 else  if (view instanceof EditText)

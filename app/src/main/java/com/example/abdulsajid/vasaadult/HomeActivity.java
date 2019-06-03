@@ -104,11 +104,11 @@ public class HomeActivity extends AppCompatActivity
             put_extr = 1;
 
         } else if (id == com.example.abdulsajid.vasaadult.R.id.nav_lang_e) {
-            preferences.setlanguage("en","US");
+            preferences.setlang("en", "US");
             Toast.makeText(this,"Application Language Changed to English",Toast.LENGTH_LONG).show();
 
         } else if (id == com.example.abdulsajid.vasaadult.R.id.nav_lang_u) {
-            preferences.setlanguage("en","GB");
+            preferences.setlang("en", "GB");
             Toast.makeText(this,"Application Language Changed to Urdu",Toast.LENGTH_LONG).show();
         }
 

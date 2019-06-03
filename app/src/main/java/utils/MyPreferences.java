@@ -22,15 +22,44 @@ public class MyPreferences {
     final public static String REQ4  = "req4";
     final public static String REQ_LOGIN  = "reqLogin";
 
-    final public static String parmlanguage  = "en";
-    final public static String parmcountry  = "US";
+    final public static String parmlang = "en";
+    final public static String parmctry = "US";
 
     final public static String District  = "Badin";
+
+    public static String sA4001 = "";
+    public static String sA4051 = "";
+    public static String sA4067 = "";
 
 
     public MyPreferences(Context context) {
         sharedPreferences = context.getSharedPreferences(FILE_NAME, Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
+    }
+
+
+    public String getsA4001() {
+        return sA4001;
+    }
+
+    public void setsA4001(String sA4001) {
+        MyPreferences.sA4001 = sA4001;
+    }
+
+    public String getsA4051() {
+        return sA4051;
+    }
+
+    public void setsA4051(String sA4051) {
+        MyPreferences.sA4051 = sA4051;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
     }
 
 
@@ -161,19 +190,19 @@ public class MyPreferences {
     }
 
 
-    public void setlanguage(String language, String contry) {
-        editor.putString(parmlanguage, language);
-        editor.putString(parmcountry, contry);
+    public void setlang(String lang, String ctry) {
+        editor.putString(parmlang, lang);
+        editor.putString(parmctry, ctry);
         editor.apply();
     }
 
-    public String getlanguage() {
-        String url = sharedPreferences.getString(parmlanguage, null);
+    public String getlang() {
+        String url = sharedPreferences.getString(parmlang, null);
         return url;
     }
 
-    public String getcountry() {
-        String url = sharedPreferences.getString(parmcountry, null);
+    public String getctry() {
+        String url = sharedPreferences.getString(parmctry, null);
         return url;
     }
 

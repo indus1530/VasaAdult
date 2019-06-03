@@ -1,6 +1,7 @@
 package com.example.abdulsajid.vasaadult;
 
 import android.content.Intent;
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
@@ -15,6 +16,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import utils.ClearAllcontrol;
+import utils.MyPreferences;
 
 public class A4001 extends AppCompatActivity {
 
@@ -304,7 +306,7 @@ public class A4001 extends AppCompatActivity {
                 : bind.A401498.isChecked() ? "98"
                 : "0");
 
-        fc.setSqoc6(String.valueOf(json));
+        MyPreferences.setsA4001(String.valueOf(json));
 
     }
 
