@@ -22,8 +22,7 @@ public class A4067 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.a4067);
-        bind = DataBindingUtil.setContentView(this, R.layout.a4001);
+        bind = DataBindingUtil.setContentView(this, R.layout.a4067);
         bind.setCallback(this);
         //this.setTitle("Quality of Care 06");
         setupSkips();
