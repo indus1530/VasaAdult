@@ -283,16 +283,17 @@ public class A4081 extends AppCompatActivity {
 
         JSONObject json = new JSONObject();
 
-        json.put("A4067", bind.A4067a.isChecked() ? "1"
-                : bind.A4067b.isChecked() ? "2"
-                : bind.A406798.isChecked() ? "98"
-                : bind.A406799.isChecked() ? "99"
+        json.put("A4081", bind.A4081a.isChecked() ? "1"
+                : bind.A4081b.isChecked() ? "2"
+                : bind.A408198.isChecked() ? "98"
+                : bind.A408199.isChecked() ? "99"
                 : "0");
 
-        json.put("A4068", bind.A4068a.isChecked() ? "1"
-                : bind.A4068b.isChecked() ? "2"
-                : bind.A406898.isChecked() ? "98"
-                : bind.A406899.isChecked() ? "99"
+        json.put("A4082u", bind.A4082ua.isChecked() ? "1"
+                : bind.A4082ub.isChecked() ? "2"
+                : bind.A4082uc.isChecked() ? "3"
+                : bind.A4082u98.isChecked() ? "98"
+                : bind.A4082u99.isChecked() ? "99"
                 : "0");
 
         json.put("A4069u", bind.A4069ua.isChecked() ? "Hours"
