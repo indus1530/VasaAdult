@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/cyan"
     tools:context=".A4095">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="com.example.abdulsajid.vasaadult.A4095" />
+
+    </data>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -43,7 +53,9 @@
         android:scrollbarSize="10dip">
 
 
-        <LinearLayout style="@style/Q_Linerlayout_v">
+        <LinearLayout
+            android:id="@+id/llA4095"
+            style="@style/Q_Linerlayout_v">
 
             <!-- Radio Buttons A4095 Starts -->
             <android.support.v7.widget.CardView
@@ -782,4 +794,4 @@
     </ScrollView>
 
 
-</LinearLayout>
+</layout>
