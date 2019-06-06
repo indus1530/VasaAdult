@@ -30,6 +30,17 @@ public class MyPreferences {
     public static String sA4001 = "";
     public static String sA4051 = "";
     public static String sA4067 = "";
+    public static String sA4081 = "";
+    public static String sA4095 = "";
+    public static String sA4109 = "";
+    public static String sA4126 = "";
+    public static String sA4144 = "";
+    public static String sA4157 = "";
+    public static String sA4206 = "";
+    public static String sA4251 = "";
+    public static String sA4301 = "";
+    public static String sA4351 = "";
+    public static String sA4401 = "";
 
 
     public MyPreferences(Context context) {
@@ -52,6 +63,94 @@ public class MyPreferences {
 
     public void setsA4051(String sA4051) {
         MyPreferences.sA4051 = sA4051;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
+    }
+
+    public String getsA4081() {
+        return sA4081;
+    }
+
+    public void setsA4081(String sA4081) {
+        MyPreferences.sA4081 = sA4081;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
+    }
+
+    public String getsA4067() {
+        return sA4067;
+    }
+
+    public void setsA4067(String sA4067) {
+        MyPreferences.sA4067 = sA4067;
     }
 
     public String getsA4067() {
