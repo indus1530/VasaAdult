@@ -58,76 +58,61 @@ public class A4095 extends AppCompatActivity {
 
         JSONObject json = new JSONObject();
 
-        json.put("A4067", bind.A4067a.isChecked() ? "1"
-                : bind.A4067b.isChecked() ? "2"
-                : bind.A406798.isChecked() ? "98"
-                : bind.A406799.isChecked() ? "99"
+        json.put("A4095", bind.A4095a.isChecked() ? "1"
+                : bind.A4095b.isChecked() ? "2"
+                : bind.A409598.isChecked() ? "98"
+                : bind.A409599.isChecked() ? "99"
                 : "0");
 
-        json.put("A4068", bind.A4068a.isChecked() ? "1"
-                : bind.A4068b.isChecked() ? "2"
-                : bind.A406898.isChecked() ? "98"
-                : bind.A406899.isChecked() ? "99"
+        json.put("A4096", bind.A4096a.isChecked() ? "1"
+                : bind.A4096b.isChecked() ? "2"
+                : bind.A409698.isChecked() ? "98"
+                : bind.A409699.isChecked() ? "99"
                 : "0");
 
-        json.put("A4069u", bind.A4069ua.isChecked() ? "Hours"
-                : bind.A4069ub.isChecked() ? "Days"
-                : bind.A4069uc.isChecked() ? "Months"
-                : bind.A4069u98.isChecked() ? "98"
-                : bind.A4069u99.isChecked() ? "99"
+        json.put("A4097u", bind.A4097ua.isChecked() ? "Days"
+                : bind.A4097ub.isChecked() ? "Months"
+                : bind.A4097u98.isChecked() ? "98"
+                : bind.A4097u99.isChecked() ? "99"
                 : "0");
 
-        json.put("A4069H", bind.A4069H.getText().toString().trim().length() > 0 ? bind.A4069H.getText().toString() : "0");
-        json.put("A4069D", bind.A4069D.getText().toString().trim().length() > 0 ? bind.A4069D.getText().toString() : "0");
-        json.put("A4069M", bind.A4069M.getText().toString().trim().length() > 0 ? bind.A4069M.getText().toString() : "0");
+        json.put("A4097D", bind.A4097D.getText().toString().trim().length() > 0 ? bind.A4097D.getText().toString() : "0");
+        json.put("A4097M", bind.A4097M.getText().toString().trim().length() > 0 ? bind.A4097M.getText().toString() : "0");
 
-        json.put("A4070", bind.A4070a.isChecked() ? "1"
-                : bind.A4070b.isChecked() ? "2"
-                : bind.A4070c.isChecked() ? "3"
-                : bind.A407098.isChecked() ? "98"
-                : bind.A407099.isChecked() ? "99"
+        json.put("A4098", bind.A4098a.isChecked() ? "1"
+                : bind.A4098b.isChecked() ? "2"
+                : bind.A409898.isChecked() ? "98"
+                : bind.A409899.isChecked() ? "99"
                 : "0");
 
-        json.put("A4071", bind.A4071a.isChecked() ? "1"
-                : bind.A4071b.isChecked() ? "2"
-                : bind.A407198.isChecked() ? "98"
-                : bind.A407199.isChecked() ? "99"
+        json.put("A4099u", bind.A4099ua.isChecked() ? "Days"
+                : bind.A4099ub.isChecked() ? "Months"
+                : bind.A4099u98.isChecked() ? "98"
+                : bind.A4099u99.isChecked() ? "99"
                 : "0");
 
-        json.put("A4072u", bind.A4072ua.isChecked() ? "Days"
-                : bind.A4072ub.isChecked() ? "Months"
-                : bind.A4072u98.isChecked() ? "98"
-                : bind.A4072u99.isChecked() ? "99"
+        json.put("A4099D", bind.A4099D.getText().toString().trim().length() > 0 ? bind.A4099D.getText().toString() : "0");
+        json.put("A4099M", bind.A4099M.getText().toString().trim().length() > 0 ? bind.A4099M.getText().toString() : "0");
+
+        json.put("A4100", bind.A4100a.isChecked() ? "1"
+                : bind.A4100b.isChecked() ? "2"
+                : bind.A410098.isChecked() ? "98"
+                : bind.A410099.isChecked() ? "99"
                 : "0");
 
-        json.put("A4072D", bind.A4072D.getText().toString().trim().length() > 0 ? bind.A4072D.getText().toString() : "0");
-        json.put("A4072M", bind.A4072M.getText().toString().trim().length() > 0 ? bind.A4072M.getText().toString() : "0");
-
-        json.put("A4073", bind.A4073a.isChecked() ? "1"
-                : bind.A4073b.isChecked() ? "2"
-                : bind.A407398.isChecked() ? "98"
-                : bind.A407399.isChecked() ? "99"
+        json.put("A4101u", bind.A4101ua.isChecked() ? "Days"
+                : bind.A4101ub.isChecked() ? "Months"
+                : bind.A4101u98.isChecked() ? "98"
+                : bind.A4101u99.isChecked() ? "99"
                 : "0");
 
-        json.put("A4074", bind.A4074a.isChecked() ? "1"
-                : bind.A4074b.isChecked() ? "2"
-                : bind.A407498.isChecked() ? "98"
-                : bind.A407499.isChecked() ? "99"
-                : "0");
+        json.put("A4101D", bind.A4101D.getText().toString().trim().length() > 0 ? bind.A4101D.getText().toString() : "0");
+        json.put("A4101M", bind.A4101M.getText().toString().trim().length() > 0 ? bind.A4101M.getText().toString() : "0");
 
-        json.put("A4075u", bind.A4075ua.isChecked() ? "Days"
-                : bind.A4075ub.isChecked() ? "Months"
-                : bind.A4075u98.isChecked() ? "98"
-                : bind.A4075u99.isChecked() ? "99"
-                : "0");
-
-        json.put("A4075D", bind.A4075D.getText().toString().trim().length() > 0 ? bind.A4075D.getText().toString() : "0");
-        json.put("A4075M", bind.A4075M.getText().toString().trim().length() > 0 ? bind.A4075M.getText().toString() : "0");
-
-        json.put("A4076", bind.A4076a.isChecked() ? "1"
-                : bind.A4076b.isChecked() ? "2"
-                : bind.A407698.isChecked() ? "98"
-                : bind.A407699.isChecked() ? "99"
+        json.put("A4102", bind.A4102a.isChecked() ? "1"
+                : bind.A4102b.isChecked() ? "2"
+                : bind.A410298.isChecked() ? "98"
+                : bind.A410299.isChecked() ? "99"
                 : "0");
 
         json.put("A4077u", bind.A4077ua.isChecked() ? "Days"
