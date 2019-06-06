@@ -37,7 +37,7 @@ public class A4126 extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            Intent c2 = new Intent(A4109.this, A4126.class);
+            Intent c2 = new Intent(A4126.this, A4144.class);
             startActivity(c2);
 
         } else {
@@ -48,7 +48,7 @@ public class A4126 extends AppCompatActivity {
     }
 
     public void BtnEnd() {
-        Intent i = new Intent(A4109.this, HomeActivity.class);
+        Intent i = new Intent(A4126.this, HomeActivity.class);
         startActivity(i);
 
     }
