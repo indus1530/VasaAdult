@@ -194,26 +194,23 @@ public class A4001 extends AppCompatActivity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            if (UpdateDB()) {
-                Toast.makeText(this, "Starting 7th Section", Toast.LENGTH_SHORT).show();
-                //MainApp.endActivity(this, this, A4001.class, true, HomeActivity.fc);
 
-                Intent c2 = new Intent(A4001.this, A4051.class);
-                startActivity(c2);
+            Intent c2 = new Intent(A4001.this, A4051.class);
+            startActivity(c2);
 
-            } else {
-                Toast.makeText(this, "Failed to Update Database!", Toast.LENGTH_SHORT).show();
-            }
         } else {
             Toast.makeText(this, "Required fields are missing", Toast.LENGTH_LONG).show();
             return;
         }
+
     }
 
     public void BtnEnd() {
-        MainApp.endActivity(this, this, EndingActivity.class, false, RSDInfoActivity.fc);
+        Intent i = new Intent(A4001.this, HomeActivity.class);
+        startActivity(i);
 
     }
+
 
     private void SaveDraft() throws JSONException {
 
@@ -311,11 +308,11 @@ public class A4001 extends AppCompatActivity {
     }
 
     boolean validateField() {
-        if (Gothrough.IamHiden(bind.llA4001A4014) == false) {
+        if (Gothrough.IamHiden(bind.llA4001) == false) {
             return false;
         }
 
-        return Gothrough.IamHiden(bind.llA4001A4014) != false;
+        return Gothrough.IamHiden(bind.llA4001) != false;
     }
 
 }

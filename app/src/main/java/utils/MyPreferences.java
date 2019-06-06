@@ -81,84 +81,84 @@ public class MyPreferences {
         MyPreferences.sA4081 = sA4081;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4095() {
+        return sA4095;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4095(String sA4095) {
+        MyPreferences.sA4095 = sA4095;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4109() {
+        return sA4109;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4109(String sA4109) {
+        MyPreferences.sA4109 = sA4109;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4126() {
+        return sA4126;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4126(String sA4126) {
+        MyPreferences.sA4126 = sA4126;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4144() {
+        return sA4144;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4144(String sA4144) {
+        MyPreferences.sA4144 = sA4144;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4157() {
+        return sA4157;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4157(String sA4157) {
+        MyPreferences.sA4157 = sA4157;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4206() {
+        return sA4206;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4206(String sA4206) {
+        MyPreferences.sA4206 = sA4206;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4251() {
+        return sA4251;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4251(String sA4251) {
+        MyPreferences.sA4251 = sA4251;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4301() {
+        return sA4301;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4301(String sA4301) {
+        MyPreferences.sA4301 = sA4301;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4351() {
+        return sA4351;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4351(String sA4351) {
+        MyPreferences.sA4351 = sA4351;
     }
 
-    public String getsA4067() {
-        return sA4067;
+    public String getsA4401() {
+        return sA4401;
     }
 
-    public void setsA4067(String sA4067) {
-        MyPreferences.sA4067 = sA4067;
+    public void setsA4401(String sA4401) {
+        MyPreferences.sA4401 = sA4401;
     }
 
 

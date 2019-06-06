@@ -1,6 +1,7 @@
 package com.example.abdulsajid.vasaadult;
 
 import android.content.Intent;
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -13,6 +14,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import utils.ClearAllcontrol;
+import utils.MyPreferences;
 
 public class A4051 extends AppCompatActivity {
 
@@ -35,24 +37,20 @@ public class A4051 extends AppCompatActivity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            if (UpdateDB()) {
-                Toast.makeText(this, "Starting 7th Section", Toast.LENGTH_SHORT).show();
-                //MainApp.endActivity(this, this, A4001.class, true, HomeActivity.fc);
 
-                Intent c2 = new Intent(A4051.this, A4067.class);
-                startActivity(c2);
+            Intent c2 = new Intent(A4051.this, A4067.class);
+            startActivity(c2);
 
-            } else {
-                Toast.makeText(this, "Failed to Update Database!", Toast.LENGTH_SHORT).show();
-            }
         } else {
             Toast.makeText(this, "Required fields are missing", Toast.LENGTH_LONG).show();
             return;
         }
+
     }
 
     public void BtnEnd() {
-        MainApp.endActivity(this, this, EndingActivity.class, false, RSDInfoActivity.fc);
+        Intent i = new Intent(A4051.this, HomeActivity.class);
+        startActivity(i);
 
     }
 
@@ -189,9 +187,9 @@ public class A4051 extends AppCompatActivity {
                 : bind.A406698.isChecked() ? "98"
                 : bind.A406699.isChecked() ? "99"
                 : "0");
-        
 
-        fc.setSqoc6(String.valueOf(json));
+
+        MyPreferences.setsA4051(String.valueOf(json));
 
     }
 
