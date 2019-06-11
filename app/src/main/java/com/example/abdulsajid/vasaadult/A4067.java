@@ -24,7 +24,7 @@ public class A4067 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         bind = DataBindingUtil.setContentView(this, R.layout.a4067);
         bind.setCallback(this);
-        //this.setTitle("Quality of Care 06");
+        //this.setTitle("A4067");
         setupSkips();
 
     }
