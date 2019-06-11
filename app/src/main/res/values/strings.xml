@@ -1251,7 +1251,7 @@
     <string name="work_hint">Occupation or Work</string>
     <string name="years_hint">Enter 1 or more years &amp; don\'t know \'99\'</string>
     <string name="record_days_if_less_than_30_days_if_24_hours_00"><![CDATA[Record < 30 days, if < 24 hours,  Record 00]]></string>
-    <string name="rb_other">Other</string>
+    <string name="ot">Other</string>
 
     <!-- HINTS ENDS -->
 </resources>
