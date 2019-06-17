@@ -481,6 +481,22 @@ public class A4157 extends AppCompatActivity {
         });
 
 
+        bind.A41683.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+                if (checkedId != bind.A41683a.getId()) {
+                    bind.A4168cv.setVisibility(View.VISIBLE);
+                } else {
+                    ClearAllcontrol.ClearAllC(bind.A4168cv);
+                    bind.A4168cv.setVisibility(View.GONE);
+                }
+
+            }
+
+        });
+
+
         bind.A41681.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
@@ -498,6 +514,7 @@ public class A4157 extends AppCompatActivity {
             }
 
         });
+
 
 
         bind.A4150u.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -538,40 +555,7 @@ public class A4157 extends AppCompatActivity {
 
 
 
-        if (compoundButton.getId() == R.id.rb_A4168_1_1
-                || compoundButton.getId() == R.id.rb_A4168_1_2
-                || compoundButton.getId() == R.id.rb_A4168_1_DK
-                || compoundButton.getId() == R.id.rb_A4168_1_RA)
 
-        {
-            if (rb_A4168_1_1.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4168_3);
-                ClearAllcontrol.ClearAll(ll_A4168);
-
-                ll_A4168_3.setVisibility(View.GONE);
-                ll_A4168.setVisibility(View.GONE);
-
-            } else {
-                ll_A4168_3.setVisibility(View.VISIBLE);
-                ll_A4168.setVisibility(View.VISIBLE);
-            }
-        }
-
-        if (compoundButton.getId() == R.id.rb_A4168_3_1
-                || compoundButton.getId() == R.id.rb_A4168_3_2
-                || compoundButton.getId() == R.id.rb_A4168_3_DK
-                || compoundButton.getId() == R.id.rb_A4168_3_RA)
-
-        {
-            if (rb_A4168_3_1.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4168);
-
-                ll_A4168.setVisibility(View.GONE);
-
-            } else {
-                ll_A4168.setVisibility(View.VISIBLE);
-            }
-        }
 
         if (compoundButton.getId() == R.id.rb_A4168_1
                 || compoundButton.getId() == R.id.rb_A4168_2
