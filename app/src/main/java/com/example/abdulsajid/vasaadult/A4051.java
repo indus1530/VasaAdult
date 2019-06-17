@@ -189,7 +189,7 @@ public class A4051 extends AppCompatActivity {
                 : "0");
 
 
-        MyPreferences.setsA4051(String.valueOf(json));
+//        MyPreferences.setsA4051(String.valueOf(json));
 
     }
 

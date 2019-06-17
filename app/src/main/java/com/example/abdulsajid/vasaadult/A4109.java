@@ -163,7 +163,7 @@ public class A4109 extends AppCompatActivity {
                 : bind.A412599.isChecked() ? "99"
                 : "0");
 
-        MyPreferences.setsA4109(String.valueOf(json));
+//        MyPreferences.setsA4109(String.valueOf(json));
 
     }
 

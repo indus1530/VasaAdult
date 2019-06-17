@@ -156,7 +156,7 @@ public class A4126 extends AppCompatActivity {
                 : bind.A414099.isChecked() ? "99"
                 : "0");
 
-        MyPreferences.setsA4126(String.valueOf(json));
+//        MyPreferences.setsA4126(String.valueOf(json));
 
     }
 

@@ -378,7 +378,7 @@ public class A4081 extends AppCompatActivity {
         json.put("A4094H", bind.A4094H.getText().toString().trim().length() > 0 ? bind.A4094H.getText().toString() : "0");
         json.put("A4094D", bind.A4094D.getText().toString().trim().length() > 0 ? bind.A4094D.getText().toString() : "0");
 
-        MyPreferences.setsA4081(String.valueOf(json));
+//        MyPreferences.setsA4081(String.valueOf(json));
 
     }
 

@@ -303,7 +303,7 @@ public class A4001 extends AppCompatActivity {
                 : bind.A401498.isChecked() ? "98"
                 : "0");
 
-        MyPreferences.setsA4001(String.valueOf(json));
+//        MyPreferences.setsA4001(String.valueOf(json));
 
     }
 
