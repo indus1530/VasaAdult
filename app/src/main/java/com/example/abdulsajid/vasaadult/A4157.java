@@ -7,11 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
-import android.widget.Button;
-import android.widget.CompoundButton;
-import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
@@ -20,9 +15,7 @@ import com.example.abdulsajid.vasaadult.databinding.A4157Binding;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import data.LocalDataManager;
 import utils.ClearAllcontrol;
-import utils.MyPreferences;
 
 public class A4157 extends AppCompatActivity {
     A4157Binding bind;
@@ -651,7 +644,6 @@ public class A4157 extends AppCompatActivity {
     }
 
 
-
     boolean validateField() {
         if (Gothrough.IamHiden(bind.llA4157) == false) {
             return false;
@@ -659,7 +651,6 @@ public class A4157 extends AppCompatActivity {
 
         return Gothrough.IamHiden(bind.llA4157) != false;
     }
-
 
 
     private TextWatcher generalTextWatcher = new TextWatcher() {
