@@ -56,11 +56,13 @@ public class A4157 extends AppCompatActivity {
 
     }
 
+
     public void BtnEnd() {
         Intent i = new Intent(A4157.this, HomeActivity.class);
         startActivity(i);
 
     }
+
 
     private void SaveDraft() throws JSONException {
 
@@ -363,7 +365,6 @@ public class A4157 extends AppCompatActivity {
 //        MyPreferences.setsA4157(String.valueOf(json));
 
     }
-
     
 
     private void setupSkips() {
@@ -516,36 +517,113 @@ public class A4157 extends AppCompatActivity {
         });
 
 
-
-        bind.A4150u.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        bind.A4168.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
 
-                ClearAllcontrol.ClearAllC(bind.A4150Dcv);
-                ClearAllcontrol.ClearAllC(bind.A4150Mcv);
-                bind.A4150Dcv.setVisibility(View.GONE);
-                bind.A4150Mcv.setVisibility(View.GONE);
-
-                if (checkedId == bind.A4150ua.getId()) {
-                    bind.A4150Dcv.setVisibility(View.VISIBLE);
-                } else if (checkedId == bind.A4150ub.getId()) {
-                    bind.A4150Mcv.setVisibility(View.VISIBLE);
-                }
-
-            }
-
-        });
-
-
-        bind.A4154.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-
-                if (checkedId == bind.A4154a.getId()) {
-                    bind.A4155cv.setVisibility(View.VISIBLE);
+                if (checkedId == bind.A4168a.getId()) {
+                    bind.A41731cv.setVisibility(View.VISIBLE);
                 } else {
-                    ClearAllcontrol.ClearAllC(bind.A4155cv);;
-                    bind.A4155cv.setVisibility(View.GONE);
+                    ClearAllcontrol.ClearAllC(bind.A41731cv);
+                    bind.A41731cv.setVisibility(View.GONE);
+                }
+
+            }
+
+        });
+
+
+        bind.A4173.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+                if (checkedId == bind.A4173a.getId()) {
+                    bind.A41732cv.setVisibility(View.VISIBLE);
+                    bind.A41781Mcv.setVisibility(View.VISIBLE);
+                } else {
+                    ClearAllcontrol.ClearAllC(bind.A41732cv);
+                    ClearAllcontrol.ClearAllC(bind.A41781Mcv);
+                    bind.A41732cv.setVisibility(View.GONE);
+                    bind.A41781Mcv.setVisibility(View.GONE);
+                }
+
+            }
+
+        });
+
+
+        bind.A4194.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+                if (checkedId == bind.A4194a.getId()) {
+                    bind.A4195cv.setVisibility(View.VISIBLE);
+                    bind.A4196cv.setVisibility(View.VISIBLE);
+                    bind.A4197cv.setVisibility(View.VISIBLE);
+                    bind.A41981cv.setVisibility(View.VISIBLE);
+                } else {
+                    ClearAllcontrol.ClearAllC(bind.A4195cv);
+                    ClearAllcontrol.ClearAllC(bind.A4196cv);
+                    ClearAllcontrol.ClearAllC(bind.A4197cv);
+                    ClearAllcontrol.ClearAllC(bind.A41981cv);
+                    bind.A4195cv.setVisibility(View.GONE);
+                    bind.A4196cv.setVisibility(View.GONE);
+                    bind.A4197cv.setVisibility(View.GONE);
+                    bind.A41981cv.setVisibility(View.GONE);
+                }
+
+            }
+
+        });
+
+
+        bind.A4195.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+                if (checkedId != bind.A4195a.getId()) {
+                    bind.A4196cv.setVisibility(View.VISIBLE);
+                    bind.A4197cv.setVisibility(View.VISIBLE);
+                } else {
+                    ClearAllcontrol.ClearAllC(bind.A4196cv);
+                    ClearAllcontrol.ClearAllC(bind.A4197cv);
+                    bind.A4196cv.setVisibility(View.GONE);
+                    bind.A4197cv.setVisibility(View.GONE);
+                }
+
+            }
+
+        });
+
+
+        bind.A4196.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+                if (checkedId != bind.A4196a.getId()) {
+                    bind.A4197cv.setVisibility(View.VISIBLE);
+                } else {
+                    ClearAllcontrol.ClearAllC(bind.A4197cv);
+                    bind.A4197cv.setVisibility(View.GONE);
+                }
+
+            }
+
+        });
+
+
+        bind.A4202.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+                if (checkedId != bind.A4202a.getId()) {
+                    bind.A4203cv.setVisibility(View.VISIBLE);
+                    bind.A4203cv.setVisibility(View.VISIBLE);
+                } else {
+                    ClearAllcontrol.ClearAllC(bind.A4203cv);
+                    ClearAllcontrol.ClearAllC(bind.A4204cv);
+                    bind.A4203cv.setVisibility(View.GONE);
+                    bind.A4204cv.setVisibility(View.GONE);
                 }
 
             }
@@ -554,138 +632,21 @@ public class A4157 extends AppCompatActivity {
 
 
 
+        bind.A4203.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
 
+                if (checkedId != bind.A4203a.getId()) {
+                    bind.A4204cv.setVisibility(View.VISIBLE);
+                } else {
+                    ClearAllcontrol.ClearAllC(bind.A4204cv);
+                    bind.A4204cv.setVisibility(View.GONE);
+                }
 
-
-        if (compoundButton.getId() == R.id.rb_A4168_1
-                || compoundButton.getId() == R.id.rb_A4168_2
-                || compoundButton.getId() == R.id.rb_A4168_DK
-                || compoundButton.getId() == R.id.rb_A4168_RA)
-
-        {
-            if (rb_A4168_2.isChecked() || rb_A4168_DK.isChecked() || rb_A4168_RA.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4173_1);
-
-                ll_A4173_1.setVisibility(View.GONE);
-
-            } else {
-                ll_A4173_1.setVisibility(View.VISIBLE);
             }
-        }
 
-        if (compoundButton.getId() == R.id.rb_A4173_1
-                || compoundButton.getId() == R.id.rb_A4173_2
-                || compoundButton.getId() == R.id.rb_A4173_DK
-                || compoundButton.getId() == R.id.rb_A4173_RA)
+        });
 
-        {
-            if (rb_A4173_2.isChecked() || rb_A4173_DK.isChecked() || rb_A4173_RA.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4173_2);
-                ClearAllcontrol.ClearAll(ll_A4178_1);
-
-                ll_A4173_2.setVisibility(View.GONE);
-                ll_A4178_1.setVisibility(View.GONE);
-
-            } else {
-                ll_A4173_2.setVisibility(View.VISIBLE);
-                ll_A4178_1.setVisibility(View.VISIBLE);
-            }
-        }
-
-        if (compoundButton.getId() == R.id.rb_A4194_1
-                || compoundButton.getId() == R.id.rb_A4194_2
-                || compoundButton.getId() == R.id.rb_A4194_DK
-                || compoundButton.getId() == R.id.rb_A4194_RA)
-
-        {
-            if (rb_A4194_2.isChecked() || rb_A4194_DK.isChecked() || rb_A4194_RA.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4195);
-                ClearAllcontrol.ClearAll(ll_A4196);
-                ClearAllcontrol.ClearAll(ll_A4197);
-                ClearAllcontrol.ClearAll(ll_A4198_1);
-
-                ll_A4195.setVisibility(View.GONE);
-                ll_A4196.setVisibility(View.GONE);
-                ll_A4197.setVisibility(View.GONE);
-                ll_A4198_1.setVisibility(View.GONE);
-
-            } else {
-                ll_A4195.setVisibility(View.VISIBLE);
-                ll_A4196.setVisibility(View.VISIBLE);
-                ll_A4197.setVisibility(View.VISIBLE);
-                ll_A4198_1.setVisibility(View.VISIBLE);
-            }
-        }
-
-        if (compoundButton.getId() == R.id.rb_A4195_1
-                || compoundButton.getId() == R.id.rb_A4195_2
-                || compoundButton.getId() == R.id.rb_A4195_DK
-                || compoundButton.getId() == R.id.rb_A4195_RA)
-
-        {
-            if (rb_A4195_1.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4196);
-                ClearAllcontrol.ClearAll(ll_A4197);
-
-                ll_A4196.setVisibility(View.GONE);
-                ll_A4197.setVisibility(View.GONE);
-
-            } else {
-                ll_A4196.setVisibility(View.VISIBLE);
-                ll_A4197.setVisibility(View.VISIBLE);
-            }
-        }
-
-        if (compoundButton.getId() == R.id.rb_A4196_1
-                || compoundButton.getId() == R.id.rb_A4196_2
-                || compoundButton.getId() == R.id.rb_A4196_DK
-                || compoundButton.getId() == R.id.rb_A4196_RA)
-
-        {
-            if (rb_A4196_1.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4197);
-
-                ll_A4197.setVisibility(View.GONE);
-
-            } else {
-                ll_A4197.setVisibility(View.VISIBLE);
-            }
-        }
-
-        if (compoundButton.getId() == R.id.rb_A4202_1
-                || compoundButton.getId() == R.id.rb_A4202_2
-                || compoundButton.getId() == R.id.rb_A4202_DK
-                || compoundButton.getId() == R.id.rb_A4202_RA)
-
-        {
-            if (rb_A4202_1.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4203);
-                ClearAllcontrol.ClearAll(ll_A4204);
-
-                ll_A4203.setVisibility(View.GONE);
-                ll_A4204.setVisibility(View.GONE);
-
-            } else {
-                ll_A4203.setVisibility(View.VISIBLE);
-                ll_A4204.setVisibility(View.VISIBLE);
-            }
-        }
-
-        if (compoundButton.getId() == R.id.rb_A4203_1
-                || compoundButton.getId() == R.id.rb_A4203_2
-                || compoundButton.getId() == R.id.rb_A4203_DK
-                || compoundButton.getId() == R.id.rb_A4203_RA)
-
-        {
-            if (rb_A4203_1.isChecked()) {
-                ClearAllcontrol.ClearAll(ll_A4204);
-
-                ll_A4204.setVisibility(View.GONE);
-
-            } else {
-                ll_A4204.setVisibility(View.VISIBLE);
-            }
-        }
 
     }
 
