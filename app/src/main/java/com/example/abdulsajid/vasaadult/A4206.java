@@ -23,7 +23,7 @@ public class A4206 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         bind = DataBindingUtil.setContentView(this, R.layout.a4206);
         bind.setCallback(this);
-        //this.setTitle("A4207");
+        //this.setTitle("A4206");
         setupSkips();
 
     }
