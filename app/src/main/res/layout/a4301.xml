@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,27 +7,39 @@
     android:background="@color/cyan"
     tools:context=".A4301">
 
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="com.example.abdulsajid.vasaadult.A4301" />
+
+    </data>
+
+    <!--
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="@string/app_name"
-            android:textSize="30sp"
-            android:textStyle="bold|italic"
-            android:textColor="@color/white"
-            android:layout_centerInParent="true"
-            android:layout_alignParentTop="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
 
         <ImageView
-            android:src="@drawable/unwhite"
-            android:layout_alignParentTop="true"
             android:layout_width="90dp"
-            android:layout_height="60sp"/>
+            android:layout_height="60sp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/unwhite" />
 
     </RelativeLayout>
+    -->
 
 
     <ScrollView
@@ -44,43 +56,44 @@
 
 
         <LinearLayout
+            android:id="@+id/llA4301"
             style="@style/Q_Linerlayout_v">
+
 
             <!-- Radio Buttons A4301 Starts -->
             <android.support.v7.widget.CardView
+                android:id="@+id/A4301cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout
-                    style="@style/Q_Linerlayout_v"
-                    android:id="@+id/ll_A4301">
+                <LinearLayout style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4301"
                         style="@style/TextView"
                         android:text="@string/A4301" />
 
                     <RadioGroup
-                        style="@style/RadioGroup" >
+                        android:id="@+id/A4301"
+                        style="@style/RadioGroup">
 
                         <RadioButton
-                            android:id="@+id/rb_A4301_1"
+                            android:id="@+id/A4301a"
                             style="@style/RadioButton"
-                            android:text="@string/yes"/>
+                            android:text="@string/yes" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4301_2"
+                            android:id="@+id/A4301b"
                             style="@style/RadioButton"
-                            android:text="@string/no"/>
+                            android:text="@string/no" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4301_DK"
+                            android:id="@+id/A430198"
                             style="@style/RadioButton"
-                            android:text="@string/dnt"/>
+                            android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4301_RA"
+                            android:id="@+id/A430199"
                             style="@style/RadioButton"
-                            android:text="@string/ra"/>
+                            android:text="@string/ra" />
 
                     </RadioGroup>
 
@@ -89,48 +102,47 @@
             </android.support.v7.widget.CardView>
             <!-- Radio Buttons A4301 Ends -->
 
-            <!-- Radio Buttons A4302_1 Starts -->
+            <!-- Radio Buttons A43021 Starts -->
             <android.support.v7.widget.CardView
+                android:id="@+id/A43021cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout
-                    style="@style/Q_Linerlayout_v"
-                    android:id="@+id/ll_A4302_1">
+                <LinearLayout style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4302_1"
                         style="@style/TextView"
-                        android:text="@string/A4302_1" />
+                        android:text="@string/A43021" />
 
                     <RadioGroup
-                        style="@style/RadioGroup" >
+                        android:id="@+id/A43021"
+                        style="@style/RadioGroup">
 
                         <RadioButton
-                            android:id="@+id/rb_A4302_1_1"
+                            android:id="@+id/A43021a"
                             style="@style/RadioButton"
-                            android:text="@string/yes"/>
+                            android:text="@string/yes" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4302_1_2"
+                            android:id="@+id/A43021b"
                             style="@style/RadioButton"
-                            android:text="@string/no"/>
+                            android:text="@string/no" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4302_1_DK"
+                            android:id="@+id/A4302198"
                             style="@style/RadioButton"
-                            android:text="@string/dnt"/>
+                            android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4302_1_RA"
+                            android:id="@+id/A4302199"
                             style="@style/RadioButton"
-                            android:text="@string/ra"/>
+                            android:text="@string/ra" />
 
                     </RadioGroup>
 
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
-            <!-- Radio Buttons A4302_1 Ends -->
+            <!-- Radio Buttons A43021 Ends -->
 
             <!-- Radio Buttons A4302_2 Starts -->
             <android.support.v7.widget.CardView
@@ -1527,16 +1539,42 @@
             </android.support.v7.widget.CardView>
             <!-- EditText A4315 Ends -->
 
-            <android.support.v7.widget.CardView
-                style="@style/Q_CardView">
+
+            <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="32dp">
 
                 <Button
-                    android:id="@+id/btn_next12"
-                    style="@style/Button_collder"
-                    android:layout_margin="10dp"
-                    android:text="NEXT" />
+                    android:id="@+id/btnNext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_green_light"
+                    android:onClick="@{() -> callback.BtnContinue()}"
+                    android:text="NEXT"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-            </android.support.v7.widget.CardView>
+
+                <Button
+                    android:id="@+id/btnEnd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_red_light"
+                    android:onClick="@{() -> callback.BtnEnd()}"
+                    android:text="END"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
 
         </LinearLayout>
@@ -1544,4 +1582,4 @@
     </ScrollView>
 
 
-</LinearLayout>
+</layout>
