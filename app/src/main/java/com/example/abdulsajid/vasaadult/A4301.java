@@ -65,147 +65,138 @@ public class A4301 extends AppCompatActivity {
                 : bind.A430199.isChecked() ? "99"
                 : "0");
 
-        json.put("A42061", bind.A42061a.isChecked() ? "1"
-                : bind.A42061b.isChecked() ? "2"
-                : bind.A4206198.isChecked() ? "98"
-                : bind.A4206199.isChecked() ? "99"
+        json.put("A43021", bind.A43021a.isChecked() ? "1"
+                : bind.A43021b.isChecked() ? "2"
+                : bind.A4302198.isChecked() ? "98"
+                : bind.A4302199.isChecked() ? "99"
                 : "0");
 
-        json.put("A42062", bind.A42062a.isChecked() ? "1"
-                : bind.A42062b.isChecked() ? "2"
-                : bind.A42062c.isChecked() ? "3"
-                : bind.A42062d.isChecked() ? "4"
-                : bind.A42062e.isChecked() ? "5"
-                : bind.A4206296.isChecked() ? "96"
-                : bind.A4206298.isChecked() ? "98"
-                : bind.A4206299.isChecked() ? "99"
+        json.put("A43022", bind.A43022a.isChecked() ? "1"
+                : bind.A43022b.isChecked() ? "2"
+                : bind.A4302298.isChecked() ? "98"
+                : bind.A4302299.isChecked() ? "99"
                 : "0");
 
-        json.put("A42063", bind.A42063a.isChecked() ? "1"
-                : bind.A42063b.isChecked() ? "2"
-                : bind.A42063c.isChecked() ? "3"
-                : bind.A42063d.isChecked() ? "4"
-                : bind.A42063e.isChecked() ? "5"
-                : bind.A42063f.isChecked() ? "6"
-                : bind.A4206396.isChecked() ? "96"
-                : bind.A4206398.isChecked() ? "98"
-                : bind.A4206399.isChecked() ? "99"
+        json.put("A43023", bind.A43023a.isChecked() ? "1"
+                : bind.A43023b.isChecked() ? "2"
+                : bind.A4302398.isChecked() ? "98"
+                : bind.A4302399.isChecked() ? "99"
                 : "0");
 
-        json.put("A42064", bind.A42064a.isChecked() ? "1"
-                : bind.A42064b.isChecked() ? "2"
-                : bind.A4206498.isChecked() ? "98"
-                : bind.A4206499.isChecked() ? "99"
+        json.put("A43024", bind.A43024a.isChecked() ? "1"
+                : bind.A43024b.isChecked() ? "2"
+                : bind.A4302498.isChecked() ? "98"
+                : bind.A4302499.isChecked() ? "99"
                 : "0");
 
-        json.put("A42065", bind.A42065a.isChecked() ? "1"
-                : bind.A42065b.isChecked() ? "2"
-                : bind.A4206598.isChecked() ? "98"
-                : bind.A4206599.isChecked() ? "99"
+        json.put("A43025", bind.A43025a.isChecked() ? "1"
+                : bind.A43025b.isChecked() ? "2"
+                : bind.A4302598.isChecked() ? "98"
+                : bind.A4302599.isChecked() ? "99"
                 : "0");
 
-        json.put("A42066", bind.A42066a.isChecked() ? "1"
-                : bind.A42066b.isChecked() ? "2"
-                : bind.A4206698.isChecked() ? "98"
-                : bind.A4206699.isChecked() ? "99"
+        json.put("A43026", bind.A43026a.isChecked() ? "1"
+                : bind.A43026b.isChecked() ? "2"
+                : bind.A4302698.isChecked() ? "98"
+                : bind.A4302699.isChecked() ? "99"
                 : "0");
 
-        json.put("A42067", bind.A42067a.isChecked() ? "1"
-                : bind.A42067b.isChecked() ? "2"
-                : bind.A4206798.isChecked() ? "98"
-                : bind.A4206799.isChecked() ? "99"
+        json.put("A43027", bind.A43027a.isChecked() ? "1"
+                : bind.A43027b.isChecked() ? "2"
+                : bind.A4302798.isChecked() ? "98"
+                : bind.A4302799.isChecked() ? "99"
                 : "0");
 
-        json.put("A42068", bind.A42068a.isChecked() ? "1"
-                : bind.A42068b.isChecked() ? "2"
-                : bind.A4206898.isChecked() ? "98"
-                : bind.A4206899.isChecked() ? "99"
+        json.put("A4303", bind.A4303a.isChecked() ? "1"
+                : bind.A4303b.isChecked() ? "2"
+                : bind.A430398.isChecked() ? "98"
+                : bind.A430399.isChecked() ? "99"
                 : "0");
 
-        json.put("A42069", bind.A42069a.isChecked() ? "1"
-                : bind.A42069b.isChecked() ? "2"
-                : bind.A4206998.isChecked() ? "98"
-                : bind.A4206999.isChecked() ? "99"
+        json.put("A4304", bind.A4304a.isChecked() ? "1"
+                : bind.A4304b.isChecked() ? "2"
+                : bind.A430498.isChecked() ? "98"
+                : bind.A430499.isChecked() ? "99"
                 : "0");
 
-        json.put("A420610", bind.A420610a.isChecked() ? "1"
-                : bind.A420610b.isChecked() ? "2"
-                : bind.A420610c.isChecked() ? "3"
-                : bind.A42061096.isChecked() ? "96"
-                : bind.A42061098.isChecked() ? "98"
-                : bind.A42061099.isChecked() ? "99"
+        json.put("A430210", bind.A430210a.isChecked() ? "1"
+                : bind.A430210b.isChecked() ? "2"
+                : bind.A430210c.isChecked() ? "3"
+                : bind.A43021096.isChecked() ? "96"
+                : bind.A43021098.isChecked() ? "98"
+                : bind.A43021099.isChecked() ? "99"
                 : "0");
 
-        json.put("A420611", bind.A420611a.isChecked() ? "1"
-                : bind.A420611b.isChecked() ? "2"
-                : bind.A42061198.isChecked() ? "98"
-                : bind.A42061199.isChecked() ? "99"
+        json.put("A430211", bind.A430211a.isChecked() ? "1"
+                : bind.A430211b.isChecked() ? "2"
+                : bind.A43021198.isChecked() ? "98"
+                : bind.A43021199.isChecked() ? "99"
                 : "0");
 
-        json.put("A420612", bind.A420612a.isChecked() ? "1"
-                : bind.A420612b.isChecked() ? "2"
-                : bind.A42061298.isChecked() ? "98"
-                : bind.A42061299.isChecked() ? "99"
+        json.put("A430212", bind.A430212a.isChecked() ? "1"
+                : bind.A430212b.isChecked() ? "2"
+                : bind.A43021298.isChecked() ? "98"
+                : bind.A43021299.isChecked() ? "99"
                 : "0");
 
-        json.put("A420613", bind.A420613a.isChecked() ? "1"
-                : bind.A420613b.isChecked() ? "2"
-                : bind.A42061398.isChecked() ? "98"
-                : bind.A42061399.isChecked() ? "99"
+        json.put("A430213", bind.A430213a.isChecked() ? "1"
+                : bind.A430213b.isChecked() ? "2"
+                : bind.A43021398.isChecked() ? "98"
+                : bind.A43021399.isChecked() ? "99"
                 : "0");
 
-        json.put("A420614", bind.A420614a.isChecked() ? "1"
-                : bind.A420614b.isChecked() ? "2"
-                : bind.A42061498.isChecked() ? "98"
-                : bind.A42061499.isChecked() ? "99"
+        json.put("A430214", bind.A430214a.isChecked() ? "1"
+                : bind.A430214b.isChecked() ? "2"
+                : bind.A43021498.isChecked() ? "98"
+                : bind.A43021499.isChecked() ? "99"
                 : "0");
 
-        json.put("A420615", bind.A420615a.isChecked() ? "1"
-                : bind.A420615b.isChecked() ? "2"
-                : bind.A42061598.isChecked() ? "98"
-                : bind.A42061599.isChecked() ? "99"
+        json.put("A430215", bind.A430215a.isChecked() ? "1"
+                : bind.A430215b.isChecked() ? "2"
+                : bind.A43021598.isChecked() ? "98"
+                : bind.A43021599.isChecked() ? "99"
                 : "0");
 
-        json.put("A420616", bind.A420616a.isChecked() ? "1"
-                : bind.A420616b.isChecked() ? "2"
-                : bind.A42061698.isChecked() ? "98"
-                : bind.A42061699.isChecked() ? "99"
+        json.put("A430216", bind.A430216a.isChecked() ? "1"
+                : bind.A430216b.isChecked() ? "2"
+                : bind.A43021698.isChecked() ? "98"
+                : bind.A43021699.isChecked() ? "99"
                 : "0");
 
-        json.put("A420617", bind.A420617a.isChecked() ? "1"
-                : bind.A420617b.isChecked() ? "2"
-                : bind.A42061798.isChecked() ? "98"
-                : bind.A42061799.isChecked() ? "99"
+        json.put("A430217", bind.A430217a.isChecked() ? "1"
+                : bind.A430217b.isChecked() ? "2"
+                : bind.A43021798.isChecked() ? "98"
+                : bind.A43021799.isChecked() ? "99"
                 : "0");
 
-        json.put("A420618", bind.A420618a.isChecked() ? "1"
-                : bind.A420618b.isChecked() ? "2"
-                : bind.A42061898.isChecked() ? "98"
-                : bind.A42061899.isChecked() ? "99"
+        json.put("A430218", bind.A430218a.isChecked() ? "1"
+                : bind.A430218b.isChecked() ? "2"
+                : bind.A43021898.isChecked() ? "98"
+                : bind.A43021899.isChecked() ? "99"
                 : "0");
 
-        json.put("A420619", bind.A420619a.isChecked() ? "1"
-                : bind.A420619b.isChecked() ? "2"
-                : bind.A42061998.isChecked() ? "98"
-                : bind.A42061999.isChecked() ? "99"
+        json.put("A430219", bind.A430219a.isChecked() ? "1"
+                : bind.A430219b.isChecked() ? "2"
+                : bind.A43021998.isChecked() ? "98"
+                : bind.A43021999.isChecked() ? "99"
                 : "0");
 
-        json.put("A420620", bind.A420620a.isChecked() ? "1"
-                : bind.A420620b.isChecked() ? "2"
-                : bind.A42062098.isChecked() ? "98"
-                : bind.A42062099.isChecked() ? "99"
+        json.put("A430220", bind.A430220a.isChecked() ? "1"
+                : bind.A430220b.isChecked() ? "2"
+                : bind.A43022098.isChecked() ? "98"
+                : bind.A43022099.isChecked() ? "99"
                 : "0");
 
-        json.put("A420621", bind.A420621a.isChecked() ? "1"
-                : bind.A420621b.isChecked() ? "2"
-                : bind.A42062198.isChecked() ? "98"
-                : bind.A42062199.isChecked() ? "99"
+        json.put("A430221", bind.A430221a.isChecked() ? "1"
+                : bind.A430221b.isChecked() ? "2"
+                : bind.A43022198.isChecked() ? "98"
+                : bind.A43022199.isChecked() ? "99"
                 : "0");
 
-        json.put("A420622", bind.A420622a.isChecked() ? "1"
-                : bind.A420622b.isChecked() ? "2"
-                : bind.A42062298.isChecked() ? "98"
-                : bind.A42062299.isChecked() ? "99"
+        json.put("A430222", bind.A430222a.isChecked() ? "1"
+                : bind.A430222b.isChecked() ? "2"
+                : bind.A43022298.isChecked() ? "98"
+                : bind.A43022299.isChecked() ? "99"
                 : "0");
 
         json.put("A4207", bind.A4207H.getText().toString().trim().length() > 0 ? bind.A4207H.getText().toString()
