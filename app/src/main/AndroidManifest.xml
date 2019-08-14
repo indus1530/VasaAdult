@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".A42511"></activity>
         <activity
             android:name=".A4001"
             android:theme="@style/AppTheme.NoActionBar">
@@ -18,67 +19,51 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".A4051"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4067"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4081"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4095"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4109"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4126"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4144"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4157"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4206"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4251"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".A4301"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4351"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".A4401"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".VasaChild"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".VasaAdult"
             android:theme="@style/AppTheme.NoActionBar" />
-
     </application>
 
 </manifest>
