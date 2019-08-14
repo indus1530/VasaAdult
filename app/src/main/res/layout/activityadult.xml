@@ -79,12 +79,12 @@
                                 android:text="@string/no" />
 
                             <RadioButton
-                                android:id="@+id/A4454_DK"
+                                android:id="@+id/A445498"
                                 style="@style/RadioButton"
                                 android:text="@string/dnt" />
 
                             <RadioButton
-                                android:id="@+id/A4454_RA"
+                                android:id="@+id/A445499"
                                 style="@style/RadioButton"
                                 android:text="@string/ra" />
 
@@ -120,12 +120,12 @@
                                 android:text="@string/no" />
 
                             <RadioButton
-                                android:id="@+id/A4455_DK"
+                                android:id="@+id/A445598"
                                 style="@style/RadioButton"
                                 android:text="@string/dnt" />
 
                             <RadioButton
-                                android:id="@+id/A4455_RA"
+                                android:id="@+id/A445599"
                                 style="@style/RadioButton"
                                 android:text="@string/ra" />
 
@@ -161,12 +161,12 @@
                                 android:text="@string/no" />
 
                             <RadioButton
-                                android:id="@+id/A4456_DK"
+                                android:id="@+id/A445698"
                                 style="@style/RadioButton"
                                 android:text="@string/dnt" />
 
                             <RadioButton
-                                android:id="@+id/A4456_RA"
+                                android:id="@+id/A445699"
                                 style="@style/RadioButton"
                                 android:text="@string/ra" />
 
@@ -202,12 +202,12 @@
                                 android:text="@string/no" />
 
                             <RadioButton
-                                android:id="@+id/A4457_DK"
+                                android:id="@+id/A445798"
                                 style="@style/RadioButton"
                                 android:text="@string/dnt" />
 
                             <RadioButton
-                                android:id="@+id/A4457_RA"
+                                android:id="@+id/A445799"
                                 style="@style/RadioButton"
                                 android:text="@string/ra" />
 
@@ -291,7 +291,7 @@
                             android:text="@string/cb_A4472_12" />
 
                         <CheckBox
-                            android:id="@+id/cb_A4472_DK"
+                            android:id="@+id/cb_A447298"
                             style="@style/CheckBox"
                             android:text="@string/dnt" />
 
@@ -384,12 +384,12 @@
                             android:text="@string/no"/>
 
                         <RadioButton
-                            android:id="@+id/A4454_DK"
+                            android:id="@+id/A445498"
                             style="@style/RadioButton"
                             android:text="@string/dnt"/>
 
                         <RadioButton
-                            android:id="@+id/A4454_RA"
+                            android:id="@+id/A445499"
                             style="@style/RadioButton"
                             android:text="@string/ra"/>
 
@@ -427,12 +427,12 @@
                             android:text="@string/no"/>
 
                         <RadioButton
-                            android:id="@+id/A4455_DK"
+                            android:id="@+id/A445598"
                             style="@style/RadioButton"
                             android:text="@string/dnt"/>
 
                         <RadioButton
-                            android:id="@+id/A4455_RA"
+                            android:id="@+id/A445599"
                             style="@style/RadioButton"
                             android:text="@string/ra"/>
 
@@ -470,12 +470,12 @@
                             android:text="@string/no"/>
 
                         <RadioButton
-                            android:id="@+id/A4456_DK"
+                            android:id="@+id/A445698"
                             style="@style/RadioButton"
                             android:text="@string/dnt"/>
 
                         <RadioButton
-                            android:id="@+id/A4456_RA"
+                            android:id="@+id/A445699"
                             style="@style/RadioButton"
                             android:text="@string/ra"/>
 
@@ -513,12 +513,12 @@
                             android:text="@string/no"/>
 
                         <RadioButton
-                            android:id="@+id/A4457_DK"
+                            android:id="@+id/A445798"
                             style="@style/RadioButton"
                             android:text="@string/dnt"/>
 
                         <RadioButton
-                            android:id="@+id/A4457_RA"
+                            android:id="@+id/A445799"
                             style="@style/RadioButton"
                             android:text="@string/ra"/>
 
@@ -603,7 +603,7 @@
                         android:text="@string/cb_A4472_12"/>
 
                     <CheckBox
-                        android:id="@+id/cb_A4472_DK"
+                        android:id="@+id/cb_A447298"
                         style="@style/CheckBox"
                         android:text="@string/dnt"/>
 
