@@ -153,12 +153,12 @@
                         <RadioGroup style="@style/RadioGroup">
 
                             <RadioButton
-                                android:id="@+id/A4456_1"
+                                android:id="@+id/A4456a"
                                 style="@style/RadioButton"
                                 android:text="@string/yes" />
 
                             <RadioButton
-                                android:id="@+id/A4456_2"
+                                android:id="@+id/A4456b"
                                 style="@style/RadioButton"
                                 android:text="@string/no" />
 
@@ -194,12 +194,12 @@
                         <RadioGroup style="@style/RadioGroup">
 
                             <RadioButton
-                                android:id="@+id/A4457_1"
+                                android:id="@+id/A4457a"
                                 style="@style/RadioButton"
                                 android:text="@string/yes" />
 
                             <RadioButton
-                                android:id="@+id/A4457_2"
+                                android:id="@+id/A4457b"
                                 style="@style/RadioButton"
                                 android:text="@string/no" />
 
@@ -243,54 +243,54 @@
                             android:text="@string/A4472b" />
 
                         <CheckBox
-                            android:id="@+id/A4472_3"
+                            android:id="@+id/A4472c"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_3" />
+                            android:text="@string/A4472c" />
 
                         <CheckBox
-                            android:id="@+id/A4472_4"
+                            android:id="@+id/A4472d"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_4" />
+                            android:text="@string/A4472d" />
 
                         <CheckBox
-                            android:id="@+id/A4472_5"
+                            android:id="@+id/A4472e"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_5" />
+                            android:text="@string/A4472e" />
 
                         <CheckBox
-                            android:id="@+id/A4472_6"
+                            android:id="@+id/A4472f"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_6" />
+                            android:text="@string/A4472f" />
 
                         <CheckBox
-                            android:id="@+id/A4472_7"
+                            android:id="@+id/A4472g"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_7" />
+                            android:text="@string/A4472g" />
 
                         <CheckBox
-                            android:id="@+id/A4472_8"
+                            android:id="@+id/A4472h"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_8" />
+                            android:text="@string/A4472h" />
 
                         <CheckBox
-                            android:id="@+id/A4472_9"
+                            android:id="@+id/A4472i"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_9" />
+                            android:text="@string/A4472i" />
 
                         <CheckBox
-                            android:id="@+id/A4472_10"
+                            android:id="@+id/A4472a0"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_10" />
+                            android:text="@string/A4472a0" />
 
                         <CheckBox
-                            android:id="@+id/A4472_11"
+                            android:id="@+id/A4472a1"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_11" />
+                            android:text="@string/A4472a1" />
 
                         <CheckBox
-                            android:id="@+id/A4472_12"
+                            android:id="@+id/A4472a2"
                             style="@style/CheckBox"
-                            android:text="@string/A4472_12" />
+                            android:text="@string/A4472a2" />
 
                         <CheckBox
                             android:id="@+id/A447298"
@@ -376,12 +376,12 @@
                         style="@style/RadioGroup" >
 
                         <RadioButton
-                            android:id="@+id/A4454_1"
+                            android:id="@+id/A4454a"
                             style="@style/RadioButton"
                             android:text="@string/yes"/>
 
                         <RadioButton
-                            android:id="@+id/A4454_2"
+                            android:id="@+id/A4454b"
                             style="@style/RadioButton"
                             android:text="@string/no"/>
 
@@ -419,12 +419,12 @@
                         style="@style/RadioGroup" >
 
                         <RadioButton
-                            android:id="@+id/A4455_1"
+                            android:id="@+id/A4455a"
                             style="@style/RadioButton"
                             android:text="@string/yes"/>
 
                         <RadioButton
-                            android:id="@+id/A4455_2"
+                            android:id="@+id/A4455b"
                             style="@style/RadioButton"
                             android:text="@string/no"/>
 
@@ -462,12 +462,12 @@
                         style="@style/RadioGroup" >
 
                         <RadioButton
-                            android:id="@+id/A4456_1"
+                            android:id="@+id/A4456a"
                             style="@style/RadioButton"
                             android:text="@string/yes"/>
 
                         <RadioButton
-                            android:id="@+id/A4456_2"
+                            android:id="@+id/A4456b"
                             style="@style/RadioButton"
                             android:text="@string/no"/>
 
@@ -505,12 +505,12 @@
                         style="@style/RadioGroup" >
 
                         <RadioButton
-                            android:id="@+id/A4457_1"
+                            android:id="@+id/A4457a"
                             style="@style/RadioButton"
                             android:text="@string/yes"/>
 
                         <RadioButton
-                            android:id="@+id/A4457_2"
+                            android:id="@+id/A4457b"
                             style="@style/RadioButton"
                             android:text="@string/no"/>
 
@@ -545,64 +545,64 @@
                         android:text="@string/A4472" />
 
                     <CheckBox
-                        android:id="@+id/A4472_1"
+                        android:id="@+id/A4472a"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_1" />
+                        android:text="@string/A4472a" />
 
                     <CheckBox
-                        android:id="@+id/A4472_2"
+                        android:id="@+id/A4472b"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_2" />
+                        android:text="@string/A4472b" />
 
                     <CheckBox
-                        android:id="@+id/A4472_3"
+                        android:id="@+id/A4472c"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_3" />
+                        android:text="@string/A4472c" />
 
                     <CheckBox
-                        android:id="@+id/A4472_4"
+                        android:id="@+id/A4472d"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_4" />
+                        android:text="@string/A4472d" />
 
                     <CheckBox
-                        android:id="@+id/A4472_5"
+                        android:id="@+id/A4472e"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_5" />
+                        android:text="@string/A4472e" />
 
                     <CheckBox
-                        android:id="@+id/A4472_6"
+                        android:id="@+id/A4472f"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_6" />
+                        android:text="@string/A4472f" />
 
                     <CheckBox
-                        android:id="@+id/A4472_7"
+                        android:id="@+id/A4472g"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_7" />
+                        android:text="@string/A4472g" />
 
                     <CheckBox
-                        android:id="@+id/A4472_8"
+                        android:id="@+id/A4472h"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_8" />
+                        android:text="@string/A4472h" />
 
                     <CheckBox
-                        android:id="@+id/A4472_9"
+                        android:id="@+id/A4472i"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_9" />
+                        android:text="@string/A4472i" />
 
                     <CheckBox
-                        android:id="@+id/A4472_10"
+                        android:id="@+id/A4472a0"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_10" />
+                        android:text="@string/A4472a0" />
 
                     <CheckBox
-                        android:id="@+id/A4472_11"
+                        android:id="@+id/A4472a1"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_11" />
+                        android:text="@string/A4472a1" />
 
                     <CheckBox
-                        android:id="@+id/A4472_12"
+                        android:id="@+id/A4472a2"
                         style="@style/CheckBox"
-                        android:text="@string/A4472_12" />
+                        android:text="@string/A4472a2" />
 
                     <CheckBox
                         android:id="@+id/A447298"
