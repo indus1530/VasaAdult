@@ -149,16 +149,16 @@ public class A4301 extends AppCompatActivity {
                 : bind.A4310199.isChecked() ? "99"
                 : "0");
 
-        json.put("A430214", bind.A430214a.isChecked() ? "1"
-                : bind.A430214b.isChecked() ? "2"
-                : bind.A43021498.isChecked() ? "98"
-                : bind.A43021499.isChecked() ? "99"
+        json.put("A43102", bind.A43102a.isChecked() ? "1"
+                : bind.A43102b.isChecked() ? "2"
+                : bind.A4310298.isChecked() ? "98"
+                : bind.A4310299.isChecked() ? "99"
                 : "0");
 
-        json.put("A430215", bind.A430215a.isChecked() ? "1"
-                : bind.A430215b.isChecked() ? "2"
-                : bind.A43021598.isChecked() ? "98"
-                : bind.A43021599.isChecked() ? "99"
+        json.put("A43103", bind.A43103a.isChecked() ? "1"
+                : bind.A43103b.isChecked() ? "2"
+                : bind.A4310398.isChecked() ? "98"
+                : bind.A4310399.isChecked() ? "99"
                 : "0");
 
         json.put("A430216", bind.A430216a.isChecked() ? "1"
