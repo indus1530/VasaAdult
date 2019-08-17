@@ -209,15 +209,55 @@ public class A4301 extends AppCompatActivity {
                 : bind.A43101199.isChecked() ? "99"
                 : "0");
 
-        json.put("A4207", bind.A4207H.getText().toString().trim().length() > 0 ? bind.A4207H.getText().toString()
-                : bind.A4207D.getText().toString().trim().length() > 0 ? bind.A4207D.getText().toString()
-                : bind.A420798.isChecked() ? "98"
+        json.put("A43111", bind.A43111a.isChecked() ? "1"
+                : bind.A43111b.isChecked() ? "2"
+                : bind.A4311198.isChecked() ? "98"
+                : bind.A4311199.isChecked() ? "99"
                 : "0");
 
-        json.put("A4207H", bind.A4207H.getText().toString().trim().length() > 0 ? bind.A4207H.getText().toString() : "0");
-        json.put("A4207D", bind.A4207D.getText().toString().trim().length() > 0 ? bind.A4207D.getText().toString() : "0");
+        json.put("A43112", bind.A43112a.isChecked() ? "1"
+                : bind.A43112b.isChecked() ? "2"
+                : bind.A4311298.isChecked() ? "98"
+                : bind.A4311299.isChecked() ? "99"
+                : "0");
 
-        json.put("A420798", bind.A420798.isChecked() ? "98" : "0");
+        json.put("A43113", bind.A43113a.isChecked() ? "1"
+                : bind.A43113b.isChecked() ? "2"
+                : bind.A4311398.isChecked() ? "98"
+                : bind.A4311399.isChecked() ? "99"
+                : "0");
+
+        json.put("A43114", bind.A43114a.isChecked() ? "1"
+                : bind.A43114b.isChecked() ? "2"
+                : bind.A4311498.isChecked() ? "98"
+                : bind.A4311499.isChecked() ? "99"
+                : "0");
+
+        json.put("A43115", bind.A43115a.isChecked() ? "1"
+                : bind.A43115b.isChecked() ? "2"
+                : bind.A4311598.isChecked() ? "98"
+                : bind.A4311599.isChecked() ? "99"
+                : "0");
+
+        json.put("A4312", bind.A4312a.isChecked() ? "1"
+                : bind.A4312b.isChecked() ? "2"
+                : bind.A431298.isChecked() ? "98"
+                : bind.A431299.isChecked() ? "99"
+                : "0");
+
+        json.put("A4313", bind.A4313a.isChecked() ? "1"
+                : bind.A4313b.isChecked() ? "2"
+                : bind.A431398.isChecked() ? "98"
+                : bind.A431399.isChecked() ? "99"
+                : "0");
+
+        json.put("A4314", bind.A4314a.isChecked() ? "1"
+                : bind.A4314b.isChecked() ? "2"
+                : bind.A431498.isChecked() ? "98"
+                : bind.A431499.isChecked() ? "99"
+                : "0");
+
+        json.put("A4315", bind.A4315.getText().toString().trim().length() > 0 ? bind.A4315.getText().toString() : "0");
 
 //        MyPreferences.setsA4206(String.valueOf(json));
 
