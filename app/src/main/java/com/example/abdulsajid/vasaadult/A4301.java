@@ -67,8 +67,8 @@ public class A4301 extends AppCompatActivity {
 
         json.put("A43021", bind.A43021a.isChecked() ? "1"
                 : bind.A43021b.isChecked() ? "2"
-                : bind.A4302198.isChecked() ? "98"
-                : bind.A4302199.isChecked() ? "99"
+                : bind.A431078.isChecked() ? "98"
+                : bind.A431079.isChecked() ? "99"
                 : "0");
 
         json.put("A43022", bind.A43022a.isChecked() ? "1"
@@ -161,46 +161,52 @@ public class A4301 extends AppCompatActivity {
                 : bind.A4310399.isChecked() ? "99"
                 : "0");
 
-        json.put("A430216", bind.A430216a.isChecked() ? "1"
-                : bind.A430216b.isChecked() ? "2"
-                : bind.A43021698.isChecked() ? "98"
-                : bind.A43021699.isChecked() ? "99"
+        json.put("A43104", bind.A43104a.isChecked() ? "1"
+                : bind.A43104b.isChecked() ? "2"
+                : bind.A4310498.isChecked() ? "98"
+                : bind.A4310499.isChecked() ? "99"
                 : "0");
 
-        json.put("A430217", bind.A430217a.isChecked() ? "1"
-                : bind.A430217b.isChecked() ? "2"
-                : bind.A43021798.isChecked() ? "98"
-                : bind.A43021799.isChecked() ? "99"
+        json.put("A43105", bind.A43105a.isChecked() ? "1"
+                : bind.A43105b.isChecked() ? "2"
+                : bind.A4310598.isChecked() ? "98"
+                : bind.A4310599.isChecked() ? "99"
                 : "0");
 
-        json.put("A430218", bind.A430218a.isChecked() ? "1"
-                : bind.A430218b.isChecked() ? "2"
-                : bind.A43021898.isChecked() ? "98"
-                : bind.A43021899.isChecked() ? "99"
+        json.put("A43106", bind.A43106a.isChecked() ? "1"
+                : bind.A43106b.isChecked() ? "2"
+                : bind.A4310698.isChecked() ? "98"
+                : bind.A4310699.isChecked() ? "99"
                 : "0");
 
-        json.put("A430219", bind.A430219a.isChecked() ? "1"
-                : bind.A430219b.isChecked() ? "2"
-                : bind.A43021998.isChecked() ? "98"
-                : bind.A43021999.isChecked() ? "99"
+        json.put("A43107", bind.A43107a.isChecked() ? "1"
+                : bind.A43107b.isChecked() ? "2"
+                : bind.A4310798.isChecked() ? "98"
+                : bind.A4310799.isChecked() ? "99"
                 : "0");
 
-        json.put("A430220", bind.A430220a.isChecked() ? "1"
-                : bind.A430220b.isChecked() ? "2"
-                : bind.A43022098.isChecked() ? "98"
-                : bind.A43022099.isChecked() ? "99"
+        json.put("A43108", bind.A43108a.isChecked() ? "1"
+                : bind.A43108b.isChecked() ? "2"
+                : bind.A4310898.isChecked() ? "98"
+                : bind.A4310899.isChecked() ? "99"
                 : "0");
 
-        json.put("A430221", bind.A430221a.isChecked() ? "1"
-                : bind.A430221b.isChecked() ? "2"
-                : bind.A43022198.isChecked() ? "98"
-                : bind.A43022199.isChecked() ? "99"
+        json.put("A43109", bind.A43109a.isChecked() ? "1"
+                : bind.A43109b.isChecked() ? "2"
+                : bind.A4310998.isChecked() ? "98"
+                : bind.A4310999.isChecked() ? "99"
                 : "0");
 
-        json.put("A430222", bind.A430222a.isChecked() ? "1"
-                : bind.A430222b.isChecked() ? "2"
-                : bind.A43022298.isChecked() ? "98"
-                : bind.A43022299.isChecked() ? "99"
+        json.put("A431010", bind.A431010a.isChecked() ? "1"
+                : bind.A431010b.isChecked() ? "2"
+                : bind.A43101098.isChecked() ? "98"
+                : bind.A43101099.isChecked() ? "99"
+                : "0");
+
+        json.put("A431011", bind.A431011a.isChecked() ? "1"
+                : bind.A431011b.isChecked() ? "2"
+                : bind.A43101198.isChecked() ? "98"
+                : bind.A43101199.isChecked() ? "99"
                 : "0");
 
         json.put("A4207", bind.A4207H.getText().toString().trim().length() > 0 ? bind.A4207H.getText().toString()
