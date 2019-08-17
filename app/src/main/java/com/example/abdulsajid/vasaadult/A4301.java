@@ -119,25 +119,26 @@ public class A4301 extends AppCompatActivity {
                 : bind.A430499.isChecked() ? "99"
                 : "0");
 
-        json.put("A430210", bind.A430210a.isChecked() ? "1"
-                : bind.A430210b.isChecked() ? "2"
-                : bind.A430210c.isChecked() ? "3"
-                : bind.A43021096.isChecked() ? "96"
-                : bind.A43021098.isChecked() ? "98"
-                : bind.A43021099.isChecked() ? "99"
+        json.put("A4305", bind.A4305a.isChecked() ? "1"
+                : bind.A4305b.isChecked() ? "2"
                 : "0");
 
-        json.put("A430211", bind.A430211a.isChecked() ? "1"
-                : bind.A430211b.isChecked() ? "2"
-                : bind.A43021198.isChecked() ? "98"
-                : bind.A43021199.isChecked() ? "99"
+        json.put("A43061check", bind.A43061checka.isChecked() ? "1"
+                : bind.A43061checkb.isChecked() ? "2"
                 : "0");
 
-        json.put("A430212", bind.A430212a.isChecked() ? "1"
-                : bind.A430212b.isChecked() ? "2"
-                : bind.A43021298.isChecked() ? "98"
-                : bind.A43021299.isChecked() ? "99"
+        json.put("A43061", bind.A43061.getText().toString().trim().length() > 0 ? bind.A43061.getText().toString() : "0");
+
+
+        json.put("A43062check", bind.A43062checka.isChecked() ? "1"
+                : bind.A43062checkb.isChecked() ? "2"
                 : "0");
+
+        json.put("A43062", bind.A43062.getText().toString().trim().length() > 0 ? bind.A43062.getText().toString() : "0");
+
+
+        json.put("A4307", bind.A4307.getText().toString().trim().length() > 0 ? bind.A4307.getText().toString() : "0");
+
 
         json.put("A430213", bind.A430213a.isChecked() ? "1"
                 : bind.A430213b.isChecked() ? "2"
