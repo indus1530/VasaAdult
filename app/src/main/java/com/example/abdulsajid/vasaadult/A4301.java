@@ -407,35 +407,36 @@ public class A4301 extends AppCompatActivity {
         });
 
 
-        if (compoundButton.getId() == R.id.rb_A4306_2check_1
-                || compoundButton.getId() == R.id.rb_A4306_2check_2)
+        bind.A43062check.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
 
-        {
-            if (rb_A4306_2check_2.isChecked()) {
+                if (checkedId == bind.A43062checka.getId()) {
+                    bind.A43062cv.setVisibility(View.VISIBLE);
+                } else {
+                    ClearAllcontrol.ClearAllC(bind.A43062cv);
+                    bind.A43062cv.setVisibility(View.GONE);
+                }
 
-                ClearAllcontrol.ClearAllC(ll_A4306_2);
-                ll_A4306_2.setVisibility(View.GONE);
-
-            } else {
-                ll_A4306_2.setVisibility(View.VISIBLE);
             }
-        }
 
-        if (compoundButton.getId() == R.id.rb_A4314_1
-                || compoundButton.getId() == R.id.rb_A4314_2
-                || compoundButton.getId() == R.id.rb_A4314_DK
-                || compoundButton.getId() == R.id.rb_A4314_RA)
+        });
 
-        {
-            if (rb_A4306_2check_2.isChecked() || rb_A4314_DK.isChecked() || rb_A4314_RA.isChecked()) {
 
-                ClearAllcontrol.ClearAllC(ll_A4315);
-                ll_A4315.setVisibility(View.GONE);
+        bind.A4314.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
 
-            } else {
-                ll_A4315.setVisibility(View.VISIBLE);
+                if (checkedId == bind.A4314a.getId()) {
+                    bind.A4315cv.setVisibility(View.VISIBLE);
+                } else {
+                    ClearAllcontrol.ClearAllC(bind.A4315cv);
+                    bind.A4315cv.setVisibility(View.GONE);
+                }
+
             }
-        }
+
+        });
 
     }
 
@@ -446,6 +447,7 @@ public class A4301 extends AppCompatActivity {
         }
 
         return Gothrough.IamHiden(bind.llA4301) != false;
+    }
     
 
 }
