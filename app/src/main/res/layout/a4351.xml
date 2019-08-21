@@ -126,12 +126,11 @@
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4353"
                         style="@style/TextView"
                         android:text="@string/A4353" />
 
                     <EditText
-                        android:id="@+id/ed_A4353"
+                        android:id="@+id/A4353"
                         style="@style/EditText_varchar"
                         android:hint="Cause of Death" />
 
@@ -148,12 +147,11 @@
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4354"
                         style="@style/TextView"
                         android:text="@string/A4354" />
 
                     <EditText
-                        android:id="@+id/ed_A4354"
+                        android:id="@+id/A4354"
                         style="@style/EditText_varchar"
                         android:hint="Duration" />
 
@@ -170,12 +168,11 @@
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/tv_A4355"
                         style="@style/TextView"
                         android:text="@string/A4355" />
 
                     <EditText
-                        android:id="@+id/ed_A4355"
+                        android:id="@+id/A4355"
                         style="@style/EditText_varchar"
                         android:hint="Duration" />
 
@@ -192,12 +189,11 @@
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4356"
                         style="@style/TextView"
                         android:text="@string/A4356" />
 
                     <EditText
-                        android:id="@+id/ed_A4356"
+                        android:id="@+id/A4356"
                         style="@style/EditText_varchar"
                         android:hint="Duration" />
 
@@ -214,12 +210,11 @@
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4357"
                         style="@style/TextView"
                         android:text="@string/A4357" />
 
                     <EditText
-                        android:id="@+id/ed_A4357"
+                        android:id="@+id/A4357"
                         style="@style/EditText_varchar"
                         android:hint="Cause of Death" />
 
@@ -236,12 +231,11 @@
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4358"
                         style="@style/TextView"
                         android:text="@string/A4358" />
 
                     <EditText
-                        android:id="@+id/ed_A4358"
+                        android:id="@+id/A4358"
                         style="@style/EditText_varchar"
                         android:hint="Duration" />
 
@@ -265,9 +259,9 @@
                     <RadioGroup style="@style/RadioGroup">
 
                         <RadioButton
-                            android:id="@+id/A4363_1"
+                            android:id="@+id/A4363a"
                             style="@style/RadioButton"
-                            android:text="@string/A4363_1" />
+                            android:text="@string/rb_A4363_1" />
 
                         <RadioButton
                             android:id="@+id/A4363_2"
@@ -309,7 +303,7 @@
                         android:text="@string/A4364" />
 
                     <EditText
-                        android:id="@+id/ed_A4364"
+                        android:id="@+id/A4364"
                         style="@style/EditText_varchar"
                         android:hint="Enter here" />
 
