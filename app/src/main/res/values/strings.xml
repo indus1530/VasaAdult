@@ -319,7 +319,12 @@
     <string name="A4356">A4356: Duration (1b)</string>
     <string name="A4357">A4357: Record the second underlying cause of death from the death certificate</string>
     <string name="A4358">A4358: Duration (1c)</string>
+
     <string name="A4363">A4363: Do you have a death registration certificate?</string>
+    <string name="A4363a">Yes, card seen</string>
+    <string name="A4363b">Yes, card not seen</string>
+    <string name="A4363c">No registration</string>
+
     <string name="A4364">A4364: Record the death registration number</string>
     <string name="A4401">A4401: Is this the house (where we are now) where (NAME) stayed during the his/her fatal illness?</string>
     <string name="A4402">A4402: Where did (NAME) stay at that time?</string>
@@ -481,10 +486,6 @@
     <string name="A4279d">Taxi/Auto/Tractor/motorcycle</string>
     <string name="A4279e">Ambulance</string>
     <string name="A4279f">Could not arrange transport</string>
-
-    <string name="A4363a">Yes, card seen</string>
-    <string name="A4363b">Yes, card not seen</string>
-    <string name="A4363c">No registration</string>
 
     <string name="A4402a">Her/His own home at that time (different from the current location)</string>
     <string name="A4402b">Her/His in-law’s home</string>

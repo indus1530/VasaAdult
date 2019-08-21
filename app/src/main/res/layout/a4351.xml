@@ -102,12 +102,12 @@
                     <RadioGroup style="@style/RadioGroup">
 
                         <RadioButton
-                            android:id="@+id/A4352_1"
+                            android:id="@+id/A4352a"
                             style="@style/RadioButton"
                             android:text="@string/yes" />
 
                         <RadioButton
-                            android:id="@+id/A4352_2"
+                            android:id="@+id/A4352b"
                             style="@style/RadioButton"
                             android:text="@string/no" />
 
@@ -261,25 +261,25 @@
                         <RadioButton
                             android:id="@+id/A4363a"
                             style="@style/RadioButton"
-                            android:text="@string/rb_A4363_1" />
+                            android:text="@string/A4363a" />
 
                         <RadioButton
-                            android:id="@+id/A4363_2"
+                            android:id="@+id/A4363b"
                             style="@style/RadioButton"
-                            android:text="@string/A4363_2" />
+                            android:text="@string/A4363b" />
 
                         <RadioButton
-                            android:id="@+id/A4363_3"
+                            android:id="@+id/A4363c"
                             style="@style/RadioButton"
-                            android:text="@string/A4363_3" />
+                            android:text="@string/A4363c" />
 
                         <RadioButton
-                            android:id="@+id/A4363_DK"
+                            android:id="@+id/A436398"
                             style="@style/RadioButton"
                             android:text="@string/dnt" />
 
                         <RadioButton
-                            android:id="@+id/A4363_RA"
+                            android:id="@+id/A436399"
                             style="@style/RadioButton"
                             android:text="@string/ra" />
 
@@ -298,7 +298,6 @@
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4364"
                         style="@style/TextView"
                         android:text="@string/A4364" />
 
