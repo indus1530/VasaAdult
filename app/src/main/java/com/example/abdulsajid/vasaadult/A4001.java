@@ -15,8 +15,8 @@ import com.example.abdulsajid.vasaadult.databinding.A4001Binding;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import data.LocalDataManager;
 import utils.ClearAllcontrol;
-import utils.MyPreferences;
 
 public class A4001 extends AppCompatActivity {
 
@@ -302,6 +302,13 @@ public class A4001 extends AppCompatActivity {
                 : bind.A4014b.isChecked() ? "2"
                 : bind.A401498.isChecked() ? "98"
                 : "0");
+
+        LocalDataManager Lm = new LocalDataManager(this);
+
+        LocalDataManager.database.execSQL(String.valueOf(json));
+
+        Toast.makeText(this, "Validation Successful! - Value Assignment & Data Insertion...", Toast.LENGTH_SHORT).show();
+
 
 //        MyPreferences.setsA4001(String.valueOf(json));
 
