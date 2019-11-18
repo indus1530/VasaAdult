@@ -90,10 +90,11 @@ public class A4001 extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
 
-                if (checkedId == bind.A4004a.getId() || checkedId == bind.A4004b.getId() || checkedId == bind.A4004c.getId()) {
-                    bind.A4005cv.setVisibility(View.VISIBLE);
-                } else {
+                if (checkedId == bind.A400498.getId()) {
+                    ClearAllcontrol.ClearAllC(bind.A4005cv);
                     bind.A4005cv.setVisibility(View.GONE);
+                } else {
+                    bind.A4005cv.setVisibility(View.VISIBLE);
                 }
 
             }
