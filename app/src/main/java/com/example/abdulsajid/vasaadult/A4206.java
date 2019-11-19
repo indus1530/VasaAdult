@@ -374,9 +374,6 @@ public class A4206 extends AppCompatActivity {
 
 
     boolean validateField() {
-        if (Gothrough.IamHiden(bind.llA4206) == false) {
-            return false;
-        }
 
         return Gothrough.IamHiden(bind.llA4206) != false;
     }
