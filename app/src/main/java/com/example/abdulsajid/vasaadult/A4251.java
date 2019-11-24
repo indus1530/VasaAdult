@@ -1,6 +1,7 @@
 package com.example.abdulsajid.vasaadult;
 
 import android.content.Intent;
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
@@ -31,7 +32,8 @@ public class A4251 extends AppCompatActivity implements RadioButton.OnCheckedCha
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        bi.DataBindingUtil.setContentView(R.layout.a4251);
+        bi = DataBindingUtil.setContentView(this, R.layout.a4251);
+        bi.setCallback(this);
         events_call();
     }
 
