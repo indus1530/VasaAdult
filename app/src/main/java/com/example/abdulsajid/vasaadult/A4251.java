@@ -56,9 +56,9 @@ public class A4251 extends AppCompatActivity implements RadioButton.OnCheckedCha
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
 
-        if (compoundButton.getId() == R.id.rb_A4251_1
-                || compoundButton.getId() == R.id.rb_A4251_2
-                || compoundButton.getId() == R.id.rb_A4251_DK)
+        if (compoundButton.getId() == R.id.A4251a
+                || compoundButton.getId() == R.id.A4251b
+                || compoundButton.getId() == R.id.A425198)
 
                 ClearAllcontrol.ClearAll(ll_A4252);
                 ClearAllcontrol.ClearAll(ll_A4253);
