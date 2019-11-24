@@ -14,130 +14,14 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import com.example.abdulsajid.vasaadult.databinding.A4251Binding;
+
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
 
 public class A4251 extends AppCompatActivity implements RadioButton.OnCheckedChangeListener, View.OnClickListener {
 
-    //Declaration Region
-        Button
-            btn_next11;
-
-        LinearLayout
-                ll_A4251,
-                ll_A4252,
-                ll_A4253,
-                ll_A4254,
-                ll_A4255,
-                ll_A4256,
-                ll_A4274,
-                ll_A4275,
-                ll_A4276,
-                ll_A4277,
-                ll_A4278,
-                ll_A4279,
-                ll_A4280,
-                ll_A4281,
-                ll_A4282,
-                ll_A4283,
-                ll_A4284;
-
-        RadioButton
-                rb_A4251_1,
-                rb_A4251_2,
-                rb_A4251_DK,
-                rb_A4253_1,
-                rb_A4253_2,
-                rb_A4253_3,
-                rb_A4253_DK,
-                rb_A4254_1,
-                rb_A4254_2,
-                rb_A4254_DK,
-                rb_A4274_1,
-                rb_A4274_2,
-                rb_A4274_DK,
-                rb_A4275_1,
-                rb_A4275_2,
-                rb_A4275_DK,
-                rb_A4277_1,
-                rb_A4277_2,
-                rb_A4277_DK,
-                rb_A4280_1,
-                rb_A4280_2,
-                rb_A4280_DK,
-                rb_A4280_RA,
-                rb_A4281_1,
-                rb_A4281_2,
-                rb_A4281_DK,
-                rb_A4281_RA,
-                rb_A4282_1,
-                rb_A4282_2,
-                rb_A4282_DK,
-                rb_A4282_RA,
-                rb_A4283_1,
-                rb_A4283_2,
-                rb_A4283_DK,
-                rb_A4283_RA;
-
-        EditText
-                ed_A4253_3,
-                ed_A4255_4,
-                ed_A4255_13,
-                ed_A4256_minutes,
-                ed_A4256_hours,
-                ed_A4256_days,
-                ed_A4276_5,
-                ed_A4276_16,
-                ed_A4284_days;
-
-        CheckBox
-                cb_A4255_1,
-                cb_A4255_2,
-                cb_A4255_3,
-                cb_A4255_4,
-                cb_A4255_5,
-                cb_A4255_6,
-                cb_A4255_7,
-                cb_A4255_8,
-                cb_A4255_9,
-                cb_A4255_10,
-                cb_A4255_11,
-                cb_A4255_12,
-                cb_A4255_13,
-                cb_A4255_DK,
-                cb_A4276_1,
-                cb_A4276_2,
-                cb_A4276_3,
-                cb_A4276_4,
-                cb_A4276_5,
-                cb_A4276_6,
-                cb_A4276_7,
-                cb_A4276_8,
-                cb_A4276_9,
-                cb_A4276_10,
-                cb_A4276_11,
-                cb_A4276_12,
-                cb_A4276_13,
-                cb_A4276_14,
-                cb_A4276_15,
-                cb_A4276_16,
-                cb_A4276_DK,
-                cb_A4278_1,
-                cb_A4278_2,
-                cb_A4278_3,
-                cb_A4278_4,
-                cb_A4278_5,
-                cb_A4278_6,
-                cb_A4278_7,
-                cb_A4278_DK,
-                cb_A4279_1,
-                cb_A4279_2,
-                cb_A4279_3,
-                cb_A4279_4,
-                cb_A4279_5,
-                cb_A4279_6,
-                cb_A4279_7,
-                cb_A4279_DK;
+    A4251Binding bi;
 
         String
                 study_id,
