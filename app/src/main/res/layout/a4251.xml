@@ -71,21 +71,25 @@
 
                     <RadioGroup
                         android:id="@+id/A4251"
-                        style="@style/RadioGroup">
+                        style="@style/RadioGroup"
+                        android:orientation="horizontal">
 
                         <RadioButton
                             android:id="@+id/A4251a"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/yes" />
 
                         <RadioButton
                             android:id="@+id/A4251b"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/no" />
 
                         <RadioButton
                             android:id="@+id/A425198"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/dnt" />
 
                     </RadioGroup>
@@ -104,17 +108,14 @@
                     android:id="@+id/ll_A4252">
 
                     <TextView
-                        android:id="@+id/A42521"
                         style="@style/TextView"
                         android:text="@string/A42521" />
 
                     <TextView
-                        android:id="@+id/A42522"
                         style="@style/TextView"
                         android:text="@string/A42522" />
 
                     <TextView
-                        android:id="@+id/A42523"
                         style="@style/TextView"
                         android:text="@string/A42523" />
 
@@ -133,26 +134,30 @@
                         android:id="@+id/ll2_A4252">
 
                         <TextView
-                            android:id="@+id/A42526"
                             style="@style/TextView"
                             android:text="Illness Phase" />
 
                         <RadioGroup
-                            style="@style/RadioGroup" >
+                            android:id="@+id/A42526"
+                            style="@style/RadioGroup"
+                            android:orientation="horizontal">
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_1_1"
+                                android:id="@+id/A42526a"
                                 style="@style/RadioButton"
+                                android:layout_weight="1"
                                 android:text="START"/>
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_1_2"
+                                android:id="@+id/A42526b"
                                 style="@style/RadioButton"
+                                android:layout_weight="1"
                                 android:text="Mid"/>
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_1_3"
+                                android:id="@+id/A42526c"
                                 style="@style/RadioButton"
+                                android:layout_weight="1"
                                 android:text="END"/>
 
                         </RadioGroup>
@@ -235,7 +240,7 @@
                             android:text="What symptoms were present when the action was taken?" />
 
                         <EditText
-                            android:id="@+id/ed_A4252"
+                            android:id="@+id/A4252"
                             style="@style/EditText_varchar"
                             android:hint="symptoms"/>
 
