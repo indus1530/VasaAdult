@@ -258,37 +258,37 @@
                     android:id="@+id/ll_A4253">
 
                     <TextView
-                        android:id="@+id/A4253"
                         style="@style/TextView"
                         android:text="@string/A4253" />
 
                     <RadioGroup
+                        android:id="@+id/A4253"
                         style="@style/RadioGroup" >
 
-                        <RadioButton
-                            android:id="@+id/rb_A4253_1"
-                            style="@style/RadioButton"
-                            android:text="@string/rb_A4253_1"/>
+                        <EditText
+                            android:id="@+id/A425396x"
+                            style="@style/EditText_varchar"
+                            android:hint="@string/ot_other" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4253_2"
+                            android:id="@+id/A4253b"
                             style="@style/RadioButton"
-                            android:text="@string/rb_A4253_2"/>
+                            android:text="@string/A4253b" />
 
                         <RadioButton
-                            android:id="@+id/rb_A4253_DK"
+                            android:id="@+id/A425398"
                             style="@style/RadioButton"
                             android:text="@string/dnt"/>
 
                         <RadioButton
-                            android:id="@+id/rb_A4253_3"
+                            android:id="@+id/A425396"
                             style="@style/RadioButton"
                             android:text="@string/ot_someone"/>
 
-                        <EditText
-                            android:id="@+id/ed_A4253_3"
-                            style="@style/EditText_varchar"
-                            android:hint="@string/ot_someone"/>
+                        <RadioButton
+                            android:id="@+id/A4253a"
+                            style="@style/RadioButton"
+                            android:text="@string/A4253a" />
 
                     </RadioGroup>
 
@@ -306,26 +306,30 @@
                     android:id="@+id/ll_A4254">
 
                     <TextView
-                        android:id="@+id/A4254"
                         style="@style/TextView"
                         android:text="@string/A4254" />
 
                     <RadioGroup
-                        style="@style/RadioGroup" >
+                        android:id="@+id/A4254"
+                        style="@style/RadioGroup"
+                        android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/rb_A4254_1"
+                            android:id="@+id/A4254a"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/yes"/>
 
                         <RadioButton
-                            android:id="@+id/rb_A4254_2"
+                            android:id="@+id/A4254b"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/no"/>
 
                         <RadioButton
-                            android:id="@+id/rb_A4254_DK"
+                            android:id="@+id/A425498"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/dnt"/>
 
                     </RadioGroup>
