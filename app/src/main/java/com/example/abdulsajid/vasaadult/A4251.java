@@ -188,101 +188,13 @@ public class A4251 extends AppCompatActivity {
 
         JSONObject json = new JSONObject();
 
-        json.put("A4001", bind.A4001.getText().toString().trim().length() > 0 ? bind.A4001.getText().toString() : "0");
-
-        json.put("A4002", bind.A4002a.isChecked() ? "1"
-                : bind.A4002b.isChecked() ? "2"
-                : bind.A4002c.isChecked() ? "3"
-                : bind.A4002d.isChecked() ? "4"
-                : bind.A4002e.isChecked() ? "5"
-                : bind.A4002f.isChecked() ? "6"
-                : bind.A400298.isChecked() ? "98"
-                : bind.A400299.isChecked() ? "99"
+        json.put("A4251", bi.A4251a.isChecked() ? "1"
+                : bi.A4251b.isChecked() ? "2"
+                : bi.A425198.isChecked() ? "98"
                 : "0");
 
-        json.put("A4003", bind.A4003a.isChecked() ? "1"
-                : bind.A4003b.isChecked() ? "2"
-                : bind.A400398.isChecked() ? "98"
-                : bind.A400399.isChecked() ? "99"
-                : "0");
+        //LocalDataManager.database.execSQL(String.valueOf(json));
 
-        json.put("A4004", bind.A4004a.isChecked() ? "1"
-                : bind.A4004b.isChecked() ? "2"
-                : bind.A4004c.isChecked() ? "3"
-                : bind.A400498.isChecked() ? "98"
-                : bind.A400499.isChecked() ? "99"
-                : "0");
-
-        json.put("A4005", bind.A4005.getText().toString().trim().length() > 0 ? bind.A4005.getText().toString() : "0");
-
-        json.put("A4006", bind.A4006a.isChecked() ? "1"
-                : bind.A4006b.isChecked() ? "2"
-                : bind.A400698.isChecked() ? "98"
-                : bind.A400699.isChecked() ? "99"
-                : "0");
-
-        json.put("A4007", bind.A4007a.isChecked() ? "1"
-                : bind.A4007b.isChecked() ? "2"
-                : bind.A4007c.isChecked() ? "3"
-                : bind.A4007d.isChecked() ? "4"
-                : bind.A4007e.isChecked() ? "5"
-                : bind.A4007f.isChecked() ? "6"
-                : bind.A400798.isChecked() ? "98"
-                : bind.A400799.isChecked() ? "99"
-                : "0");
-
-        json.put("A40071", bind.A40071.getText().toString().trim().length() > 0 ? bind.A40071.getText().toString() : "0");
-
-        json.put("A4008", bind.A4008a.isChecked() ? "1"
-                : bind.A4008b.isChecked() ? "2"
-                : bind.A400898.isChecked() ? "98"
-                : bind.A400899.isChecked() ? "99"
-                : "0");
-
-        json.put("A4009a", bind.A4009aa.isChecked() ? "1"
-                : bind.A4009ab.isChecked() ? "2"
-                : bind.A4009a98.isChecked() ? "98"
-                : bind.A4009a99.isChecked() ? "99"
-                : "0");
-
-        json.put("A4010", bind.A4010a.isChecked() ? "1"
-                : bind.A4010b.isChecked() ? "2"
-                : bind.A4010c.isChecked() ? "3"
-                : bind.A4010d.isChecked() ? "4"
-                : bind.A401098.isChecked() ? "98"
-                : bind.A401099.isChecked() ? "99"
-                : "0");
-
-        json.put("A4011", bind.A4011.getText().toString().trim().length() > 0 ? bind.A4011.getText().toString() : "0");
-
-        json.put("A4012", bind.A4012.getText().toString().trim().length() > 0 ? bind.A4012.getText().toString() : "0");
-
-        json.put("A4013u", bind.A4013ua.isChecked() ? "1"
-                : bind.A4013ub.isChecked() ? "2"
-                : bind.A4013uc.isChecked() ? "3"
-                : bind.A4013u98.isChecked() ? "98"
-                : bind.A4013u99.isChecked() ? "99"
-                : "0");
-
-        json.put("A4013d", bind.A4013d.getText().toString().trim().length() > 0 ? bind.A4013d.getText().toString() : "0");
-
-        json.put("A4013m", bind.A4013m.getText().toString().trim().length() > 0 ? bind.A4013m.getText().toString() : "0");
-
-        json.put("A4013y", bind.A4013y.getText().toString().trim().length() > 0 ? bind.A4013y.getText().toString() : "0");
-
-        json.put("A4014", bind.A4014a.isChecked() ? "1"
-                : bind.A4014b.isChecked() ? "2"
-                : bind.A401498.isChecked() ? "98"
-                : "0");
-
-        LocalDataManager Lm = new LocalDataManager(this);
-
-        LocalDataManager.database.execSQL(String.valueOf(json));
-
-        Toast.makeText(this, "Validation Successful! - Value Assignment & Data Insertion...", Toast.LENGTH_SHORT).show();
-
-
-//        MyPreferences.setsA4001(String.valueOf(json));
 
     }
 
@@ -1010,70 +922,7 @@ public class A4251 extends AppCompatActivity {
 
 
     boolean validateField() {
-       if (Gothrough.IamHiden(ll_A4251) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4252) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4253) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4254) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4255) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4256) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4274) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4275) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4276) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4277) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4278) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4279) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4280) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4281) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4282) == false) {
-            return false;
-       }
-
-       if (Gothrough.IamHiden(ll_A4283) == false) {
-            return false;
-       }
-
-        return Gothrough.IamHiden(ll_A4284) != false;
+        return Gothrough.IamHiden(bi.llA4251);
     }
+
 }
