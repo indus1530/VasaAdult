@@ -120,12 +120,10 @@
                         android:text="@string/A42523" />
 
                     <TextView
-                        android:id="@+id/A42524"
                         style="@style/TextView"
                         android:text="@string/A42524" />
 
                     <TextView
-                        android:id="@+id/A42525"
                         style="@style/TextView"
                         android:text="@string/A42525" />
 
@@ -138,24 +136,24 @@
                             android:text="Illness Phase" />
 
                         <RadioGroup
-                            android:id="@+id/A42526"
+                            android:id="@+id/A42521"
                             style="@style/RadioGroup"
                             android:orientation="horizontal">
 
                             <RadioButton
-                                android:id="@+id/A42526a"
+                                android:id="@+id/A42521a"
                                 style="@style/RadioButton"
                                 android:layout_weight="1"
                                 android:text="START"/>
 
                             <RadioButton
-                                android:id="@+id/A42526b"
+                                android:id="@+id/A42521b"
                                 style="@style/RadioButton"
                                 android:layout_weight="1"
                                 android:text="Mid"/>
 
                             <RadioButton
-                                android:id="@+id/A42526c"
+                                android:id="@+id/A42521c"
                                 style="@style/RadioButton"
                                 android:layout_weight="1"
                                 android:text="END"/>
@@ -169,82 +167,80 @@
                         android:id="@+id/ll3_A4252">
 
                         <TextView
-                            android:id="@+id/A4252_8"
                             style="@style/TextView"
                             android:text="What ACTION was taken?" />
-
-                        <RadioGroup
-                            style="@style/RadioGroup" >
-
-                            <RadioButton
-                                android:id="@+id/rb_A4252_2_1"
-                                style="@style/RadioButton"
-                                android:text="Home care (own, relative, neighbor, friend)"/>
-
-                            <RadioButton
-                                android:id="@+id/rb_A4252_2_2"
-                                style="@style/RadioButton"
-                                android:text="Traditional or non-formal provider "/>
-
-                            <RadioButton
-                                android:id="@+id/rb_A4252_2_3"
-                                style="@style/RadioButton"
-                                android:text="Pharmacist or drug seller"/>
-
-                            <RadioButton
-                                android:id="@+id/rb_A4252_2_4"
-                                style="@style/RadioButton"
-                                android:text="Trained community health worker (CHW), nurse, or midwife"/>
-
-                            <RadioButton
-                                android:id="@+id/rb_A4252_2_5"
-                                style="@style/RadioButton"
-                                android:text="Private doctor or clinic (formal/unsure)"/>
-
-                            <RadioButton
-                                android:id="@+id/rb_A4252_2_6"
-                                style="@style/RadioButton"
-                                android:text="NGO or Government Clinic"/>
-
-                            <RadioButton
-                                android:id="@+id/rb_A4252_2_7"
-                                style="@style/RadioButton"
-                                android:text="Hospital"/>
-
-                        </RadioGroup>
 
                         <LinearLayout
                             style="@style/Q_Linerlayout_v"
                             android:id="@+id/ll4_A4252">
 
                             <TextView
-                                android:id="@+id/A4252_9"
                                 style="@style/TextView"
                                 android:text="Is this the Place Where" />
 
-                            <RadioButton
-                                android:id="@+id/rb_A4252_2_8"
-                                style="@style/RadioButton"
-                                android:text="Woman Aborted or Delivered at this Provider"/>
+                            <CheckBox
+                                android:id="@+id/A42523"
+                                style="@style/CheckBox"
+                                android:text="Woman Aborted or Delivered at this Provider" />
 
                         </LinearLayout>
-
 
                         <LinearLayout
                             style="@style/Q_Linerlayout_v"
                             android:id="@+id/ll5_A4252">
 
-                        <TextView
-                            android:id="@+id/A4252_7"
-                            style="@style/TextView"
-                            android:text="What symptoms were present when the action was taken?" />
+                            <TextView
+                                style="@style/TextView"
+                                android:text="What symptoms were present when the action was taken?" />
 
-                        <EditText
-                            android:id="@+id/A4252"
-                            style="@style/EditText_varchar"
-                            android:hint="symptoms"/>
+                            <EditText
+                                android:id="@+id/A42524"
+                                style="@style/EditText_varchar"
+                                android:hint="symptoms" />
 
                         </LinearLayout>
+
+
+                        <RadioGroup
+                            android:id="@+id/A42522"
+                            style="@style/RadioGroup" >
+
+                            <RadioButton
+                                android:id="@+id/A42522a"
+                                style="@style/RadioButton"
+                                android:text="Home care (own, relative, neighbor, friend)"/>
+
+                            <RadioButton
+                                android:id="@+id/A42522b"
+                                style="@style/RadioButton"
+                                android:text="Traditional or non-formal provider "/>
+
+                            <RadioButton
+                                android:id="@+id/A42522c"
+                                style="@style/RadioButton"
+                                android:text="Pharmacist or drug seller"/>
+
+                            <RadioButton
+                                android:id="@+id/A42522d"
+                                style="@style/RadioButton"
+                                android:text="Trained community health worker (CHW), nurse, or midwife"/>
+
+                            <RadioButton
+                                android:id="@+id/A42522e"
+                                style="@style/RadioButton"
+                                android:text="Private doctor or clinic (formal/unsure)"/>
+
+                            <RadioButton
+                                android:id="@+id/A42522f"
+                                style="@style/RadioButton"
+                                android:text="NGO or Government Clinic"/>
+
+                            <RadioButton
+                                android:id="@+id/A42522g"
+                                style="@style/RadioButton"
+                                android:text="Hospital"/>
+
+                        </RadioGroup>
 
                     </LinearLayout>
 
