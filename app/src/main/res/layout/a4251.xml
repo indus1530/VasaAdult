@@ -657,109 +657,111 @@
 
             <!-- CheckBox A4276 Starts -->
             <android.support.v7.widget.CardView
+                android:id="@+id/A4276cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout
-                    style="@style/Q_Linerlayout_v"
-                    android:id="@+id/ll_A4276">
+                <LinearLayout style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4276"
                         style="@style/TextView"
                         android:text="@string/A4276" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_1"
+                        android:id="@+id/A4276a"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_1"/>
+                        android:text="@string/A4276a" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_2"
+                        android:id="@+id/A4276b"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_2"/>
+                        android:text="@string/A4276b" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_3"
+                        android:id="@+id/A4276c"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_3"/>
+                        android:text="@string/A4276c" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_4"
+                        android:id="@+id/A4276d"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_4"/>
+                        android:text="@string/A4276d" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_5"
+                        android:id="@+id/A4276e"
                         style="@style/CheckBox"
                         android:text="@string/ot_someone"/>
 
                     <EditText
-                        android:id="@+id/ed_A4276_5"
+                        android:id="@+id/A4276ex"
                         style="@style/EditText_varchar"
-                        android:hint="@string/ot_someone"/>
+                        android:hint="@string/ot_someone"
+                        android:text='@{A4276e.checked ? A4276ex.getText().toString() : "" }'
+                        android:visibility='@{A4276e.checked ? View.VISIBLE : View.GONE }' />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_6"
+                        android:id="@+id/A4276f"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_6"/>
+                        android:text="@string/A4276f" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_7"
+                        android:id="@+id/A4276g"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_7"/>
+                        android:text="@string/A4276g" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_8"
+                        android:id="@+id/A4276h"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_8"/>
+                        android:text="@string/A4276h" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_9"
+                        android:id="@+id/A4276i"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_9"/>
+                        android:text="@string/A4276i" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_10"
+                        android:id="@+id/A4276j"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_10"/>
+                        android:text="@string/A4276j" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_11"
+                        android:id="@+id/A4276k"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_11"/>
+                        android:text="@string/A4276k" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_12"
+                        android:id="@+id/A4276l"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_12"/>
+                        android:text="@string/A4276l" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_13"
+                        android:id="@+id/A4276m"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_13"/>
+                        android:text="@string/A4276m" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_14"
+                        android:id="@+id/A4276n"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_14"/>
+                        android:text="@string/A4276n" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_15"
+                        android:id="@+id/A4276o"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4276_15"/>
+                        android:text="@string/A4276o" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_16"
+                        android:id="@+id/A427696"
                         style="@style/CheckBox"
                         android:text="@string/ot_other"/>
 
                     <EditText
-                        android:id="@+id/ed_A4276_16"
+                        android:id="@+id/A427696x"
                         style="@style/EditText_varchar"
-                        android:hint="@string/ot_other"/>
+                        android:hint="@string/ot_other"
+                        android:text='@{A427696.checked ? A427696x.getText().toString() : "" }'
+                        android:visibility='@{A427696.checked ? View.VISIBLE : View.GONE }' />
 
                     <CheckBox
-                        android:id="@+id/cb_A4276_DK"
+                        android:id="@+id/A427698"
                         style="@style/CheckBox"
                         android:text="@string/dnt"/>
 
@@ -770,33 +772,36 @@
 
             <!-- Radio Buttons A4277 Starts -->
             <android.support.v7.widget.CardView
+                android:id="@+id/A4277cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout
-                    style="@style/Q_Linerlayout_v"
-                    android:id="@+id/ll_A4277">
+                <LinearLayout style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4277"
                         style="@style/TextView"
                         android:text="@string/A4277" />
 
                     <RadioGroup
-                        style="@style/RadioGroup" >
+                        android:id="@+id/A4277"
+                        style="@style/RadioGroup"
+                        android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/rb_A4277_1"
+                            android:id="@+id/A4277a"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/yes"/>
 
                         <RadioButton
-                            android:id="@+id/rb_A4277_2"
+                            android:id="@+id/A4277b"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/no"/>
 
                         <RadioButton
-                            android:id="@+id/rb_A4277_DK"
+                            android:id="@+id/A427798"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/dnt"/>
 
                     </RadioGroup>
@@ -808,54 +813,52 @@
 
             <!-- CheckBox A4278 Starts -->
             <android.support.v7.widget.CardView
+                android:id="@+id/A4278cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout
-                    style="@style/Q_Linerlayout_v"
-                    android:id="@+id/ll_A4278">
+                <LinearLayout style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4278"
                         style="@style/TextView"
                         android:text="@string/A4278" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4278_1"
+                        android:id="@+id/A4278a"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4278_1"/>
+                        android:text="@string/A4278a" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4278_2"
+                        android:id="@+id/A4278b"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4278_2"/>
+                        android:text="@string/A4278b" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4278_3"
+                        android:id="@+id/A4278c"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4278_3"/>
+                        android:text="@string/A4278c" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4278_4"
+                        android:id="@+id/A4278d"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4278_4"/>
+                        android:text="@string/A4278d" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4278_5"
+                        android:id="@+id/A4278e"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4278_5"/>
+                        android:text="@string/A4278e" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4278_6"
+                        android:id="@+id/A4278f"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4278_6"/>
+                        android:text="@string/A4278f" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4278_7"
+                        android:id="@+id/A427896"
                         style="@style/CheckBox"
                         android:text="Other"/>
 
                     <CheckBox
-                        android:id="@+id/cb_A4278_DK"
+                        android:id="@+id/A427898"
                         style="@style/CheckBox"
                         android:text="@string/dnt"/>
 
@@ -866,54 +869,52 @@
 
             <!-- CheckBox A4279 Starts -->
             <android.support.v7.widget.CardView
+                android:id="@+id/A4279cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout
-                    style="@style/Q_Linerlayout_v"
-                    android:id="@+id/ll_A4279">
+                <LinearLayout style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4279"
                         style="@style/TextView"
                         android:text="@string/A4279" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4279_1"
+                        android:id="@+id/A4279a"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4279_1"/>
+                        android:text="@string/A4279a" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4279_2"
+                        android:id="@+id/A4279b"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4279_2"/>
+                        android:text="@string/A4279b" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4279_3"
+                        android:id="@+id/A4279c"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4279_3"/>
+                        android:text="@string/A4279c" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4279_4"
+                        android:id="@+id/A4279d"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4279_4"/>
+                        android:text="@string/A4279d" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4279_5"
+                        android:id="@+id/A4279e"
                         style="@style/CheckBox"
-                        android:text="@string/cb_A4279_5"/>
+                        android:text="@string/A4279e" />
 
                     <CheckBox
-                        android:id="@+id/cb_A4279_6"
+                        android:id="@+id/A4279f"
+                        style="@style/CheckBox"
+                        android:text="@string/A4279f" />
+
+                    <CheckBox
+                        android:id="@+id/A427996"
                         style="@style/CheckBox"
                         android:text="Other"/>
 
                     <CheckBox
-                        android:id="@+id/cb_A4279_7"
-                        style="@style/CheckBox"
-                        android:text="@string/cb_A4279_7"/>
-
-                    <CheckBox
-                        android:id="@+id/cb_A4279_DK"
+                        android:id="@+id/A427998"
                         style="@style/CheckBox"
                         android:text="@string/dnt"/>
 
@@ -924,38 +925,42 @@
 
             <!-- Radio Buttons A4280 Starts -->
             <android.support.v7.widget.CardView
+                android:id="@+id/A4280cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout
-                    style="@style/Q_Linerlayout_v"
-                    android:id="@+id/ll_A4280">
+                <LinearLayout style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4280"
                         style="@style/TextView"
                         android:text="@string/A4280" />
 
                     <RadioGroup
-                        style="@style/RadioGroup" >
+                        android:id="@+id/A4280"
+                        style="@style/RadioGroup"
+                        android:orientation="horizontal">
 
                         <RadioButton
                             android:id="@+id/rb_A4280_1"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/yes"/>
 
                         <RadioButton
                             android:id="@+id/rb_A4280_2"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/no"/>
 
                         <RadioButton
                             android:id="@+id/rb_A4280_DK"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/dnt"/>
 
                         <RadioButton
                             android:id="@+id/rb_A4280_RA"
                             style="@style/RadioButton"
+                            android:layout_weight="1"
                             android:text="@string/ra"/>
 
                     </RadioGroup>
