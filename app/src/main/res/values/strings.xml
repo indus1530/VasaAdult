@@ -549,22 +549,24 @@
     <string name="A4471"><![CDATA[4471: Note: This is an optional question, to be asked or not as determined by the study site.  Read: Thank you for answering the many questions that I’ve asked. Would you like to tell me about <NAME>’s illness in your own words? Also, is there anything else about her/his illness that I did not ask and you would like to tell me about?  After the respondent(s) finishes, ask: Is there anything else?  Write the respondent’s exact words. After s/he has finished, read this back and ask her to correct any errors in what you wrote.]]></string>
     <string name="A4473">4473:   Interviewer: Use this space to write down your comments and observations about the interview.</string>
     <string name="kilograms_kg">Kilograms Kg &amp; DK = 999</string>
-    <string name="A4257"><![CDATA[A4257: What was the name of the <FIRST HEALTH PROVIDER> where <NAME went?]]></string>
-    <string name="rb_A4257_1">Government hospital</string>
-    <string name="rb_A4257_2">Government health center</string>
-    <string name="rb_A4257_3">Government health post</string>
-    <string name="rb_A4257_4">Mobile Clinic</string>
-    <string name="rb_A4257_5">Trained CHW, nurse or midwife (outside a health facility)</string>
-    <string name="rb_A4257_6">Other public sector</string>
-    <string name="rb_A4257_7">Private hospital</string>
-    <string name="rb_A4257_8">Private doctor/clinic</string>
-    <string name="rb_A4257_9">Mobile Clinic</string>
-    <string name="rb_A4257_10">Trained CHW, nurse or midwife (outside a health facility)</string>
-    <string name="rb_A4257_11">Other private medical sector</string>
-    <string name="rb_A4258_1">Yes, reached before died</string>
-    <string name="rb_A4258_2">No, died on route to this provider / before this provider reached the deceased</string>
-    <string name="rb_A4258_3">No, could not reach this provider, so returned home or took other action</string>
+
+    <string name="A4257"> <![CDATA[A4257: What was the name of the <FIRST HEALTH PROVIDER> where <NAME went?]]> </string>
+    <string name="A4257a">Government hospital</string>
+    <string name="A4257b">Government health center</string>
+    <string name="A4257c">Government health post</string>
+    <string name="A4257d">Mobile Clinic</string>
+    <string name="A4257e">Trained CHW, nurse or midwife (outside a health facility)</string>
+    <string name="A4257f">Other public sector</string>
+    <string name="A4257g">Private hospital</string>
+    <string name="A4257h">Private doctor/clinic</string>
+    <string name="A4257i">Mobile Clinic</string>
+    <string name="A4257j">Trained CHW, nurse or midwife (outside a health facility)</string>
+    <string name="A4257k">Other private medical sector</string>
+
     <string name="A4258"><![CDATA[A4258: For health care at a facility, ask: Did <NAME> reach the <FIRST HEALTH PROVIDER> before s/he died?]]></string>
+    <string name="A4258a"> Yes, reached before died </string>
+    <string name="A4258b"> No, died on route to this provider / before this provider reached the deceased </string>
+    <string name="A4258c"> No, could not reach this provider, so returned home or took other action </string>
 
     <string name="A4453a">One person/group identified</string>
     <string name="A4453b">Two or more persons/groups identified</string>
