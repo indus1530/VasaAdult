@@ -5,7 +5,6 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.CompoundButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
@@ -14,6 +13,7 @@ import com.example.abdulsajid.vasaadult.databinding.A4251Binding;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import data.LocalDataManager;
 import utils.ClearAllcontrol;
 
 
@@ -295,33 +295,15 @@ public class A4251 extends AppCompatActivity {
 
         json.put("A4284", bi.A428498.isChecked() ? "98" : bi.A4284.getText().toString());
 
-        //LocalDataManager.database.execSQL(String.valueOf(json));
+        LocalDataManager lm = new LocalDataManager(this);
+        LocalDataManager.database.execSQL(String.valueOf(json));
 
-
-    }
-
-
-
-    @Override
-    public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-
-        if (compoundButton.getId() == R.id.A4251a
-                || compoundButton.getId() == R.id.A4251b
-                || compoundButton.getId() == R.id.A425198)
-
-        {
-            if (bi.A4251a.isChecked()) {
-
-            } else if (bi.A4251b.isChecked()) {
-
-
-            }
-        }
     }
 
 
     boolean validateField() {
         return Gothrough.IamHiden(bi.llA4251);
     }
+
 
 }
