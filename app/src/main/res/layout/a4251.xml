@@ -737,6 +737,8 @@
                     <CheckBox
                         android:id="@+id/A4276d"
                         style="@style/CheckBox"
+                        android:checked='@{A427698.checked ? false : false}'
+                        android:enabled='@{A427698.checked ? false : true}'
                         android:text="@string/A4276d" />
 
                     <CheckBox
