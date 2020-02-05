@@ -1257,6 +1257,7 @@
                             style="@style/EditText_number"
                             android:layout_width="0dp"
                             android:layout_weight="1"
+                            android:maxLength="2"
                             android:hint="@string/days" />
 
                         <CheckBox

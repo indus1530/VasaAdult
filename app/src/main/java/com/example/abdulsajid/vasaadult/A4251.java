@@ -300,6 +300,50 @@ public class A4251 extends AppCompatActivity {
                 : bi.A427798.isChecked() ? "98"
                 : "0");
 
+        json.put("A4278a", bi.A4278a.isChecked() ? "1" : "0");
+        json.put("A4278b", bi.A4278b.isChecked() ? "2" : "0");
+        json.put("A4278c", bi.A4278c.isChecked() ? "3" : "0");
+        json.put("A4278d", bi.A4278d.isChecked() ? "4" : "0");
+        json.put("A4278e", bi.A4278e.isChecked() ? "5" : "0");
+        json.put("A4278f", bi.A4278f.isChecked() ? "6" : "0");
+        json.put("A427896", bi.A427896.isChecked() ? "96" : "0");
+        json.put("A427898", bi.A427898.isChecked() ? "98" : "0");
+
+        json.put("A4279a", bi.A4279a.isChecked() ? "1" : "0");
+        json.put("A4279b", bi.A4279b.isChecked() ? "2" : "0");
+        json.put("A4279c", bi.A4279c.isChecked() ? "3" : "0");
+        json.put("A4279d", bi.A4279d.isChecked() ? "4" : "0");
+        json.put("A4279e", bi.A4279e.isChecked() ? "5" : "0");
+        json.put("A4279f", bi.A4279f.isChecked() ? "6" : "0");
+        json.put("A427996", bi.A427996.isChecked() ? "96" : "0");
+        json.put("A427998", bi.A427998.isChecked() ? "98" : "0");
+
+        json.put("A4280", bi.A4280a.isChecked() ? "1"
+                : bi.A4280b.isChecked() ? "2"
+                : bi.A428098.isChecked() ? "98"
+                : bi.A428099.isChecked() ? "99"
+                : "0");
+
+        json.put("A4281", bi.A4281a.isChecked() ? "1"
+                : bi.A4281b.isChecked() ? "2"
+                : bi.A428198.isChecked() ? "98"
+                : bi.A428199.isChecked() ? "99"
+                : "0");
+
+        json.put("A4282", bi.A4282a.isChecked() ? "1"
+                : bi.A4282b.isChecked() ? "2"
+                : bi.A428298.isChecked() ? "98"
+                : bi.A428299.isChecked() ? "99"
+                : "0");
+
+        json.put("A4283", bi.A4283a.isChecked() ? "1"
+                : bi.A4283b.isChecked() ? "2"
+                : bi.A428398.isChecked() ? "98"
+                : bi.A428399.isChecked() ? "99"
+                : "0");
+
+        json.put("A4284", bi.A428498.isChecked() ? "98" : bi.A4284.getText().toString());
+
         //LocalDataManager.database.execSQL(String.valueOf(json));
 
 
