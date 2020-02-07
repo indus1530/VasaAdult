@@ -1,19 +1,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:weightSum="100">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="90"
         android:scrollbars="vertical">
 
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
@@ -39,19 +37,19 @@
                             <RadioGroup style="@style/RadioGroup">
 
                                 <RadioButton
-                                    android:id="@+id/rb_A4252_1_1"
+                                    android:id="@+id/A42521a"
                                     style="@style/RadioButton"
-                                    android:text="START" />
+                                    android:text="Start" />
 
                                 <RadioButton
-                                    android:id="@+id/rb_A4252_1_2"
+                                    android:id="@+id/rb_A42521b"
                                     style="@style/RadioButton"
                                     android:text="Mid" />
 
                                 <RadioButton
-                                    android:id="@+id/rb_A4252_1_3"
+                                    android:id="@+id/rb_A42521c"
                                     style="@style/RadioButton"
-                                    android:text="END" />
+                                    android:text="End" />
 
                             </RadioGroup>
 
@@ -165,40 +163,27 @@
     </ScrollView>
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_margin="3dp"
-        android:layout_weight="10"
-        android:orientation="horizontal"
-
-        android:weightSum="2">
+        android:orientation="horizontal">
 
 
         <Button
             android:id="@+id/btn_cncl"
             style="@style/Button_collder"
-
-            android:layout_marginTop="2dp"
             android:layout_weight="1"
             android:background="#EA4335"
             android:text="Cancel"
-            android:textSize="14sp"
-
-            />
+            android:textSize="14sp" />
 
         <Button
             android:id="@+id/btn_sbt"
             style="@style/Button_collder"
-
-            android:layout_marginLeft="2dp"
-            android:layout_marginTop="2dp"
             android:layout_weight="1"
-
             android:text="Submit"
-            android:textSize="14sp"
-
-            />
+            android:textSize="14sp" />
 
     </LinearLayout>
+
 </LinearLayout>
