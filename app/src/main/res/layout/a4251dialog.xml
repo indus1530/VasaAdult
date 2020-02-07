@@ -9,181 +9,193 @@
         android:scrollbars="vertical">
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        <LinearLayout style="@style/Q_Linerlayout_v">
 
-            <LinearLayout
-                style="@style/Q_Linerlayout_v"
-                android:layout_marginBottom="60dp">
+            <LinearLayout style="@style/Q_Linerlayout_v">
 
                 <!-- TextView A4252 Starts -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <android.support.v7.widget.CardView
+                    android:id="@+id/A42521cv"
+                    style="@style/Q_CardView">
 
-                    <LinearLayout
-                        android:id="@+id/ll_A4252_1"
-                        style="@style/Q_Linerlayout_v">
+                    <LinearLayout style="@style/Q_Linerlayout_v">
 
-                        <LinearLayout
-                            android:id="@+id/ll2_A4252"
-                            style="@style/Q_Linerlayout_v">
+                        <TextView
+                            style="@style/TextView"
+                            android:text="Illness Phase" />
 
-                            <TextView
-                                android:id="@+id/A4252_6"
-                                style="@style/TextView"
-                                android:text="Illness Phase" />
+                        <RadioGroup
+                            android:id="@+id/A42521"
+                            style="@style/RadioGroup"
+                            android:orientation="horizontal">
 
-                            <RadioGroup style="@style/RadioGroup">
+                            <RadioButton
+                                android:id="@+id/A42521a"
+                                style="@style/RadioButton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="Start" />
 
-                                <RadioButton
-                                    android:id="@+id/A42521a"
-                                    style="@style/RadioButton"
-                                    android:text="Start" />
+                            <RadioButton
+                                android:id="@+id/rb_A42521b"
+                                style="@style/RadioButton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="Mid" />
 
-                                <RadioButton
-                                    android:id="@+id/rb_A42521b"
-                                    style="@style/RadioButton"
-                                    android:text="Mid" />
+                            <RadioButton
+                                android:id="@+id/rb_A42521c"
+                                style="@style/RadioButton"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:text="End" />
 
-                                <RadioButton
-                                    android:id="@+id/rb_A42521c"
-                                    style="@style/RadioButton"
-                                    android:text="End" />
-
-                            </RadioGroup>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:id="@+id/ll3_A4252"
-                            style="@style/Q_Linerlayout_v">
-
-                            <TextView
-                                android:id="@+id/A4252_8"
-                                style="@style/TextView"
-                                android:text="What ACTION was taken?" />
-
-                            <TextView
-                                android:id="@+id/A4252_81"
-                                style="@style/TextView"
-                                android:text="Other Care" />
-
-                            <RadioGroup style="@style/RadioGroup">
-
-                                <RadioButton
-                                    android:id="@+id/rb_A4252_2_1"
-                                    style="@style/RadioButton"
-                                    android:text="Home care (own, relative, neighbor, friend)" />
-
-                                <RadioButton
-                                    android:id="@+id/rb_A4252_2_2"
-                                    style="@style/RadioButton"
-                                    android:text="Traditional or non-formal provider " />
-
-                                <RadioButton
-                                    android:id="@+id/rb_A4252_2_3"
-                                    style="@style/RadioButton"
-                                    android:text="Pharmacist or drug seller" />
-
-                                <TextView
-                                    android:id="@+id/A4252_82"
-                                    style="@style/TextView"
-                                    android:text="Health Care Providers" />
-
-                                <RadioButton
-                                    android:id="@+id/rb_A4252_2_4"
-                                    style="@style/RadioButton"
-                                    android:text="Trained community health worker (CHW), nurse, or midwife" />
-
-                                <RadioButton
-                                    android:id="@+id/rb_A4252_2_5"
-                                    style="@style/RadioButton"
-                                    android:text="Private doctor or clinic (formal/unsure)" />
-
-                                <RadioButton
-                                    android:id="@+id/rb_A4252_2_6"
-                                    style="@style/RadioButton"
-                                    android:text="NGO or Government Clinic" />
-
-                                <RadioButton
-                                    android:id="@+id/rb_A4252_2_7"
-                                    style="@style/RadioButton"
-                                    android:text="Hospital" />
-
-                            </RadioGroup>
-
-                            <LinearLayout
-                                android:id="@+id/ll4_A4252"
-                                style="@style/Q_Linerlayout_v">
-
-                                <TextView
-                                    android:id="@+id/A4252_9"
-                                    style="@style/TextView"
-                                    android:text="Is this the Place Where" />
-
-                                <CheckBox
-                                    android:id="@+id/cb_A4252_2_8"
-                                    style="@style/CheckBox"
-                                    android:text="Woman Aborted or Delivered at this Provider" />
-
-                            </LinearLayout>
-
-
-                            <LinearLayout
-                                android:id="@+id/ll5_A4252"
-                                style="@style/Q_Linerlayout_v">
-
-                                <TextView
-                                    android:id="@+id/A4252_7"
-                                    style="@style/TextView"
-                                    android:text="What symptoms were present when the action was taken?" />
-
-                                <EditText
-                                    android:id="@+id/ed_A4252"
-                                    style="@style/EditText_varchar"
-                                    android:hint="symptoms" />
-
-                            </LinearLayout>
-
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
                 <!-- TextView A4252 Ends -->
 
+                <!-- TextView A4252 Starts -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/A42522cv"
+                    style="@style/Q_CardView">
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/A4252_8"
+                            style="@style/TextView"
+                            android:text="What ACTION was taken?" />
+
+                        <TextView
+                            android:id="@+id/A4252_81"
+                            style="@style/TextView"
+                            android:text="Other Care" />
+
+                        <RadioGroup style="@style/RadioGroup">
+
+                            <RadioButton
+                                android:id="@+id/rb_A4252_2_1"
+                                style="@style/RadioButton"
+                                android:text="Home care (own, relative, neighbor, friend)" />
+
+                            <RadioButton
+                                android:id="@+id/rb_A4252_2_2"
+                                style="@style/RadioButton"
+                                android:text="Traditional or non-formal provider " />
+
+                            <RadioButton
+                                android:id="@+id/rb_A4252_2_3"
+                                style="@style/RadioButton"
+                                android:text="Pharmacist or drug seller" />
+
+                            <TextView
+                                android:id="@+id/A4252_82"
+                                style="@style/TextView"
+                                android:text="Health Care Providers" />
+
+                            <RadioButton
+                                android:id="@+id/rb_A4252_2_4"
+                                style="@style/RadioButton"
+                                android:text="Trained community health worker (CHW), nurse, or midwife" />
+
+                            <RadioButton
+                                android:id="@+id/rb_A4252_2_5"
+                                style="@style/RadioButton"
+                                android:text="Private doctor or clinic (formal/unsure)" />
+
+                            <RadioButton
+                                android:id="@+id/rb_A4252_2_6"
+                                style="@style/RadioButton"
+                                android:text="NGO or Government Clinic" />
+
+                            <RadioButton
+                                android:id="@+id/rb_A4252_2_7"
+                                style="@style/RadioButton"
+                                android:text="Hospital" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!-- TextView A42522 Ends -->
+
+                <!-- TextView A42523 Starts -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/A42523cv"
+                    style="@style/Q_CardView">
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/A4252_9"
+                            style="@style/TextView"
+                            android:text="Is this the Place Where" />
+
+                        <CheckBox
+                            android:id="@+id/cb_A4252_2_8"
+                            style="@style/CheckBox"
+                            android:text="Woman Aborted or Delivered at this Provider" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!-- TextView A42523 Ends -->
+
+                <!-- EditText A42524 Starts -->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/A42524cv"
+                    style="@style/Q_CardView">
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            style="@style/TextView"
+                            android:text="What symptoms were present when the action was taken?" />
+
+                        <EditText
+                            android:id="@+id/A42524"
+                            style="@style/EditText_varchar"
+                            android:hint="symptoms" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!-- TextView A42524 Ends -->
+
 
             </LinearLayout>
 
-            <!-- E0 Ends  Radio Button-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btn_cncl"
+                    style="@style/Button_collder"
+                    android:layout_weight="1"
+                    android:background="#EA4335"
+                    android:text="Cancel"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btn_sbt"
+                    style="@style/Button_collder"
+                    android:layout_weight="1"
+                    android:text="Submit"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
 
 
         </LinearLayout>
+
     </ScrollView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="3dp"
-        android:orientation="horizontal">
-
-
-        <Button
-            android:id="@+id/btn_cncl"
-            style="@style/Button_collder"
-            android:layout_weight="1"
-            android:background="#EA4335"
-            android:text="Cancel"
-            android:textSize="14sp" />
-
-        <Button
-            android:id="@+id/btn_sbt"
-            style="@style/Button_collder"
-            android:layout_weight="1"
-            android:text="Submit"
-            android:textSize="14sp" />
-
-    </LinearLayout>
 
 </LinearLayout>
