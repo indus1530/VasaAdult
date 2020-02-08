@@ -967,9 +967,8 @@
 
                 <Button
                     android:id="@+id/btnEnd"
+                    style="@style/Button_collder"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
                     android:layout_weight="1"
                     android:background="@android:color/holo_red_light"
                     android:onClick="@{() -> callback.BtnEnd()}"
@@ -980,9 +979,8 @@
 
                 <Button
                     android:id="@+id/btnNext"
+                    style="@style/Button_collder"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="4dp"
                     android:layout_weight="1"
                     android:background="@android:color/holo_green_light"
                     android:onClick="@{() -> callback.BtnContinue()}"
