@@ -77,54 +77,53 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/A4252_8"
                             style="@style/TextView"
                             android:text="What ACTION was taken?" />
 
                         <TextView
-                            android:id="@+id/A4252_81"
                             style="@style/TextView"
                             android:text="Other Care" />
 
-                        <RadioGroup style="@style/RadioGroup">
+                        <RadioGroup
+                            android:id="@+id/A42522"
+                            style="@style/RadioGroup">
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_2_1"
+                                android:id="@+id/A42522a"
                                 style="@style/RadioButton"
                                 android:text="Home care (own, relative, neighbor, friend)" />
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_2_2"
+                                android:id="@+id/A42522b"
                                 style="@style/RadioButton"
                                 android:text="Traditional or non-formal provider " />
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_2_3"
+                                android:id="@+id/A42522c"
                                 style="@style/RadioButton"
                                 android:text="Pharmacist or drug seller" />
 
                             <TextView
-                                android:id="@+id/A4252_82"
                                 style="@style/TextView"
                                 android:text="Health Care Providers" />
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_2_4"
+                                android:id="@+id/A42522d"
                                 style="@style/RadioButton"
                                 android:text="Trained community health worker (CHW), nurse, or midwife" />
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_2_5"
+                                android:id="@+id/A42522e"
                                 style="@style/RadioButton"
                                 android:text="Private doctor or clinic (formal/unsure)" />
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_2_6"
+                                android:id="@+id/A42522f"
                                 style="@style/RadioButton"
                                 android:text="NGO or Government Clinic" />
 
                             <RadioButton
-                                android:id="@+id/rb_A4252_2_7"
+                                android:id="@+id/A42522g"
                                 style="@style/RadioButton"
                                 android:text="Hospital" />
 
@@ -146,12 +145,11 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/A4252_9"
                             style="@style/TextView"
                             android:text="Is this the Place Where" />
 
                         <CheckBox
-                            android:id="@+id/cb_A4252_2_8"
+                            android:id="@+id/A42523"
                             style="@style/CheckBox"
                             android:text="Woman Aborted or Delivered at this Provider" />
 
