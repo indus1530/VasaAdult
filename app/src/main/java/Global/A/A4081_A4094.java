@@ -15,8 +15,8 @@ public class A4081_A4094 {
     public static String A4085M = "A4085M";
     public static String A4086 = "A4086";
     public static String A4087u = "A4087u";
-    public static String A4087a = "A4087a";
-    public static String A4087b = "A4087b";
+    public static String A4087D = "A4087D";
+    public static String A4087M = "A4087M";
     public static String A4088 = "A4088";
     public static String A4089 = "A4089 ";
     public static String A4090 = "A4090";
@@ -24,9 +24,9 @@ public class A4081_A4094 {
     public static String A4092 = "A4092";
     public static String A4093 = "A4093 ";
     public static String A4094u = "A4094u";
-    public static String A4094a = "A4094a ";
-    public static String A4094b = "A4094b ";
-    public static String A4094c = "A4094c ";
+    public static String A4094m = "A4094m ";
+    public static String A4094H = "A4094H ";
+    public static String A4094D = "A4094D ";
     public static String STATUS = "STATUS";
 
 }
