@@ -294,9 +294,9 @@ public class A4081 extends AppCompatActivity {
                 : bind.A4082u99.isChecked() ? "99"
                 : "0";
 
-        json.put("A4082D", bind.A4082D.getText().toString().trim().length() > 0 ? bind.A4082D.getText().toString() : "0");
-        json.put("A4082M", bind.A4082M.getText().toString().trim().length() > 0 ? bind.A4082M.getText().toString() : "0");
-        json.put("A4082Y", bind.A4082Y.getText().toString().trim().length() > 0 ? bind.A4082Y.getText().toString() : "0");
+        Global.A.A4081_A4094.A4082D = bind.A4082D.getText().toString().trim().length() > 0 ? bind.A4082D.getText().toString() : "0";
+        Global.A.A4081_A4094.A4082M = bind.A4082M.getText().toString().trim().length() > 0 ? bind.A4082M.getText().toString() : "0";
+        Global.A.A4081_A4094.A4082Y = bind.A4082Y.getText().toString().trim().length() > 0 ? bind.A4082Y.getText().toString() : "0";
 
         json.put("A4083", bind.A4083a.isChecked() ? "1"
                 : bind.A4083b.isChecked() ? "2"
