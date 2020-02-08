@@ -11,8 +11,8 @@ public class A4081_A4094 {
     public static String A4083 = "A4083";
     public static String A4084 = "A4084";
     public static String A4085u = "A4085u";
-    public static String A4085a = "A4085a";
-    public static String A4085b = "A4085b";
+    public static String A4085D = "A4085D";
+    public static String A4085M = "A4085M";
     public static String A4086 = "A4086";
     public static String A4087u = "A4087u";
     public static String A4087a = "A4087a";

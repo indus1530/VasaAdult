@@ -13,6 +13,7 @@ import com.example.abdulsajid.vasaadult.databinding.A4081Binding;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import Global.A.A4081_A4094;
 import utils.ClearAllcontrol;
 
 public class A4081 extends AppCompatActivity {
@@ -298,25 +299,25 @@ public class A4081 extends AppCompatActivity {
         Global.A.A4081_A4094.A4082M = bind.A4082M.getText().toString().trim().length() > 0 ? bind.A4082M.getText().toString() : "0";
         Global.A.A4081_A4094.A4082Y = bind.A4082Y.getText().toString().trim().length() > 0 ? bind.A4082Y.getText().toString() : "0";
 
-        json.put("A4083", bind.A4083a.isChecked() ? "1"
+        Global.A.A4081_A4094.A4083 = bind.A4083a.isChecked() ? "1"
                 : bind.A4083b.isChecked() ? "2"
                 : bind.A408398.isChecked() ? "98"
                 : bind.A408399.isChecked() ? "99"
-                : "0");
+                : "0";
 
-        json.put("A4084", bind.A4084a.isChecked() ? "1"
+        Global.A.A4081_A4094.A4084 = bind.A4084a.isChecked() ? "1"
                 : bind.A4084b.isChecked() ? "2"
                 : bind.A408498.isChecked() ? "98"
                 : bind.A408499.isChecked() ? "99"
-                : "0");
+                : "0";
 
-        json.put("A4085u", bind.A4085ua.isChecked() ? "1"
+        A4081_A4094.A4085u = bind.A4085ua.isChecked() ? "1"
                 : bind.A4085ub.isChecked() ? "2"
                 : bind.A4085u98.isChecked() ? "98"
                 : bind.A4085u99.isChecked() ? "99"
-                : "0");
+                : "0";
 
-        json.put("A4085D", bind.A4085D.getText().toString().trim().length() > 0 ? bind.A4085D.getText().toString() : "0");
+        A4081_A4094.A4085D = bind.A4085D.getText().toString().trim().length() > 0 ? bind.A4085D.getText().toString() : "0")
         json.put("A4085M", bind.A4085M.getText().toString().trim().length() > 0 ? bind.A4085M.getText().toString() : "0");
 
         json.put("A4086", bind.A4086a.isChecked() ? "1"
