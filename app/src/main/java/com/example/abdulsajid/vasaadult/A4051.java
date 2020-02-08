@@ -14,7 +14,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import utils.ClearAllcontrol;
-import utils.MyPreferences;
 
 public class A4051 extends AppCompatActivity {
 
@@ -369,10 +368,6 @@ public class A4051 extends AppCompatActivity {
     }
 
     boolean validateField() {
-        if (Gothrough.IamHiden(bind.llA4051) == false) {
-            return false;
-        }
-
         return Gothrough.IamHiden(bind.llA4051) != false;
     }
 }

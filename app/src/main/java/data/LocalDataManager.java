@@ -43,16 +43,11 @@ public class LocalDataManager
 
             database.beginTransaction();
             Cursor c = database.rawQuery(query, null);
-            if (c != null)
-            {
-                if (c.moveToFirst())
-                {
-                    do
-                    {
+            if (c != null) {
+                if (c.moveToFirst()) {
+                    do {
                         list.add(c.getString(1) + "/" + c.getString(0));
-                    }
-
-                       while (c.moveToNext());
+                    } while (c.moveToNext());
                 }
             }
         }
