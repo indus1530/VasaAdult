@@ -17,30 +17,6 @@
 
     </data>
 
-<!--
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:text="@string/app_name"
-            android:textSize="30sp"
-            android:textStyle="bold|italic"
-            android:textColor="@color/white"
-            android:layout_centerInParent="true"
-            android:layout_alignParentTop="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:src="@drawable/unwhite"
-            android:layout_alignParentTop="true"
-            android:layout_width="90dp"
-            android:layout_height="60sp"/>
-
-    </RelativeLayout>
--->
 
 
     <ScrollView
@@ -58,14 +34,19 @@
 
         <LinearLayout
             android:id="@+id/llA4051"
-            style="@style/Q_Linerlayout_v">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <!-- Radio Buttons A4051 Starts -->
             <android.support.v7.widget.CardView
                 android:id="@+id/A4051cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -107,7 +88,10 @@
                 android:id="@+id/A4052ucv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -149,7 +133,10 @@
                 android:id="@+id/A4052Dcv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -170,7 +157,10 @@
                 android:id="@+id/A4052Mcv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -191,7 +181,10 @@
                 android:id="@+id/A4053cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -233,10 +226,10 @@
                 android:id="@+id/A4054cv"
                 style="@style/Q_CardView">
 
-
                 <LinearLayout
-                    style="@style/Q_Linerlayout_v"
-                    android:id="@+id/llA4054">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -284,8 +277,9 @@
                 style="@style/Q_CardView">
 
                 <LinearLayout
-                    style="@style/Q_Linerlayout_v"
-                    android:id="@+id/llA4055">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -332,7 +326,10 @@
                 android:id="@+id/A4056cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -374,7 +371,10 @@
                 android:id="@+id/A4057cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -416,7 +416,10 @@
                 android:id="@+id/A4058cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -458,7 +461,10 @@
                 android:id="@+id/A4059ucv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -500,7 +506,10 @@
                 android:id="@+id/A4059Dcv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -521,7 +530,10 @@
                 android:id="@+id/A4059Mcv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -542,7 +554,10 @@
                 android:id="@+id/A4060cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -584,7 +599,10 @@
                 android:id="@+id/A4061cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -626,7 +644,10 @@
                 android:id="@+id/A4062cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -668,7 +689,10 @@
                 android:id="@+id/A4063cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -710,7 +734,10 @@
                 android:id="@+id/A4064ucv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -752,7 +779,10 @@
                 android:id="@+id/A4064Dcv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -773,7 +803,10 @@
                 android:id="@+id/A4064Mcv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -794,7 +827,10 @@
                 android:id="@+id/A40641cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -836,7 +872,10 @@
                 android:id="@+id/A4065cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
@@ -878,7 +917,10 @@
                 android:id="@+id/A4066cv"
                 style="@style/Q_CardView">
 
-                <LinearLayout style="@style/Q_Linerlayout_v">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/TextView"
