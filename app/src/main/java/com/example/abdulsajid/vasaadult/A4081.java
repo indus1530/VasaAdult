@@ -14,7 +14,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import utils.ClearAllcontrol;
-import utils.MyPreferences;
 
 public class A4081 extends AppCompatActivity {
 
@@ -282,18 +281,18 @@ public class A4081 extends AppCompatActivity {
 
         JSONObject json = new JSONObject();
 
-        json.put("A4081", bind.A4081a.isChecked() ? "1"
+        Global.A.A4081_A4094.A4081 = bind.A4081a.isChecked() ? "1"
                 : bind.A4081b.isChecked() ? "2"
                 : bind.A408198.isChecked() ? "98"
                 : bind.A408199.isChecked() ? "99"
-                : "0");
+                : "0";
 
-        json.put("A4082u", bind.A4082ua.isChecked() ? "1"
+        Global.A.A4081_A4094.A4082u = bind.A4082ua.isChecked() ? "1"
                 : bind.A4082ub.isChecked() ? "2"
                 : bind.A4082uc.isChecked() ? "3"
                 : bind.A4082u98.isChecked() ? "98"
                 : bind.A4082u99.isChecked() ? "99"
-                : "0");
+                : "0";
 
         json.put("A4082D", bind.A4082D.getText().toString().trim().length() > 0 ? bind.A4082D.getText().toString() : "0");
         json.put("A4082M", bind.A4082M.getText().toString().trim().length() > 0 ? bind.A4082M.getText().toString() : "0");
