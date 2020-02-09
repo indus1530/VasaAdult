@@ -131,7 +131,7 @@ public class UploadHouseInfoAsync extends AsyncTask
                   param.put(A4001_A4014.A4005, "6");
                   param.put(A4001_A4014.A4006, "7");
                   param.put(A4001_A4014.A4007, "8");
-                  param.put(A4001_A4014.A4007_1, "9");
+                  param.put(A4001_A4014.A40071, "9");
                   param.put(A4001_A4014.A4008, "10");
                   param.put(A4001_A4014.A4009a, "11");
                   param.put(A4001_A4014.A4010, "12");
@@ -151,28 +151,28 @@ public class UploadHouseInfoAsync extends AsyncTask
             if (c2.moveToFirst())
             {
                 param.put("id", c2.getString(0));
-                param.put(A4051_A4066.study_id,  "1");
+                param.put(A4051_A4066.studyId, "1");
                 param.put(A4051_A4066.A4051,     "2");
-                param.put(A4051_A4066.A4052_u,   "3");
-                param.put(A4051_A4066.A4052_b,   "4");
-                param.put(A4051_A4066.A4052_c,   "5");
+                param.put(A4051_A4066.A4052u, "3");
+                param.put(A4051_A4066.A4052b, "4");
+                param.put(A4051_A4066.A4052c, "5");
                 param.put(A4051_A4066.A4053,     "6");
                 param.put(A4051_A4066.A4054,     "7");
                 param.put(A4051_A4066.A4055,     "8");
                 param.put(A4051_A4066.A4056,     "9");
                 param.put(A4051_A4066.A4057,     "10");
                 param.put(A4051_A4066.A4058,     "11");
-                param.put(A4051_A4066.A4059_u,   "12");
-                param.put(A4051_A4066.A4059_a,   "13");
-                param.put(A4051_A4066.A4059_b,   "14");
+                param.put(A4051_A4066.A4059u, "12");
+                param.put(A4051_A4066.A4059a, "13");
+                param.put(A4051_A4066.A4059b, "14");
                 param.put(A4051_A4066.A4060,     "15");
                 param.put(A4051_A4066.A4061,     "16");
                 param.put(A4051_A4066.A4062,     "17");
                 param.put(A4051_A4066.A4063,     "18");
-                param.put(A4051_A4066.A4064_u,   "19");
-                param.put(A4051_A4066.A4064_a,   "20");
-                param.put(A4051_A4066.A4064_b,   "21");
-                param.put(A4051_A4066.A4064_1,   "22");
+                param.put(A4051_A4066.A4064u, "19");
+                param.put(A4051_A4066.A4064a, "20");
+                param.put(A4051_A4066.A4064b, "21");
+                param.put(A4051_A4066.A40641, "22");
                 param.put(A4051_A4066.A4065,     "23");
                 param.put(A4051_A4066.A4066,     "24");
                 param.put(A4051_A4066.STATUS,    "25");
@@ -220,29 +220,29 @@ public class UploadHouseInfoAsync extends AsyncTask
                 param.put("id", c4.getString(0));
                 param.put(A4081_A4094.study_id, "1");
                 param.put(A4081_A4094.A4081, "2");
-                param.put(A4081_A4094.A4082_u, "3");
-                param.put(A4081_A4094.A4082_a, "4");
-                param.put(A4081_A4094.A4082_b, "5");
-                param.put(A4081_A4094.A4082_c, "6");
+                param.put(A4081_A4094.A4082u, "3");
+                param.put(A4081_A4094.A4082D, "4");
+                param.put(A4081_A4094.A4082M, "5");
+                param.put(A4081_A4094.A4082Y, "6");
                 param.put(A4081_A4094.A4083, "7");
                 param.put(A4081_A4094.A4084, "8");
-                param.put(A4081_A4094.A4085_u, "9");
-                param.put(A4081_A4094.A4085_a, "10");
-                param.put(A4081_A4094.A4085_b, "11");
+                param.put(A4081_A4094.A4085u, "9");
+                param.put(A4081_A4094.A4085D, "10");
+                param.put(A4081_A4094.A4085M, "11");
                 param.put(A4081_A4094.A4086, "12");
-                param.put(A4081_A4094.A4087_u, "13");
-                param.put(A4081_A4094.A4087_a, "14");
-                param.put(A4081_A4094.A4087_b, "15");
+                param.put(A4081_A4094.A4087u, "13");
+                param.put(A4081_A4094.A4087D, "14");
+                param.put(A4081_A4094.A4087M, "15");
                 param.put(A4081_A4094.A4088, "16");
                 param.put(A4081_A4094.A4089, "17");
                 param.put(A4081_A4094.A4090, "18");
                 param.put(A4081_A4094.A4091, "19");
                 param.put(A4081_A4094.A4092, "20");
                 param.put(A4081_A4094.A4093, "21");
-                param.put(A4081_A4094.A4094_u, "22");
-                param.put(A4081_A4094.A4094_a, "23");
-                param.put(A4081_A4094.A4094_b, "24");
-                param.put(A4081_A4094.A4094_c, "25");
+                param.put(A4081_A4094.A4094u, "22");
+                param.put(A4081_A4094.A4094m, "23");
+                param.put(A4081_A4094.A4094H, "24");
+                param.put(A4081_A4094.A4094D, "25");
                 param.put(A4081_A4094.STATUS, "26");
             }
 
@@ -718,7 +718,10 @@ public class UploadHouseInfoAsync extends AsyncTask
             connection.setConnectTimeout(1000);
 
            OutputStream os = connection.getOutputStream();
-            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os, StandardCharsets.UTF_8));
+            BufferedWriter bw = null;
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
+                bw = new BufferedWriter(new OutputStreamWriter(os, StandardCharsets.UTF_8));
+            }
 
             bw.write(PostRequestData.getData(param));
             bw.flush();
