@@ -10,7 +10,7 @@ public class A4001_A4014 {
     public static String A4005   = "A4005";
     public static String A4006   = "A4006";
     public static String A4007   = "A4007";
-    public static String A4007_1 = "A4007_1";
+    public static String A40071 = "A40071";
     public static String A4008   = "A4008";
     public static String A4009a  = "A4009a";
     public static String A4010   = "A4010";
