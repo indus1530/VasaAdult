@@ -11,9 +11,9 @@ public class A4109_A4125 {
     public static String A4114     =  "A4114";
     public static String A4115     =  "A4115";
     public static String A4116     =  "A4116";
-    public static String A4117_u   =  "A4117_u";
-    public static String A4117_a   =  "A4117_a ";
-    public static String A4117_b   =  "A4117_b ";
+    public static String A4117u = "A4117u";
+    public static String A4117D = "A4117D ";
+    public static String A4117M = "A4117M ";
     public static String A4118     =  "A4118";
     public static String A4119     =  "A4119";
     public static String A4120     =  "A4120";

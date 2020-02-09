@@ -246,63 +246,59 @@ public class UploadHouseInfoAsync extends AsyncTask
 
         }
 
-        if (c5 != null)
-        {
-            if (c5.moveToFirst())
-            {
+        if (c5 != null) {
+            if (c5.moveToFirst()) {
                 param.put("id", c5.getString(0));
-                param.put(A4095_A4108.study_id,  "1");
-                param.put(A4095_A4108.A4095,     "2");
-                param.put(A4095_A4108.A4096,     "3");
+                param.put(A4095_A4108.study_id, "1");
+                param.put(A4095_A4108.A4095, "2");
+                param.put(A4095_A4108.A4096, "3");
                 param.put(A4095_A4108.A4097u, "4");
                 param.put(A4095_A4108.A4097D, "5");
                 param.put(A4095_A4108.A4097M, "6");
-                param.put(A4095_A4108.A4098,     "7");
+                param.put(A4095_A4108.A4098, "7");
                 param.put(A4095_A4108.A4099u, "8");
                 param.put(A4095_A4108.A4099D, "9");
                 param.put(A4095_A4108.A4099M, "10");
-                param.put(A4095_A4108.A4100,     "11");
+                param.put(A4095_A4108.A4100, "11");
                 param.put(A4095_A4108.A4101u, "12");
                 param.put(A4095_A4108.A4101D, "13");
                 param.put(A4095_A4108.A4101M, "14");
-                param.put(A4095_A4108.A4102,     "15");
-                param.put(A4095_A4108.A4103,     "16");
-                param.put(A4095_A4108.A4104,     "17");
-                param.put(A4095_A4108.A4105,     "18");
-                param.put(A4095_A4108.A4106,     "19");
-                param.put(A4095_A4108.A4107,     "20");
-                param.put(A4095_A4108.A4108,     "21");
-                param.put(A4095_A4108.STATUS,    "22");
+                param.put(A4095_A4108.A4102, "15");
+                param.put(A4095_A4108.A4103, "16");
+                param.put(A4095_A4108.A4104, "17");
+                param.put(A4095_A4108.A4105, "18");
+                param.put(A4095_A4108.A4106, "19");
+                param.put(A4095_A4108.A4107, "20");
+                param.put(A4095_A4108.A4108, "21");
+                param.put(A4095_A4108.STATUS, "22");
             }
 
         }
 
-        if (c6 != null)
-        {
-            if (c6.moveToFirst())
-            {
+        if (c6 != null) {
+            if (c6.moveToFirst()) {
                 param.put("id", c6.getString(0));
-                param.put(A4109_A4125.study_id,  "1");
-                param.put(A4109_A4125.A4109,     "2");
-                param.put(A4109_A4125.A4110,     "3");
-                param.put(A4109_A4125.A4111,     "4");
-                param.put(A4109_A4125.A4112,     "5");
-                param.put(A4109_A4125.A4113,     "6");
-                param.put(A4109_A4125.A4114,     "7");
-                param.put(A4109_A4125.A4115,     "8");
-                param.put(A4109_A4125.A4116,     "9");
-                param.put(A4109_A4125.A4117_u,  "10");
-                param.put(A4109_A4125.A4117_a,  "11");
-                param.put(A4109_A4125.A4117_b,  "12");
-                param.put(A4109_A4125.A4118,    "13");
-                param.put(A4109_A4125.A4119,    "14");
-                param.put(A4109_A4125.A4120,    "15");
-                param.put(A4109_A4125.A4121,    "16");
-                param.put(A4109_A4125.A4122,    "17");
-                param.put(A4109_A4125.A4123,    "18");
-                param.put(A4109_A4125.A4124,    "19");
-                param.put(A4109_A4125.A4125,    "20");
-                param.put(A4109_A4125.STATUS,   "21");
+                param.put(A4109_A4125.study_id, "1");
+                param.put(A4109_A4125.A4109, "2");
+                param.put(A4109_A4125.A4110, "3");
+                param.put(A4109_A4125.A4111, "4");
+                param.put(A4109_A4125.A4112, "5");
+                param.put(A4109_A4125.A4113, "6");
+                param.put(A4109_A4125.A4114, "7");
+                param.put(A4109_A4125.A4115, "8");
+                param.put(A4109_A4125.A4116, "9");
+                param.put(A4109_A4125.A4117u, "10");
+                param.put(A4109_A4125.A4117D, "11");
+                param.put(A4109_A4125.A4117M, "12");
+                param.put(A4109_A4125.A4118, "13");
+                param.put(A4109_A4125.A4119, "14");
+                param.put(A4109_A4125.A4120, "15");
+                param.put(A4109_A4125.A4121, "16");
+                param.put(A4109_A4125.A4122, "17");
+                param.put(A4109_A4125.A4123, "18");
+                param.put(A4109_A4125.A4124, "19");
+                param.put(A4109_A4125.A4125, "20");
+                param.put(A4109_A4125.STATUS, "21");
             }
 
         }
