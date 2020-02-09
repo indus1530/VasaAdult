@@ -10,11 +10,9 @@ import android.widget.Toast;
 
 import com.example.abdulsajid.vasaadult.databinding.A4126Binding;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
+import Global.A.A4126_A4140;
 import utils.ClearAllcontrol;
-import utils.MyPreferences;
+
 
 public class A4126 extends AppCompatActivity {
     A4126Binding bind;
@@ -31,15 +29,9 @@ public class A4126 extends AppCompatActivity {
 
     public void BtnContinue() {
         if (validateField()) {
-            try {
-                SaveDraft();
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-
+            SaveDraft();
             Intent c2 = new Intent(A4126.this, A4144.class);
             startActivity(c2);
-
         } else {
             Toast.makeText(this, "Required fields are missing", Toast.LENGTH_LONG).show();
             return;
@@ -53,24 +45,22 @@ public class A4126 extends AppCompatActivity {
 
     }
 
-    private void SaveDraft() throws JSONException {
+    private void SaveDraft() {
 
-        JSONObject json = new JSONObject();
-
-        json.put("A4126", bind.A4126a.isChecked() ? "1"
+        A4126_A4140.A4126 = bind.A4126a.isChecked() ? "1"
                 : bind.A4126b.isChecked() ? "2"
                 : bind.A412698.isChecked() ? "98"
                 : bind.A412699.isChecked() ? "99"
-                : "0");
+                : "0";
 
-        json.put("A4127u", bind.A4127ua.isChecked() ? "Days"
-                : bind.A4127ub.isChecked() ? "Months"
+        A4126_A4140.A4127u = bind.A4127ua.isChecked() ? "1"
+                : bind.A4127ub.isChecked() ? "2"
                 : bind.A4127u98.isChecked() ? "98"
                 : bind.A4127u99.isChecked() ? "99"
-                : "0");
+                : "0";
 
-        json.put("A4127D", bind.A4127D.getText().toString().trim().length() > 0 ? bind.A4127D.getText().toString() : "0");
-        json.put("A4127M", bind.A4127M.getText().toString().trim().length() > 0 ? bind.A4127M.getText().toString() : "0");
+        A4126_A4140.A4127D = bind.A4127D.getText().toString().trim().length() > 0 ? bind.A4127D.getText().toString() : "0";
+        A4126_A4140.A4127M = bind.A4127M.getText().toString().trim().length() > 0 ? bind.A4127M.getText().toString() : "0";
 
         json.put("A4128", bind.A4128a.isChecked() ? "1"
                 : bind.A4128b.isChecked() ? "2"
