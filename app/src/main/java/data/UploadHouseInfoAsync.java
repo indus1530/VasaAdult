@@ -146,36 +146,34 @@ public class UploadHouseInfoAsync extends AsyncTask
           }
 
 
-        if (c2 != null)
-        {
-            if (c2.moveToFirst())
-            {
+        if (c2 != null) {
+            if (c2.moveToFirst()) {
                 param.put("id", c2.getString(0));
                 param.put(A4051_A4066.studyId, "1");
-                param.put(A4051_A4066.A4051,     "2");
+                param.put(A4051_A4066.A4051, "2");
                 param.put(A4051_A4066.A4052u, "3");
-                param.put(A4051_A4066.A4052b, "4");
-                param.put(A4051_A4066.A4052c, "5");
-                param.put(A4051_A4066.A4053,     "6");
-                param.put(A4051_A4066.A4054,     "7");
-                param.put(A4051_A4066.A4055,     "8");
-                param.put(A4051_A4066.A4056,     "9");
-                param.put(A4051_A4066.A4057,     "10");
-                param.put(A4051_A4066.A4058,     "11");
+                param.put(A4051_A4066.A4052D, "4");
+                param.put(A4051_A4066.A4052M, "5");
+                param.put(A4051_A4066.A4053, "6");
+                param.put(A4051_A4066.A4054, "7");
+                param.put(A4051_A4066.A4055, "8");
+                param.put(A4051_A4066.A4056, "9");
+                param.put(A4051_A4066.A4057, "10");
+                param.put(A4051_A4066.A4058, "11");
                 param.put(A4051_A4066.A4059u, "12");
-                param.put(A4051_A4066.A4059a, "13");
-                param.put(A4051_A4066.A4059b, "14");
-                param.put(A4051_A4066.A4060,     "15");
-                param.put(A4051_A4066.A4061,     "16");
-                param.put(A4051_A4066.A4062,     "17");
-                param.put(A4051_A4066.A4063,     "18");
+                param.put(A4051_A4066.A4059D, "13");
+                param.put(A4051_A4066.A4059M, "14");
+                param.put(A4051_A4066.A4060, "15");
+                param.put(A4051_A4066.A4061, "16");
+                param.put(A4051_A4066.A4062, "17");
+                param.put(A4051_A4066.A4063, "18");
                 param.put(A4051_A4066.A4064u, "19");
-                param.put(A4051_A4066.A4064a, "20");
-                param.put(A4051_A4066.A4064b, "21");
+                param.put(A4051_A4066.A4064D, "20");
+                param.put(A4051_A4066.A4064M, "21");
                 param.put(A4051_A4066.A40641, "22");
-                param.put(A4051_A4066.A4065,     "23");
-                param.put(A4051_A4066.A4066,     "24");
-                param.put(A4051_A4066.STATUS,    "25");
+                param.put(A4051_A4066.A4065, "23");
+                param.put(A4051_A4066.A4066, "24");
+                param.put(A4051_A4066.STATUS, "25");
             }
         }
 
