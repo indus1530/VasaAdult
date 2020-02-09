@@ -10,9 +10,6 @@ import android.widget.Toast;
 
 import com.example.abdulsajid.vasaadult.databinding.A4081Binding;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import Global.A.A4081_A4094;
 import utils.ClearAllcontrol;
 
@@ -238,36 +235,13 @@ public class A4081 extends AppCompatActivity {
 
 
     public void BtnContinue() {
-        /*if (validateField()) {
-            try {
-                SaveDraft();
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-
-            Intent c2 = new Intent(A4067.this, A4081.class);
-            startActivity(c2);
-
-        } else {
-            Toast.makeText(this, "Required fields are missing", Toast.LENGTH_LONG).show();
-            return;
-        }*/
-
-
-        if (validateField() == false) {
+        if (!validateField()) {
             Toast.makeText(this, "Required fields are missing", Toast.LENGTH_LONG).show();
             return;
         }
-
-        try {
-            SaveDraft();
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
+        SaveDraft();
         Intent c2 = new Intent(com.example.abdulsajid.vasaadult.A4081.this, A4095.class);
         startActivity(c2);
-
     }
 
 
@@ -278,34 +252,32 @@ public class A4081 extends AppCompatActivity {
     }
 
 
-    private void SaveDraft() throws JSONException {
+    private void SaveDraft() {
 
-        JSONObject json = new JSONObject();
-
-        Global.A.A4081_A4094.A4081 = bind.A4081a.isChecked() ? "1"
+        A4081_A4094.A4081 = bind.A4081a.isChecked() ? "1"
                 : bind.A4081b.isChecked() ? "2"
                 : bind.A408198.isChecked() ? "98"
                 : bind.A408199.isChecked() ? "99"
                 : "0";
 
-        Global.A.A4081_A4094.A4082u = bind.A4082ua.isChecked() ? "1"
+        A4081_A4094.A4082u = bind.A4082ua.isChecked() ? "1"
                 : bind.A4082ub.isChecked() ? "2"
                 : bind.A4082uc.isChecked() ? "3"
                 : bind.A4082u98.isChecked() ? "98"
                 : bind.A4082u99.isChecked() ? "99"
                 : "0";
 
-        Global.A.A4081_A4094.A4082D = bind.A4082D.getText().toString().trim().length() > 0 ? bind.A4082D.getText().toString() : "0";
-        Global.A.A4081_A4094.A4082M = bind.A4082M.getText().toString().trim().length() > 0 ? bind.A4082M.getText().toString() : "0";
-        Global.A.A4081_A4094.A4082Y = bind.A4082Y.getText().toString().trim().length() > 0 ? bind.A4082Y.getText().toString() : "0";
+        A4081_A4094.A4082D = bind.A4082D.getText().toString().trim().length() > 0 ? bind.A4082D.getText().toString() : "0";
+        A4081_A4094.A4082M = bind.A4082M.getText().toString().trim().length() > 0 ? bind.A4082M.getText().toString() : "0";
+        A4081_A4094.A4082Y = bind.A4082Y.getText().toString().trim().length() > 0 ? bind.A4082Y.getText().toString() : "0";
 
-        Global.A.A4081_A4094.A4083 = bind.A4083a.isChecked() ? "1"
+        A4081_A4094.A4083 = bind.A4083a.isChecked() ? "1"
                 : bind.A4083b.isChecked() ? "2"
                 : bind.A408398.isChecked() ? "98"
                 : bind.A408399.isChecked() ? "99"
                 : "0";
 
-        Global.A.A4081_A4094.A4084 = bind.A4084a.isChecked() ? "1"
+        A4081_A4094.A4084 = bind.A4084a.isChecked() ? "1"
                 : bind.A4084b.isChecked() ? "2"
                 : bind.A408498.isChecked() ? "98"
                 : bind.A408499.isChecked() ? "99"
@@ -377,8 +349,6 @@ public class A4081 extends AppCompatActivity {
         A4081_A4094.A4094m = bind.A4094m.getText().toString().trim().length() > 0 ? bind.A4094m.getText().toString() : "0";
         A4081_A4094.A4094H = bind.A4094H.getText().toString().trim().length() > 0 ? bind.A4094H.getText().toString() : "0";
         A4081_A4094.A4094D = bind.A4094D.getText().toString().trim().length() > 0 ? bind.A4094D.getText().toString() : "0";
-
-//        MyPreferences.setsA4081(String.valueOf(json));
 
     }
 
