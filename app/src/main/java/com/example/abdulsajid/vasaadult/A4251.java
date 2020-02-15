@@ -145,10 +145,10 @@ public class A4251 extends AppCompatActivity {
                 : bi.A425198.isChecked() ? "98"
                 : "0";
 
-        json.put("A42521", bi.A42521a.isChecked() ? "1"
+        A4251_A4284.A4251 = bi.A42521a.isChecked() ? "1"
                 : bi.A42521b.isChecked() ? "2"
                 : bi.A42521c.isChecked() ? "3"
-                : "0");
+                : "0";
 
         json.put("A42522", bi.A42522a.isChecked() ? "1"
                 : bi.A42522b.isChecked() ? "2"
