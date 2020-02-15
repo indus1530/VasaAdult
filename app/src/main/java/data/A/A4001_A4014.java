@@ -15,7 +15,7 @@ public class A4001_A4014 {
                 Global.A.A4001_A4014.A4005      + " TEXT," +
                 Global.A.A4001_A4014.A4006      + " TEXT," +
                 Global.A.A4001_A4014.A4007      + " TEXT," +
-                Global.A.A4001_A4014.A4007_1    + " TEXT," +
+                Global.A.A4001_A4014.A40071 + " TEXT," +
                 Global.A.A4001_A4014.A4008      + " TEXT," +
                 Global.A.A4001_A4014.A4009a     + " TEXT," +
                 Global.A.A4001_A4014.A4010      + " TEXT," +
