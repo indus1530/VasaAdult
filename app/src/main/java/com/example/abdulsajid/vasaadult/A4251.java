@@ -13,6 +13,7 @@ import com.example.abdulsajid.vasaadult.databinding.A4251Binding;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import Global.A.A4251_A4284;
 import data.LocalDataManager;
 import utils.ClearAllcontrol;
 
@@ -139,10 +140,10 @@ public class A4251 extends AppCompatActivity {
 
         JSONObject json = new JSONObject();
 
-        json.put("A4251", bi.A4251a.isChecked() ? "1"
+        A4251_A4284.A4251 = bi.A4251a.isChecked() ? "1"
                 : bi.A4251b.isChecked() ? "2"
                 : bi.A425198.isChecked() ? "98"
-                : "0");
+                : "0";
 
         json.put("A42521", bi.A42521a.isChecked() ? "1"
                 : bi.A42521b.isChecked() ? "2"
