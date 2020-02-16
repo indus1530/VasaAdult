@@ -144,7 +144,7 @@ public class A4251 extends AppCompatActivity {
                 : bi.A425198.isChecked() ? "98"
                 : "0";
 
-        Global.A.A4251.A4251 = bi.A42521a.isChecked() ? "1"
+        Global.A.A4251.A42521 = bi.A42521a.isChecked() ? "1"
                 : bi.A42521b.isChecked() ? "2"
                 : bi.A42521c.isChecked() ? "3"
                 : "0";

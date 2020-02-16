@@ -17,7 +17,7 @@ import data.A.A4126_A4140;
 import data.A.A4144_A4156;
 import data.A.A4157_A4205;
 import data.A.A4206_A4207;
-import data.A.A4251_A4284;
+import data.A.A4251;
 import data.A.A4301_A4315;
 import data.A.A4351_A4364;
 import data.A.A4401_A4473;
@@ -49,7 +49,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.execSQL(A4144_A4156.getCreateQuery()); // A4144 created here
         db.execSQL(A4157_A4205.getCreateQuery()); // A4157 created here
         db.execSQL(A4206_A4207.getCreateQuery()); // A4206 created here
-        db.execSQL(A4251_A4284.getCreateQuery()); // A4251 created here
+        db.execSQL(A4251.getCreateQuery()); // A4251 created here
         db.execSQL(A4301_A4315.getCreateQuery()); // A4301 created here
         db.execSQL(A4351_A4364.getCreateQuery()); // A4351 created here
         db.execSQL(A4401_A4473.getCreateQuery()); // A4401_A4405 created here
