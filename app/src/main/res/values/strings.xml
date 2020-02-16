@@ -332,7 +332,6 @@
     <string name="A4403">A4403: What is the address of the place where (NAME) stayed?</string>
     <string name="A4404">A4404: At the time of the illness events, how long had ((NAME) / (NAME)’s (RELATIVES) been living continuously in (this / that) community?</string>
     <string name="A4405">A4405: In an emergency, how long would it take to reach the nearest health facility from (this / that) location?</string>
-    <string name="A4451">A4451: In the 12 months before (NAME) s death, did the people in the (village / neighborhood) work together on any of the following issues that affect the entire community or part of the community?</string>
     <string name="A4452">A4452: In the 12 months before (NAME)’s death, was (NAME) an active participant in any of the following types of groups in the community?</string>
     <string name="A4453">A4453: Did (NAME) turn to any of the following people or groups in the community for help during her/his illness?</string>
     <string name="A4454">A4454: Read: Now I have four last questions about the deceased and the spouse/partner of the deceased.</string>
@@ -496,6 +495,7 @@
     <string name="A4403L1">Level 1</string>
     <string name="A4403L2">Level 2</string>
 
+    <string name="A4451">A4451: In the 12 months before (NAME) s death, did the people in the (village / neighborhood) work together on any of the following issues that affect the entire community or part of the community ? </string>
     <string name="A4451a">One or more issues identified</string>
     <string name="A4451b">No issue identified</string>
     <string name="A4451c">Justice/conflict resolution</string>
@@ -511,44 +511,46 @@
     <string name="A4452g">Youth / student club</string>
     <string name="A4452h">Women’s group</string>
 
-    <string name="A4451_1"><![CDATA[A4451_1: In the 12 months before <NAME>\'s death, did the people in the (village / neighborhood) work together on <b>Education/Schools</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_2"><![CDATA[A4451_2: In the 12 months before <NAME>\'s death, did the people in the (village / neighborhood) work together on <b>Health Services/Clinics</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_3"><![CDATA[A4451_3: In the 12 months before <NAME>\'s death, did the people in the (village / neighborhood) work together on <b>Paid job Opportunities</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_4"><![CDATA[A4451_4: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on <b>Credit/Finance</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_5"><![CDATA[A4451_5: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on <b>Roads</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_6"><![CDATA[A4451_6: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on <b>Public Transportation</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_7"><![CDATA[A4451_7: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on <b>Water Distribution</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_8"><![CDATA[A4451_8: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on <b>Sanitation Services</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_9"><![CDATA[A4451_9: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on <b>Agriculture</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_10"><![CDATA[A4451_10: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on <b>Justice/Conflict Resolution</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_11"><![CDATA[A4451_11: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on <b>Security/Police services</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_12"><![CDATA[A4451_12: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on <b>Mosque/Church/Temple</b> issues that affect the entire community or part of the community?]]></string>
-    <string name="A4451_13"><![CDATA[A4451_13: In the 12 months before <NAME>\'s death, did the people in the (village / neighbourhood) work together on any <b>OTHER</b> issues that affect the entire community or part of the community?]]></string>
+    <string name="A44511"> A44511:\t In the 12 months before (NAME)\'s death, did the people in the (village / neighborhood) work together on issues that affect the entire community or part of the community ? </string>
 
-    <string name="A4452_1"><![CDATA[A4452_1: In the 12 months before <NAME>’s death, was <NAME> an active participant in <b>Vocational training</b> group in the community?]]></string>
-    <string name="A4452_2"><![CDATA[A4452_2: In the 12 months before <NAME>’s death, was <NAME> an active participant in <b>Savings group or microcredit program groups</b> in the community?]]></string>
-    <string name="A4452_3"><![CDATA[A4452_3: In the 12 months before <NAME>’s death, was <NAME> an active participant in <b>Community cooperative, such as an agricultural cooperative groups</b> in the community?]]></string>
-    <string name="A4452_4"><![CDATA[A4452_4: In the 12 months before <NAME>’s death, was <NAME> an active participant in <b>Political groups</b> in the community?]]></string>
-    <string name="A4452_5"><![CDATA[A4452_5: In the 12 months before <NAME>’s death, was <NAME> an active participant in <b>Religious group</b> in the community?]]></string>
-    <string name="A4452_6"><![CDATA[A4452_6: In the 12 months before <NAME>’s death, was <NAME> an active participant in <b>Sports Club</b> in the community?]]></string>
-    <string name="A4452_7"><![CDATA[A4452_7: In the 12 months before <NAME>’s death, was <NAME> an active participant in <b>Youth / Student Club</b> in the community?]]></string>
-    <string name="A4452_8"><![CDATA[A4452_8: In the 12 months before <NAME>’s death, was <NAME> an active participant in <b>Women’s Group</b> in the community?]]></string>
-    <string name="A4452_9"><![CDATA[A4452_9: In the 12 months before <NAME>’s death, was <NAME> an active participant in any <b>OTHER</b> types of groups in the community?]]></string>
+    <string name="A44511"> Education / Schools </string>
+    <string name="A44512"> Health Services / Clinics </string>
+    <string name="A44513"> Paid job Opportunities </string>
+    <string name="A44514"> Credit / Finance </string>
+    <string name="A44515"> Roads </string>
+    <string name="A44516"> Public Transportation </string>
+    <string name="A44517"> Water Distribution </string>
+    <string name="A44518"> Sanitation Services </string>
+    <string name="A44519"> Agriculture </string>
+    <string name="A445110"> Justice / Conflict Resolution </string>
+    <string name="A445111"> Security / Police services </string>
+    <string name="A445112"> Mosque / Church / Temple </string>
+    <string name="A445113"> Any Other </string>
+
+    <string name="A44521"><![CDATA[A4452_1: In the 12 months before <NAME>’s death, was <NAME> an active participant in <b>Vocational training</b> group in the community?]]></string>
+    <string name="A44522"> Savings group or microcredit program groups </string>
+    <string name="A44523"> Community cooperative, such as an agricultural cooperative groups </string>
+    <string name="A44524"> Political groups </string>
+    <string name="A44525"> Religious group </string>
+    <string name="A44526"> Sports Club </string>
+    <string name="A44527"> Youth / Student Club </string>
+    <string name="A44528"> Women’s Group </string>
+    <string name="A44529"> Any Other </string>
 
     <string name="A4453_1"><![CDATA[A4453_1:  Did <NAME> turn to <b>Religious</b> people or groups in the community for help during her/his illness?]]></string>
-    <string name="A4453_2"><![CDATA[A4453_2:  Did <NAME> turn to <b>Women’s</b> people or groups in the community for help during her/his illness?]]></string>
-    <string name="A4453_3"><![CDATA[A4453_3:  Did <NAME> turn to <b>Savings or Microcredit program</b> people or groups in the community for help during her/his illness?]]></string>
-    <string name="A4453_4"><![CDATA[A4453_4:  Did <NAME> turn to <b>Any other community group, such as a vocational training group, community cooperative, political group, sports club, youth or student group</b> people or groups in the community for help during her/his illness?]]></string>
-    <string name="A4453_5"><![CDATA[A4453_5:  Did <NAME> turn to <b>Community or Political Leader</b> in the community for help during her/his illness?]]></string>
-    <string name="A4453_6"><![CDATA[A4453_6:  Did <NAME> turn to <b>Religious Leader</b> in the community for help during her/his illness?]]></string>
-    <string name="A4453_7"><![CDATA[A4453_7:  Did <NAME> turn to <b>Any Family</b> in the community for help during her/his illness?]]></string>
-    <string name="A4453_8"><![CDATA[A4453_8:  Did <NAME> turn to <b>Neighbors</b> in the community for help during her/his illness?]]></string>
-    <string name="A4453_9"><![CDATA[A4453_9:  Did <NAME> turn to <b>Friends</b> for help during her/his illness?]]></string>
-    <string name="A4453_10"><![CDATA[A4453_10:  Did <NAME> turn to <b>Patron/Employer/Benefactor</b> in the community for help during her/his illness?]]></string>
-    <string name="A4453_11"><![CDATA[A4453_11:  Did <NAME> turn to <b>Police</b> for help during her/his illness?]]></string>
-    <string name="A4453_12"><![CDATA[A4453_12:  Did <NAME> turn to <b>Any OTHER</b> people or groups in the community for help during her/his illness?]]></string>
+    <string name="A4453_2"> Women’s </string>
+    <string name="A4453_3"> Savings or Microcredit program </string>
+    <string name="A4453_4"> Any other community group, such as a vocational training group, community cooperative, political group, sports club, youth or student group </string>
+    <string name="A4453_5"> Community or Political Leader </string>
+    <string name="A4453_6"> Religious Leader </string>
+    <string name="A4453_7"> Any Family </string>
+    <string name="A4453_8"> Neighbors </string>
+    <string name="A4453_9"> Friends </string>
+    <string name="A4453_10"> Patron / Employer / Benefactor </string>
+    <string name="A4453_11"> Police </string>
+    <string name="A4453_12"> Any Other </string>
     <string name="A4471"><![CDATA[4471: Note: This is an optional question, to be asked or not as determined by the study site.  Read: Thank you for answering the many questions that I’ve asked. Would you like to tell me about <NAME>’s illness in your own words? Also, is there anything else about her/his illness that I did not ask and you would like to tell me about?  After the respondent(s) finishes, ask: Is there anything else?  Write the respondent’s exact words. After s/he has finished, read this back and ask her to correct any errors in what you wrote.]]></string>
-    <string name="A4473">4473:   Interviewer: Use this space to write down your comments and observations about the interview.</string>
+    <string name="A4473">4473: Interviewer: Use this space to write down your comments and observations about the interview.</string>
     <string name="kilograms_kg">Kilograms Kg &amp; DK = 999</string>
 
     <string name="A4257"> <![CDATA[A4257: What was the name of the <FIRST HEALTH PROVIDER> where <NAME went?]]> </string>

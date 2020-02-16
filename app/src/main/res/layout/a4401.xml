@@ -182,59 +182,77 @@
             <!-- EditText A4404 Ends -->
 
             <!-- EditText A4405 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <android.support.v7.widget.CardView
+                android:id="@+id/A4405cv"
+                style="@style/Q_CardView">
 
-                <LinearLayout
-                    android:id="@+id/ll_A4405"
-                    style="@style/Q_Linerlayout_v">
+                <LinearLayout style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/tv_A4405"
                         style="@style/TextView"
                         android:text="@string/A4405" />
 
-                    <EditText
-                        android:id="@+id/ed_A4405_hours"
-                        style="@style/EditText_varchar"
-                        android:hint="Hours" />
+                    <LinearLayout
+                        style="@style/Q_Linerlayout_v"
+                        android:orientation="horizontal">
 
-                    <EditText
-                        android:id="@+id/ed_A4405_minutes"
-                        style="@style/EditText_varchar"
-                        android:hint="Minutes" />
+                        <EditText
+                            android:id="@+id/A4405H"
+                            style="@style/EditText_varchar"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:hint="Hours" />
+
+                        <EditText
+                            android:id="@+id/A4405m"
+                            style="@style/EditText_varchar"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:hint="Minutes" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
             <!-- EditText A4405 Ends -->
 
-            <!-- Radio Buttons A4451_1 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <!-- Radio Buttons A44511 Starts -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/A44511cv"
+                style="@style/Q_CardView">
 
                 <LinearLayout
-                    android:id="@+id/ll_A4451_1"
                     style="@style/Q_Linerlayout_v">
 
                     <TextView
-                        android:id="@+id/A4451_1"
                         style="@style/TextView"
-                        android:text="@string/A4451_1" />
+                        android:text="@string/A44511" />
 
-                    <RadioGroup style="@style/RadioGroup">
+                    <RadioGroup
+                        android:id="@+id/A44511"
+                        style="@style/RadioGroup"
+                        android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/A4451_1_1"
+                            android:id="@+id/A44511a"
                             style="@style/RadioButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
                             android:text="@string/yes" />
 
                         <RadioButton
-                            android:id="@+id/A4451_1_2"
+                            android:id="@+id/A44511b"
                             style="@style/RadioButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
                             android:text="@string/no" />
 
                         <RadioButton
-                            android:id="@+id/A4451_198"
+                            android:id="@+id/A4451198"
                             style="@style/RadioButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
                             android:text="@string/dnt" />
 
                     </RadioGroup>
@@ -242,7 +260,7 @@
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
-            <!-- Radio Buttons A4451_1 Ends -->
+            <!-- Radio Buttons A44511 Ends -->
 
             <!-- Radio Buttons A4451_2 Starts -->
             <android.support.v7.widget.CardView style="@style/Q_CardView">
