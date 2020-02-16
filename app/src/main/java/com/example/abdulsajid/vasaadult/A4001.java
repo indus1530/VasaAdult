@@ -204,7 +204,9 @@ public class A4001 extends AppCompatActivity {
 
 
     private void SaveDraft() {
+
         A4001_A4014.A4001 = bind.A4001.getText().toString().trim().length() > 0 ? bind.A4001.getText().toString() : "0";
+
         A4001_A4014.A4002 = bind.A4002a.isChecked() ? "1"
                 : bind.A4002b.isChecked() ? "2"
                 : bind.A4002c.isChecked() ? "3"
@@ -289,8 +291,6 @@ public class A4001 extends AppCompatActivity {
                 : bind.A4014b.isChecked() ? "2"
                 : bind.A401498.isChecked() ? "98"
                 : "0";
-
-        Toast.makeText(this, "Validation Successful! - Value Assignment & Data Insertion...", Toast.LENGTH_SHORT).show();
 
     }
 

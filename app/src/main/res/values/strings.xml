@@ -42,21 +42,22 @@
     <string name="cmb_text">cmb_text</string>
     <string name="date_text">date_text</string>
 
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="dnt">Don\'t Know</string>
-    <string name="ecn">Enter Complete Name</string>
-    <string name="ra">Refused to Answer</string>
-    <string name="ot_someone">Someone else (specify)</string>
-    <string name="ot_other">Other (specify)</string>
-    <string name="minutes">Minutes</string>
-    <string name="hours">Hours</string>
-    <string name="days">Days</string>
-    <string name="weeks">Weeks</string>
-    <string name="months">Months</string>
-    <string name="years">Years</string>
-    <string name="grade_year">Grade/Year</string>
-    <string name="nr">NR</string>
+    <string name="yes"> Yes </string>
+    <string name="no"> No </string>
+    <string name="dnt"> Don\'t Know </string>
+    <string name="ecn"> Enter Complete Name </string>
+    <string name="ra"> Refused to Answer </string>
+    <string name="someelse"> Someone else </string>
+    <string name="other"> Other </string>
+    <string name="specify"> Specify </string>
+    <string name="minutes"> Minutes </string>
+    <string name="hours"> Hours </string>
+    <string name="days"> Days </string>
+    <string name="weeks"> Weeks </string>
+    <string name="months"> Months </string>
+    <string name="years"> Years </string>
+    <string name="grade_year"> Grade / Year </string>
+    <string name="nr"> NR </string>
 
 
     <string name="A4001">A4001: What was the first or given name(s) of the deceased?</string>
