@@ -1,6 +1,6 @@
 package Global.A;
 
-public class A4251_A4284 {
+public class A4251 {
 
     public static String studyId = "studyId";
     public static String A4251 = "A4251";
